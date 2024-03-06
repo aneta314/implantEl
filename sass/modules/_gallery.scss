@@ -1,0 +1,10 @@
+.gallery {
+  &__photo {
+    display: block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 72%;
+    background-color: $primary-lightest;
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,36 @@
+.preview-post {
+  margin-bottom: 72px;
+  border-bottom: 1px solid $primary-lightest;
+  padding-bottom: 72px;
+  user-select: none;
+  container-type: inline-size;
+  @container(max-width: 400px) {
+    .preview-post__image{
+      min-width: 100% !important;
+    }
+  }
+
+  &__img {
+    display: block;
+    margin-bottom: 32px;
+
+    @include min768 {
+      margin-bottom: 0;
+    }
+  }
+
+  &__date {
+    color: $primary-light;
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+
+  &__title {
+    margin-bottom: 24px;
+  }
+
+  &__excerpt {
+    margin-top: 24px;
+  }
+}
+

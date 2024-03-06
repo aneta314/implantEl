@@ -1,0 +1,102 @@
+.social-media {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-wrap: wrap;
+
+  &__item {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background-color: $primary;
+    color: #fff;
+    font-size: 15px;
+    margin: 8px 4px;
+    transition: 0.2s all ease;
+
+    &:hover {
+      background-color: $primary-dark;
+    }
+  }
+}
+
+// HERO MODS
+.hero {
+  position: relative;
+
+  .social-media {
+    display: none;
+
+    @include min992 {
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      z-index: 3;
+      width: 62px;
+      height: 222px;
+      background-color: #fff;
+    }
+
+    &__item {
+      margin: 2px 0;
+    }
+  }
+}
+
+// PAGE HERO MODS
+.page-hero {
+  position: relative;
+
+  .social-media {
+    display: none;
+
+    @include min576 {
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+      z-index: 3;
+    }
+
+    &__item {
+      margin: 2px 0;
+    }
+  }
+}
+
+// MOBILE NAV MODS
+.nav-mobile {
+  .social-media {
+    justify-content: center;
+    margin-top: 24px;
+
+    &__item {
+      background-color: $primary-dark;
+
+      &:hover {
+        background-color: $primary-darker;
+      }
+    }
+  }
+}
+
+// FOOTER MODS
+.footer {
+  .social-media {
+    justify-content: center;
+    margin-bottom: 32px;
+  }
+}

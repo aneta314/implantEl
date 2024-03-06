@@ -1,0 +1,18 @@
+.contact-module {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 32px;
+
+  &__btn {
+    margin-right: 24px;
+    margin-bottom: 24px;
+  }
+
+  &__phone {
+    font-size: 18px;
+    margin-bottom: 24px;
+  }
+}

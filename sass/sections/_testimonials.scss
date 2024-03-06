@@ -1,0 +1,29 @@
+.testimonials {
+  background-color: $primary-lightest;
+
+  &__share {
+    text-align: center;
+
+    &__item {
+      width: 32px;
+      height: 32px;
+      background-color: $primary;
+      color: #fff;
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 4px;
+      font-size: 15px;
+    }
+
+    p {
+      line-height: 1.5;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 13px;
+    }
+  }
+}

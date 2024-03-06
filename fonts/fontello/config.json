@@ -1,0 +1,134 @@
+{
+  "name": "icons-font",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "bc50457410acf467b8b5721240768742",
+      "css": "facebook",
+      "code": 62220,
+      "src": "entypo"
+    },
+    {
+      "uid": "47a1f80457068fbeab69fdb83d7d0817",
+      "css": "youtube",
+      "code": 61802,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "f06fe7ff18d1c591bc1183cb3ab105e9",
+      "css": "google",
+      "code": 61856,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "bf882b30900da12fca090d9796bc3030",
+      "css": "mail",
+      "code": 59392,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "627abcdb627cb1789e009c08e2678ef9",
+      "css": "twitter",
+      "code": 61593,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "e9107949dd6c9e8ab2b29ae07156e38c",
+      "css": "linkedin",
+      "code": 61665,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "4c1ef492f1d2c39a2250ae457cee2a6e",
+      "css": "instagram",
+      "code": 61805,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "9f7e588c66cfd6891f6f507cf6f6596b",
+      "css": "phone",
+      "code": 59394,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "9dd9e835aebe1060ba7190ad2b2ed951",
+      "css": "search",
+      "code": 59395,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "a42b598e4298f3319b25a2702a02e7ff",
+      "css": "location",
+      "code": 59396,
+      "src": "entypo"
+    },
+    {
+      "uid": "f3f90c8c89795da30f7444634476ea4f",
+      "css": "arrow-left",
+      "code": 61700,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "7bf14281af5633a597f85b061ef1cfb9",
+      "css": "arrow-right",
+      "code": 61701,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "5de9370846a26947e03f63142a3f1c07",
+      "css": "arrow-up",
+      "code": 61702,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "e4dde1992f787163e2e2b534b8c8067d",
+      "css": "arrow-down",
+      "code": 61703,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "ccc2329632396dc096bb638d4b46fb98",
+      "css": "mail-alt",
+      "code": 61664,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "339e6b2a02ce869d80b6fdcf71cb8adf",
+      "css": "close",
+      "code": 59393,
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M555.2 500L988.6 66.7C1003.8 51.4 1003.8 26.7 988.6 11.4 973.3-3.8 948.6-3.8 933.3 11.4L500 444.8 66.7 11.4C51.4-3.8 26.7-3.8 11.4 11.4-3.8 26.7-3.8 51.4 11.4 66.7L444.8 500 11.4 933.3C-3.8 948.6-3.8 973.3 11.4 988.6 19.1 996.2 29.1 1000 39.1 1000 49.1 1000 59.1 996.2 66.7 988.6L500 555.2 933.3 988.6C940.9 996.2 950.9 1000 960.9 1000S980.9 996.2 988.6 988.6C1003.8 973.3 1003.8 948.6 988.6 933.3L555.2 500Z",
+        "width": 1000
+      },
+      "search": [
+        "close"
+      ]
+    },
+    {
+      "uid": "3aa9c9b605967ca33f68fa1c6e890793",
+      "css": "znanylekarz",
+      "code": 59397,
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M582.3 808.2C607.6 746.2 678.7 659.5 751.2 614.8L911.8 880.5 747.3 1000 582.3 808.2 582.3 808.2ZM345.1 999.7L118.7 854.1C290.1 533.7 610.4 305.5 986.9 263L1050 457.2C739.7 518.3 480.7 723.2 345.1 999.7ZM394.5 340.2L423.1 0H626.5L652.4 307.7C535.7 347.7 467 379.7 388.4 428 330.4 463.6 277.6 505.2 230.3 553L0 455.8 62.8 262.1 394.5 340.2Z",
+        "width": 1050
+      },
+      "search": [
+        "znanylekarz"
+      ]
+    },
+    {
+      "uid": "85fda3129wk4amvn25wrq843sbj3yzl0",
+      "css": "info",
+      "code": 59398,
+      "src": "typicons"
+    }
+  ]
+}

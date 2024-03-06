@@ -1,0 +1,23 @@
+.opening-hours {
+  line-height: 1.5;
+  max-width: 280px;
+
+  &__row {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+  }
+
+  &__day {
+    width: calc(50% - 8px);
+  }
+
+  &__time {
+    width: calc(50% - 8px);
+    text-align: right;
+  }
+}

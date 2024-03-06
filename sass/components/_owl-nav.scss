@@ -1,0 +1,81 @@
+.owl-carousel {
+
+  .owl-nav {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 3;
+
+    button.owl-prev, button.owl-next {
+      display: block;
+      border: 1px solid $primary-light !important;
+      color: $primary-light;
+      padding: 4px 10px 8px !important;
+      font-size: 22px;
+      transition: .3s all ease;
+      margin: 8px;
+
+      &:hover {
+        background-color: $primary-lightest;
+      }
+    }
+  }
+
+
+  // ASIDE NAV
+  &--aside-nav {
+    .owl-nav {
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+      justify-content: center;
+      margin-top: 32px;
+
+      @include min1360 {
+        margin-top: 0;
+      }
+
+
+      button.owl-prev, button.owl-next {
+        display: block;
+        border: 1px solid $primary-light !important;
+        color: $primary-light;
+        padding: 4px 10px 8px !important;
+        font-size: 22px;
+        transition: .3s all ease;
+        margin: 8px;
+
+        @include min1360 {
+          position: absolute;
+          top: 48%;
+          transform: translateY(-50%);
+          margin: 0;
+        }
+
+        &:hover {
+          background-color: $primary-lightest;
+        }
+
+      }
+
+      button.owl-prev {
+        left: -64px;
+      }
+
+      button.owl-next {
+        right: -64px;
+      }
+    }
+  }
+
+  &--nav-on-left {
+    .owl-nav {
+      justify-content: flex-start;
+      margin-left: -8px;
+      margin-top: -32px;
+      margin-bottom: 32px;
+    }
+  }
+}

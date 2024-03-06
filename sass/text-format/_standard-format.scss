@@ -1,0 +1,82 @@
+.standard-format {
+  p {
+    line-height: 1.8;
+    margin-bottom: 24px;
+
+    mark {
+      background-color: #f1f1f1;
+      color: #111;
+      padding: 0 8px;
+    }
+  }
+
+  p, li {
+    a:not(.btn) {
+      color: $primary-light;
+      text-decoration: underline;
+
+      &:hover {
+        color: $primary-light;
+      }
+    }
+  }
+
+  ul, ol {
+    margin-bottom: 24px;
+
+    li {
+      padding-left: 16px;
+      margin-bottom: 8px;
+      line-height: 1.8;
+      position: relative;
+    }
+  }
+
+  ul {
+    & > li {
+      &:before {
+        content:  '>';
+        position: absolute;
+        display: block;
+        color: $primary-light;
+        top: -2px;
+        left: 0;
+      }
+    }
+  }
+
+
+  ol {
+    counter-reset: item;
+
+    & > li {
+
+      &:before {
+        content: counter(item) ". ";
+        counter-increment: item;
+        color: $primary-light;
+        position: absolute;
+        display: block;
+        left: 0;
+      }
+    }
+  }
+
+
+  &--post {
+    h1,h2,h3,h4,h5,h6 {
+      line-height: 1.4;
+      margin-bottom: 24px;
+      font-size: 32px;
+    }
+
+    * + h1,
+    * + h2,
+    * + h3,
+    * + h4,
+    * + h5,
+    * + h6 {
+      margin-top: 48px;
+    }
+  }
+}

@@ -1,0 +1,88 @@
+.single-offer-content {
+
+  $anchor-offset: -60px;
+
+  &__excerpt {
+    p {
+      font-size: 18px;
+      line-height: 1.8;
+      margin-bottom: 32px;
+
+      @include min992 {
+        margin-bottom: 40px;
+      }
+    }
+  }
+
+  &__thumbnail {
+    margin-bottom: 48px;
+  }
+
+  &__content {
+    .contact-module {
+      margin-top: 40px;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      position: relative;
+      span {
+        position: absolute;
+        top: $anchor-offset;
+      }
+    }
+  }
+
+  &__faq {
+    position: relative;
+    span#faq{
+      position: absolute;
+      top: $anchor-offset;
+    }
+    &__item {
+      background-color: $primary-lightest;
+      padding: 32px 16px 24px;
+      margin-bottom: 24px;
+
+      @include min576 {
+        padding: 40px 32px 32px;
+      }
+
+      h3 {
+        font-weight: bold;
+        margin-bottom: 24px;
+        line-height: 1.8;
+      }
+
+      p {
+        margin-bottom: 0;
+      }
+    }
+
+    .contact-module {
+      margin-top: 40px;
+    }
+  }
+
+  &__metamorphosis {
+    position: relative;
+    span#metamorphosis{
+      position: absolute;
+      top: $anchor-offset;
+    }
+    .metamorphosis {
+      margin-bottom: 15px;
+      margin-top: 15px;
+    }
+  }
+
+  &__pricetables {
+    position: relative;
+    span#cennik{
+      position: absolute;
+      top: $anchor-offset;
+    }
+    .contact-module {
+      margin-top: 32px;
+    }
+  }
+
+}

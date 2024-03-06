@@ -1,0 +1,46 @@
+.icons-section {
+  &__intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 32px auto 48px;
+  }
+}
+
+// INFOGRAPHIC MODULE
+.infographic {
+  margin-bottom: 48px;
+  border: 3px solid #e7e7e7;
+  padding: 3rem 14px;
+  border-radius: 100px;
+  width: 195px;
+  height: 335px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: $primary;
+
+  &__icon-wrapper {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: center;
+    align-items: cener;
+    //background-color: $primary-light;
+    width: 109px;
+    height: 96px;
+    //padding: 24px;
+    margin: 0 auto 32px;
+
+    svg,
+    img {
+      width: 100%;
+      height: auto;
+
+      path,
+      rect,
+      polygon {
+        //fill: #fff;
+      }
+    }
+  }
+}

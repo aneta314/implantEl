@@ -1,0 +1,37 @@
+.map {
+  position: relative;
+
+  &__btn {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    z-index: 2;
+    opacity: .8;
+
+    &:hover {
+      opacity: 1;
+      background-color: #000 !important;
+    }
+  }
+
+  .leaflet-marker-shadow {
+    display: none;
+  }
+
+  .leaflet-pane.leaflet-tile-pane {
+    filter: grayscale(1);
+  }
+
+  .leaflet-map {
+    z-index: 1;
+    height: 360px !important;
+
+
+    .leaflet-marker-icon {
+    }
+  }
+
+  .leaflet-popup-content {
+    text-align: center;
+  }
+}

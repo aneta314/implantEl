@@ -1,0 +1,19 @@
+
+.icon-mail:before { content: '\e800'; } /* '' */
+.icon-close:before { content: '\e801'; } /* '' */
+.icon-phone:before { content: '\e802'; } /* '' */
+.icon-search:before { content: '\e803'; } /* '' */
+.icon-location:before { content: '\e804'; } /* '' */
+.icon-znanylekarz:before { content: '\e805'; } /* '' */
+.icon-info:before { content: '\e806'; } /* '' */
+.icon-twitter:before { content: '\f099'; } /* '' */
+.icon-mail-alt:before { content: '\f0e0'; } /* '' */
+.icon-linkedin:before { content: '\f0e1'; } /* '' */
+.icon-arrow-left:before { content: '\f104'; } /* '' */
+.icon-arrow-right:before { content: '\f105'; } /* '' */
+.icon-arrow-up:before { content: '\f106'; } /* '' */
+.icon-arrow-down:before { content: '\f107'; } /* '' */
+.icon-youtube:before { content: '\f16a'; } /* '' */
+.icon-instagram:before { content: '\f16d'; } /* '' */
+.icon-google:before { content: '\f1a0'; } /* '' */
+.icon-facebook:before { content: '\f30c'; } /* '' */

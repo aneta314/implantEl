@@ -1,0 +1,13 @@
+.footer {
+  background-color: $primary-darkest;
+
+  p {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 16px;
+
+    a {
+      color: $primary-light;
+    }
+  }
+}

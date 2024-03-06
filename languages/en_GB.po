@@ -1,0 +1,241 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 314 Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-02 05:58+0000\n"
+"PO-Revision-Date: 2022-09-02 06:18+0000\n"
+"Last-Translator: 314 DEV\n"
+"Language-Team: English (UK)\n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0.2\n"
+"X-Domain: pi"
+
+#. Name of the theme
+msgid "314 Theme"
+msgstr "314 Theme"
+
+#. Author of the theme
+msgid "Amelia"
+msgstr "Amelia"
+
+#. Name of the template
+msgid "Blog"
+msgstr "Blog"
+
+#: template-parts/sections/page-hero.php:10
+msgid "Błąd 404"
+msgstr "Erorr 404"
+
+#. Name of the template
+#: template-parts/sidebar-parts/payments.php:18
+#: template-parts/flex-sections/lp-offer.php:56
+#: template-parts/modules/contact-module.php:13
+msgid "Cennik"
+msgstr "Price list"
+
+#: functions.php:618 template-parts/contents/single-offer-content.php:109
+msgid "Cennik zabiegów"
+msgstr "Offer & Fees"
+
+#: template-parts/sidebar-parts/prices-rule.php:4
+msgid ""
+"Ceny są orientacyjne i na wizycie zostaną podane dokładne koszty leczenia."
+msgstr ""
+"The prices are indicative and the exact costs of treatment will be given "
+"during the visit."
+
+#: template-parts/contents/single-team-content.php:26
+msgid "Certyfikaty"
+msgstr "Certificates"
+
+#: template-parts/modules/preview-post.php:31
+msgid "Czytaj dalej"
+msgstr "Learn more"
+
+#: template-parts/sections/contact-section.php:5
+#: template-parts/flex-sections/lp-contact.php:5
+msgid "Dane kontaktowe"
+msgstr "Contact details"
+
+#. Description of the theme
+msgid "Description"
+msgstr "Description"
+
+#: template-parts/sections/testimonials.php:11
+msgid "Dodaj opinię:"
+msgstr "Add a review:"
+
+#: template-parts/modules/preview-person.php:15
+msgid "Dowiedz się więcej"
+msgstr "Learn more"
+
+#: template-parts/sections/contact-section.php:32
+#: template-parts/flex-sections/lp-contact.php:32
+msgid "Godziny otwarcia:"
+msgstr "Opening hours"
+
+#. URI of the theme
+#. Author URI of the theme
+msgid "https://stomatolgia.314.pl/"
+msgstr "https://stomatolgia.314.pl/"
+
+#: template-parts/contents/popup-single-post.php:7
+msgid "Interesuje Cię"
+msgstr "Are you interested in"
+
+#: template-parts/sidebar-parts/terms-list.php:4
+msgid "Kategorie wpisów"
+msgstr "Posts categories"
+
+#. Name of the template
+msgid "Kontakt"
+msgstr "Contact"
+
+#: 404.php:25
+msgid "Link może być uszkodzony lub strona mogła zostać usunięta."
+msgstr "The link might be broken or the page might have been deleted."
+
+#. Name of the template
+#: functions.php:614
+msgid "Metamorfozy"
+msgstr "Metamorphosis"
+
+#: functions.php:610
+msgid "Najczęściej zadawane pytania"
+msgstr "Frequently asked questions"
+
+#: template-parts/contents/popup-booking-content.php:5
+msgid "Oddzwonimy do Ciebie"
+msgstr "We will call you"
+
+#: template-parts/sections/contact-section.php:48
+msgid "Oddzwonimy do Ciebie w celu ustalenia terminu wizyty!"
+msgstr "We will call you to arrange an appointment!"
+
+#: template-parts/sidebar-parts/payments.php:6
+msgid ""
+"Oferujemy możliwość płatności przy pomocy kart debetowych VISA, Mastercard, "
+"płatności gotówką oraz dogodne finansowanie MediRaty."
+msgstr ""
+"We offer the option of paying with VISA and Mastercard debit cards, cash "
+"payments and convenient MediRaty financing."
+
+#: template-parts/sidebar-parts/prices-rule.php:2
+msgid "Pamiętaj"
+msgstr "Keep in mind"
+
+#: template-parts/sidebar-parts/latest-posts.php:26
+msgid "Polecane wpisy"
+msgstr "Featured posts"
+
+#: template-parts/contents/single-post-content.php:35
+msgid "Poprzedni wpis"
+msgstr "Previous post"
+
+#: template-parts/contents/single-post-content.php:37
+msgid "Następny wpis"
+msgstr "Next post"
+
+#: template-parts/contents/single-offer-content.php:86
+msgid "Przykładowe metamorfozy wykonane w naszym gabinecie"
+msgstr "Examples of metamorphoses made in our office"
+
+#: template-parts/sidebar-parts/payments.php:3
+msgid "Płatność"
+msgstr "Payment"
+
+#: functions.php:622
+msgid "Rozwiń spis treści"
+msgstr "Expand the table of contents"
+
+#: template-parts/sidebar-parts/book-appt.php:18
+msgid "Skontaktuj się"
+msgstr "Contact us"
+
+#: template-parts/contents/popup-booking-content.php:7
+msgid ""
+"Skontaktujemy się z Tobą w niedługim czasie i zaproponujemy termin wizyty"
+msgstr "We will contact you and propose an appointment"
+
+#: functions.php:602
+msgid "Spis treści"
+msgstr "Table of content"
+
+#: template-parts/contents/popup-single-post.php:9
+msgid ""
+"Sprawdź ceny usług, lekarzy wykonujących zabieg oraz szczegółowy opis oferty!"
+msgstr ""
+"Check the prices of services, doctors performing the procedure and a "
+"detailed description of the offer!"
+
+#: template-parts/contents/popup-single-post.php:12
+msgid "Sprawdź ofertę"
+msgstr "Check the offer"
+
+#: 404.php:26
+msgid "Strona główna"
+msgstr "Home Page"
+
+#: 404.php:24
+msgid "Strona jest niedostępna"
+msgstr "Page in unavailable"
+
+#. %s: search query.
+#: search.php:22
+#, php-format
+msgid "Szukana fraza: %s"
+msgstr "Search phrase: %s"
+
+#: template-parts/sections/header-mobile.php:20
+#: template-parts/sections/header-desktop.php:42
+#: template-parts/sidebar-parts/about-author.php:8
+#: template-parts/sidebar-parts/book-appt.php:3
+#: template-parts/modules/contact-module.php:9
+msgid "Umów wizytę"
+msgstr "Book Appointment"
+
+#: template-parts/contents/single-offer-content.php:12
+msgid "Usługi w ramach oferty"
+msgstr "Services included in the offer"
+
+#: footer.php:30
+msgid "Wszystkie prawa zastrzeżone."
+msgstr "All rights reserved."
+
+#: template-parts/sidebar-parts/terms-list.php:21
+msgid "Wszystkie wpisy"
+msgstr "All posts"
+
+#: template-parts/sidebar-parts/doctors-carousel.php:7
+msgid "Zabieg wykonuje"
+msgstr "Doctors performing the treatment"
+
+#: template-parts/flex-sections/lp-doctor.php:26
+msgid "Zadowolonych pacjentów z usług lekarza"
+msgstr "Satisfied patients with the doctor's services"
+
+#: template-parts/sidebar-parts/book-appt.php:6
+msgid "Zadzwoń lub skorzystaj z naszego formularza rejestracji"
+msgstr "Call us or use our registration form"
+
+#: template-parts/flex-sections/lp-doctor.php:27
+msgid "Zobacz opinie"
+msgstr "See testimonials"
+
+#: template-parts/contents/single-team-content.php:16
+msgid "Zobacz zespół"
+msgstr "See the team"
+
+#: template-parts/contents/popup-booking-content.php:4
+#: template-parts/sections/contact-section.php:46
+msgid "Zostaw swój numer"
+msgstr "Leave your number"
+
+#: template-parts/flex-sections/lp-testimonials.php:23
+msgid "Zródło opinii:"
+msgstr "Source of the testimonial"

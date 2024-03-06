@@ -1,0 +1,59 @@
+.header-lp{
+  height: 100px;
+  padding: 16px 0;
+  position: relative;
+  z-index: 10;
+
+  &__logo {
+    display: block;
+    height: 72px;
+    width: auto;
+
+    @include max992 {
+      height: 76px;
+    }
+  }
+
+  div[class^="col-"] {
+    position: static;
+  }
+
+  &__address {
+    margin-top: -16px;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: flex-end;
+
+    @include max992 {
+      flex-direction: column;
+      align-items: flex-end;
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      margin-top: 0;
+    }
+
+    &__item {
+      margin-left: 24px;
+      background-color: rgba(0,0,0,.4);
+      padding: 10px 12px;
+      color: #fff;
+      font-size: 15px;
+
+      @include max992 {
+        width: 250px;
+      }
+
+      a {
+        &:hover {
+          color: $primary-lighter;
+        }
+      }
+
+      i {
+        color: $primary-lighter;
+      }
+    }
+  }
+}

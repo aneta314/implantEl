@@ -1,0 +1,56 @@
+.btns-wrapper {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-wrap: wrap;
+
+  .btn {
+    margin-right: 16px;
+    margin-bottom: 16px;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}
+
+// ICONS SECTION MOD
+.icons-section {
+  .btns-wrapper {
+    justify-content: center;
+  } 
+}
+
+// OFFER CAROUSEL SECTION MOD
+.offer-section--carousel {
+  .btns-wrapper {
+    margin-top: 48px;
+    justify-content: center;
+
+    @include max1360 {
+      margin-top: 24px;
+    }
+  }
+}
+
+// OFFER LIST SECTION MOD
+.offer-section--list {
+  .btns-wrapper {
+    justify-content: center;
+
+  }
+}
+
+
+// TEAM CAROUSEL SECTION MOD
+.team-section--carousel {
+  .btns-wrapper {
+    margin-top: 40px;
+    justify-content: center;
+
+    @include max1360 {
+      margin-top: 24px;
+    }
+
+  }
+}

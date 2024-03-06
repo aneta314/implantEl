@@ -1,0 +1,15 @@
+.text-section {
+  &__photo {
+    margin-bottom: 40px;
+  }
+}
+
+.about-us {
+  .text-section {
+    &__photo {
+      margin-top: -9rem;
+      position: relative;
+      z-index: 1;
+    }
+  }
+}

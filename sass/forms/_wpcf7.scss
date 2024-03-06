@@ -1,0 +1,160 @@
+.wpcf7 {
+
+  // chrome autocomplete highlight fix
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+  }
+  // BASIC INPUTS
+  input:not([type='checkbox']), textarea, select {
+    font-family: $font-family;
+    font-size: 16px;
+    color: $primary;
+    background-color: transparent;
+    padding: 12px 0 4px;
+    margin-bottom: 16px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid $primary-lighter;
+    border-radius: 0;
+
+    &::placeholder {
+      color: $primary;
+    }
+
+    &:focus {
+      border-color: $primary-light;
+
+      &::placeholder {
+        color: transparent;
+      }
+    }
+
+    &.wpcf7-not-valid {
+      border-color: $red;
+    }
+  }
+
+  // CHECKBOX
+  input[type='checkbox'] {
+    -webkit-appearance:checkbox;
+    margin-right: 10px;
+    min-width: 12px;
+  }
+
+  // SELCET
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-position: right 50%;
+    background-repeat: no-repeat;
+    background-image: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" style="opacity: .6" version="1"><path d="M4 8L0 4h8z"/></svg>');
+    border-radius: 0%;
+
+    &:focus {
+      box-shadow: none;
+      outline: none;
+    }
+  }
+
+  // TEXTAREA
+  textarea {
+    height: 46px;
+    margin-bottom: 12px;
+  }
+
+
+  // ACCEPTANCE
+  .wpcf7-acceptance {
+    width: 100%;
+
+    .wpcf7-list-item {
+      width: 100%;
+      margin: 0 !important;
+
+      label {
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+        margin-bottom: 16px;
+      }
+    }
+
+    .wpcf7-list-item-label {
+      color: $font-color-base;
+      font-size: 12px;
+
+      a {
+        color: $primary;
+        text-decoration: underline;
+      }
+    }
+  }
+
+
+  // SUBMIT
+  button[type="submit"],
+  input[type="submit"] {
+    display: inline-block;
+    border: none;
+    background-color: $primary-dark;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 24px;
+    margin-top: 16px;
+
+    &:disabled {
+      background-color: $primary-light;
+    }
+
+    &:hover:not(:disabled) {
+      background-color: $primary;
+      color: #fff;
+    }
+  }
+
+
+  // AJAX LOADER
+  .ajax-loader {
+    position: absolute;
+    width: 0 !important;
+    height: 0 !important;
+  }
+
+  // TIP BELOW FIELD
+  .wpcf7-not-valid-tip {
+    display: none !important;
+    font-size: 12px;
+    margin-top: -8px;
+    color: $red;
+  }
+
+  // STATUS INFO
+  div.wpcf7-response-output {
+    width: 100%;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+    padding: 16px 24px !important;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 32px !important;
+  }
+
+
+}
+
+// ERROR - STATUS INFO
+.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output {
+  border: 1px solid $red;
+  color: $red;
+}
+
+// SENT - STATUS INFO
+.wpcf7 form.sent .wpcf7-response-output {
+  border: 1px solid $primary;
+  color: $primary;
+}

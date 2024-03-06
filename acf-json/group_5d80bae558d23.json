@@ -1,0 +1,312 @@
+{
+    "key": "group_5d80bae558d23",
+    "title": "Szablon: Cennik",
+    "fields": [
+        {
+            "key": "field_5da70f3b1e2c9",
+            "label": "Cenniki",
+            "name": "pricetables",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "block",
+            "button_label": "Dodaj cennik",
+            "sub_fields": [
+                {
+                    "key": "field_5db0206405c58",
+                    "label": "Tytuł",
+                    "name": "title",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "parent_repeater": "field_5da70f3b1e2c9"
+                },
+                {
+                    "key": "field_5d80baf470553",
+                    "label": "Cennik",
+                    "name": "pricetable",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "collapsed": "",
+                    "min": 0,
+                    "max": 0,
+                    "layout": "block",
+                    "button_label": "Dodaj wiersz",
+                    "sub_fields": [
+                        {
+                            "key": "field_5d80bb4f70554",
+                            "label": "Usługa",
+                            "name": "service",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "55",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "show_column": 0,
+                            "show_column_sortable": 0,
+                            "show_column_weight": 1000,
+                            "allow_quickedit": 0,
+                            "allow_bulkedit": 0,
+                            "parent_repeater": "field_5d80baf470553"
+                        },
+                        {
+                            "key": "field_62960c374be28",
+                            "label": "Usługa - opis",
+                            "name": "service_desc",
+                            "aria-label": "",
+                            "type": "textarea",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "55",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": 2,
+                            "new_lines": "",
+                            "parent_repeater": "field_5d80baf470553"
+                        },
+                        {
+                            "key": "field_62960c564be29",
+                            "label": "Cena przekreślona",
+                            "name": "price_old",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "15",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "show_column": 0,
+                            "show_column_sortable": 0,
+                            "show_column_weight": 1000,
+                            "allow_quickedit": 0,
+                            "allow_bulkedit": 0,
+                            "parent_repeater": "field_5d80baf470553"
+                        },
+                        {
+                            "key": "field_5d80bb6970555",
+                            "label": "Cena",
+                            "name": "price",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "15",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": "",
+                            "show_column": 0,
+                            "show_column_sortable": 0,
+                            "show_column_weight": 1000,
+                            "allow_quickedit": 0,
+                            "allow_bulkedit": 0,
+                            "parent_repeater": "field_5d80baf470553"
+                        },
+                        {
+                            "key": "field_62960c7d4be2a",
+                            "label": "Wyświetlić w karuzeli na LP",
+                            "name": "carousel",
+                            "aria-label": "",
+                            "type": "true_false",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "15",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "",
+                            "default_value": 1,
+                            "ui": 0,
+                            "ui_on_text": "",
+                            "ui_off_text": "",
+                            "parent_repeater": "field_5d80baf470553"
+                        },
+                        {
+                            "key": "field_616ec635cc557",
+                            "label": "Usługi przynależące",
+                            "name": "services",
+                            "aria-label": "",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "100",
+                                "class": "",
+                                "id": ""
+                            },
+                            "collapsed": "",
+                            "min": 0,
+                            "max": 0,
+                            "layout": "row",
+                            "button_label": "Dodaj przynależącą",
+                            "sub_fields": [
+                                {
+                                    "key": "field_616ec826cc558",
+                                    "label": "Usługa",
+                                    "name": "service",
+                                    "aria-label": "",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "75",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": "",
+                                    "show_column": 0,
+                                    "show_column_sortable": 0,
+                                    "show_column_weight": 1000,
+                                    "allow_quickedit": 0,
+                                    "allow_bulkedit": 0,
+                                    "parent_repeater": "field_616ec635cc557"
+                                },
+                                {
+                                    "key": "field_616ec84dcc559",
+                                    "label": "Cena",
+                                    "name": "price",
+                                    "aria-label": "",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "25",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": "",
+                                    "parent_repeater": "field_616ec635cc557"
+                                }
+                            ],
+                            "rows_per_page": 20,
+                            "parent_repeater": "field_5d80baf470553"
+                        }
+                    ],
+                    "rows_per_page": 20,
+                    "parent_repeater": "field_5da70f3b1e2c9"
+                },
+                {
+                    "key": "field_5da70f621e2ca",
+                    "label": "Podlinkowanie pod ofertę (opcjonalne)",
+                    "name": "related_offer",
+                    "aria-label": "",
+                    "type": "taxonomy",
+                    "instructions": "Taksonomia relacyjna - zregeneruj jeżeli nie widzisz elementu oferty na liście",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "taxonomy": "offer-relationship",
+                    "add_term": 0,
+                    "save_terms": 0,
+                    "load_terms": 0,
+                    "return_format": "id",
+                    "field_type": "checkbox",
+                    "bidirectional": 0,
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "bidirectional_target": [],
+                    "parent_repeater": "field_5da70f3b1e2c9"
+                }
+            ],
+            "rows_per_page": 20
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "templates\/pricelist.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content"
+    ],
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1699009151
+}

@@ -1,0 +1,92 @@
+.lp-offer {
+  position: relative;
+
+  &__sticky {
+    position: sticky;
+    top: 40px;
+
+
+    @include max992 {
+      max-width: 300px;
+      margin-top: 40px;
+    }
+    @include max576 {
+      max-width: 100%;
+
+    }
+  }
+
+  .phone-number {
+    margin-bottom: 40px;
+  }
+}
+
+
+// PRICES MODULE
+.price-box {
+  background-color: #222;
+  color: #fff;
+  padding: 32px;
+  text-align: center;
+  min-height: 302px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &--1 {
+    background-color: #333;
+  }
+
+  &--2, &--4 {
+    background-color: #555;
+  }
+
+  &--3 {
+    background-color: #777;
+  }
+
+  &__price-old {
+    color: $primary-lightest;
+    opacity: .6;
+    position: relative;
+    padding: 0 5px;
+    font-size: 20px;
+    letter-spacing: 1px;
+
+    &:after {
+      content:  '';
+      display: block;
+      position: absolute;
+      top: calc(50% - 2px);
+      left: 0;
+      right: 0;
+      height: 2px;
+      background-color: $red;
+    }
+
+  }
+
+  &__price {
+    font-size: 40px;
+    line-height: 1.3;
+    margin-bottom: 4px;
+
+    @include max1200 {
+      font-size: 34px;
+    }
+  }
+
+  &__service {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  &__service_desc {
+    font-size: 14px;
+    opacity: .6;
+  }
+
+}

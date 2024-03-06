@@ -1,0 +1,92 @@
+.lp-cta-sticky {
+  position: fixed;
+  z-index: 999;
+  top: 16px;
+  right: 0;
+  transform: translateX(100%);
+  transition: .6s ease all;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  padding: 4px 8px;
+  font-size: 32px; 
+
+  @include max768 {
+    width: 56px;
+    height: 56px;
+    top: auto;
+    bottom: 16px;
+    right: -72px;
+    transform: translateX(0);
+    padding: 0;
+    font-size: 32px;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &.show-cta {
+    transform: translateX(0);
+    transition: .6s ease all .2s;
+
+    @include max768 {
+      right: 16px;
+      transition: .6s ease all;
+    }
+  }
+
+
+  &__animation {
+    animation: 8s jello infinite;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    padding-bottom: 4px;
+  }
+}
+
+
+@keyframes jello {
+  from,
+  1.1%,
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  2.22% {
+    -webkit-transform: skewX(-12.5deg) skewY(-12.5deg);
+    transform: skewX(-12.5deg) skewY(-12.5deg);
+  }
+
+  3.33% {
+    -webkit-transform: skewX(6.25deg) skewY(6.25deg);
+    transform: skewX(6.25deg) skewY(6.25deg);
+  }
+
+  4.44% {
+    -webkit-transform: skewX(-3.125deg) skewY(-3.125deg);
+    transform: skewX(-3.125deg) skewY(-3.125deg);
+  }
+
+  5.55% {
+    -webkit-transform: skewX(1.5625deg) skewY(1.5625deg);
+    transform: skewX(1.5625deg) skewY(1.5625deg);
+  }
+
+  6.66% {
+    -webkit-transform: skewX(-0.78125deg) skewY(-0.78125deg);
+    transform: skewX(-0.78125deg) skewY(-0.78125deg);
+  }
+
+  7.77% {
+    -webkit-transform: skewX(0.390625deg) skewY(0.390625deg);
+    transform: skewX(0.390625deg) skewY(0.390625deg);
+  }
+
+  8.88% {
+    -webkit-transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+    transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+  }
+}

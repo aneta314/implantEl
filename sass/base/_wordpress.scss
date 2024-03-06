@@ -1,0 +1,35 @@
+// body.logged-in {
+//   margin-top: 32px;
+// }
+
+img.alignright, a img.alignright {
+  display: block;
+  margin: 1em 0;
+
+  @include min576 {
+    display: inline;
+    max-width: 50%;
+    height: auto;
+    float:right;
+    margin:1em 0 1em 2em;
+  }
+}
+
+img.alignleft, a img.alignleft {
+  display: block;
+  margin: 1em 0;
+
+  @include min576 {
+    display: inline;
+    max-width: 50%;
+    height: auto;
+    float:left;
+    margin:1em 2em 1em 0;
+  }
+}
+
+img.aligncenter, a img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}

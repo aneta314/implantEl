@@ -1,0 +1,39 @@
+.headline {
+  font-size: 40px;
+  margin-bottom: 24px;
+  line-height: 1.2;
+
+  // SIZES
+  &--lg {
+    font-size: 48px;
+  }
+
+  &--sm {
+    font-size: 32px;
+  }
+
+  &--xs {
+    font-size: 24px;
+  }
+
+  &--xxs {
+    font-size: 22px;
+  }
+
+  // MARGINS
+  &--mb-xs {
+    margin-bottom: 8px;
+  }
+
+  &--mb-sm {
+    margin-bottom: 16px;
+  }
+
+  &--mb-lg {
+    margin-bottom: 32px;
+  }
+
+  &--mb-xl {
+    margin-bottom: 40px;
+  }
+}

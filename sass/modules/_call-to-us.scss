@@ -1,0 +1,31 @@
+.call-to-us {
+  position: fixed;
+  bottom: 16px;
+  left: 16px;
+  width: 56px;
+  height: 56px;
+  background-color: $primary-dark;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999999;
+
+  @include min768 {
+    display: none;
+  }
+
+  a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+
+  &__icon {
+    font-size: 32px;
+    color: #fff;
+  }
+}

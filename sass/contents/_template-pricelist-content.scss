@@ -1,0 +1,50 @@
+.template-pricelist-content {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  &__item {
+    margin-bottom: 72px;
+    order: 99;
+
+    .contact-module {
+      margin-top: 40px;
+    }
+  }
+
+  &__title {
+    transition: .2s all ease;
+
+    & > a {
+      position: relative;
+
+      &:after {
+        content: '\279E';
+        position: relative;
+        top: -4px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        font-size: 14px;
+        background-color: $primary-light;
+        color: #fff;
+        margin-left: 4px;
+        transition: .2s all ease;
+      }
+    }
+
+    &:hover {
+      color: $primary;
+
+      a:after {
+        background-color: $primary;
+        margin-left: 8px;
+      }
+    }
+  }
+}

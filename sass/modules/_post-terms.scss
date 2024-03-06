@@ -1,0 +1,22 @@
+.post-terms {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-wrap: wrap;
+
+  &__item {
+    display: block;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: $primary-lightest;
+    margin-right: 8px;
+    padding: 8px 16px;
+    margin-bottom: 8px;
+    transition: .1s all ease;
+
+    &:hover {
+      background-color: $primary-light;
+      color: #fff;
+    }
+  }
+}

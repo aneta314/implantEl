@@ -1,0 +1,18 @@
+.sidebar {
+  height: 100%;
+
+  &__item {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 32px;
+    margin-bottom: 48px;
+
+    &--sticky {
+      position: sticky;
+      top: 106px;
+
+      @include min1200 {
+        top: 30px;
+      }
+    }
+  }
+}

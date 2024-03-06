@@ -1,0 +1,74 @@
+.pricetable {
+  &__row {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 12px 16px;
+    background-color: #eee;
+    line-height: 1.5;
+
+    &:nth-of-type(2n) {
+      background-color: #f6f6f6;
+    }
+  }
+
+  &__sub-row {
+    width: 100%;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 12px 0 0;
+
+    .pricetable__service,
+    .pricetable__price {
+      padding-bottom: 8px;
+      color: $primary;
+      font-size: 15px;
+    }
+
+    .pricetable__service {
+      padding-left: 8px;
+      &:before {
+        content: '\2014';
+      }
+    }
+  }
+
+  &__service {
+    width: calc(80% - 8px);
+
+    &__desc {
+      font-size: 14px;
+      margin-top: 4px;
+    }
+  }
+
+  &__price {
+    width: calc(20% - 8px);
+    text-align: right;
+
+    &__old {
+      text-decoration: line-through;
+      text-decoration-color: $red;
+      color: #666;
+      font-size: 14px;
+    }
+  }
+
+
+}
+
+
+body.single-offer {
+  .pricetable {
+
+    &:last-of-type {
+      margin-bottom: 48px;
+    }
+
+  }
+}

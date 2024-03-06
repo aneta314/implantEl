@@ -1,0 +1,9 @@
+.reading-progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: $primary-dark;
+  z-index: 99999;
+}

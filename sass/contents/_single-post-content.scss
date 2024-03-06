@@ -1,0 +1,51 @@
+.single-post-content {
+  &__thumbnail {
+    display: block;
+    margin-bottom: 40px;
+  }
+
+  &__date {
+    color: $primary-light;
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+
+  &__content {
+    margin-top: 32px;
+  }
+
+
+  &__nav {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-top: 1px solid $primary-lightest;
+    padding-top: 40px;
+    flex-wrap: wrap;
+
+    a {
+      width: 100%;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 13px;
+      transition: .3s all ease;
+      margin-bottom: 40px;
+
+      @include min576 {
+        max-width: 40%;
+        margin-bottom: 0;
+      }
+
+      &:hover {
+        color: $primary-darkest;
+      }
+
+      &:nth-of-type(2) {
+        text-align: right;
+      }
+    }
+  }
+
+}

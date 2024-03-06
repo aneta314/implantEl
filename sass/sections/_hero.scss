@@ -1,0 +1,33 @@
+$hero-height: 500px;
+
+.hero {
+  height: $hero-height;
+  background-color: $primary-lightest;
+
+  &__slide {
+    position: relative;
+
+    .absolute-img {
+      //opacity:  .1;
+    }
+  }
+
+  &__content {
+    z-index: 2;
+    max-width: 560px;
+    position: relative;
+    left: -22rem;
+  }
+}
+
+.owl-hero {
+  .item {
+    height: $hero-height;
+    background-color: $primary-lighter;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    align-items: center;
+    padding: 24px 0 48px;
+  }
+}

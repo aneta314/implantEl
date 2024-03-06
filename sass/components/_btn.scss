@@ -1,0 +1,70 @@
+.btn {
+  display: inline-block;
+  padding: 8px 24px;
+  font-size: 15px;
+  background: linear-gradient(
+    90deg,
+    rgba(149, 190, 90, 1) 0%,
+    rgba(59, 105, 69, 1) 50%
+  );
+  //border: 1px solid $primary;
+  border-radius: 20px;
+  line-height: 1.4;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.3s all ease;
+  user-select: none;
+
+  &:hover {
+    background-color: $primary-light;
+    //border: 1px solid $primary-light;
+  }
+
+  &--secondary {
+    padding: 8px 24px;
+    border: 1px solid $primary;
+    border-radius: 20px;
+    color: $primary;
+    background-color: rgba(255, 255, 255, 0.5);
+    &::after {
+      content: "\f006";
+      font-family: "fontello";
+      position: block;
+      padding: 0 20px 0 17px;
+      font-weight: 300;
+      font-size: 13px;
+    }
+  }
+
+  &--lg {
+    padding: 11px 32px;
+    font-size: 18px;
+  }
+
+  // LEFT SIDE ICON
+  &--left-side-icon {
+    i {
+      margin: 0 4px 0 -4px;
+    }
+  }
+
+  // RIGHT SIDE ICON
+  &--right-side-icon {
+    i {
+      margin: 0 -4px 0 4px;
+    }
+  }
+
+  // BOTH SIDE ICON
+  &--both-side-icon {
+    i:first-of-type {
+      margin: 0 4px 0 -4px;
+    }
+
+    i:last-of-type {
+      margin: 0 -4px 0 4px;
+    }
+  }
+}

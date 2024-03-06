@@ -1,0 +1,11 @@
+.lp-testimonials {
+  background-color: #eee;
+  padding: 80px 0;
+  &__source {
+    text-align: center;
+
+    span {
+      color: $primary;
+    }
+  }
+}

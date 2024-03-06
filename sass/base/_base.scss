@@ -1,0 +1,116 @@
+html {
+  font-size: 16px;
+}
+
+html, body { 
+  scroll-behavior: smooth
+}
+
+body {
+  color: $font-color-base;
+  max-width: 100vw;
+  min-height: 100vh;
+  font-family: $font-family;
+
+  &.noscroll {
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+img, svg, figure {
+  max-width: 100%;
+  height: auto;
+  user-select: none;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a {
+  &:hover {
+
+  }
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin-top: 40px;
+  margin-bottom: 32px;
+}
+
+mark {
+  background-color: transparent;
+}
+
+
+table {
+  margin: 0 auto;
+  color: gray;
+  border-collapse: collapse;
+  width: 100% !important;
+  margin: 8px 0 20px;
+
+  thead tr,
+  thead th {
+    color: #fff;
+  }
+
+  thead th,
+  tfoot th {
+    text-align: left;
+    font-weight: bold;
+  }
+
+  caption {
+    padding: 1em .8em;
+  }
+
+  th, td {
+    padding: .7em;
+    line-height: 1.2;
+    color: #333;
+  }
+
+  tr {
+    border-bottom: 1px solid #ddd;
+
+    &:first-of-type {
+      font-weight: bold;
+      color: #333;
+
+      td {
+        line-height: 1.4;
+        display: table-cell;
+        vertical-align: bottom;
+        padding-bottom: .9em;
+      }
+    }
+
+    &:last-of-type {
+      border-bottom: none;
+    }
+  }
+}
+
+// disable text selection
+body.notextcopy > *{
+      user-select: none;
+} 
+// disable 'save as' in context menu
+body.noimagesave {
+  img, svg, picture{
+    pointer-events: none;
+  }
+  
+}

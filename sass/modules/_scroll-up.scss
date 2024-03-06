@@ -1,0 +1,41 @@
+.scroll-up {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  width: 34px;
+  height: 34px;
+  padding-bottom: 2px;
+  background-color: $primary-dark;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: -100;
+  opacity:  0;
+  transition: .3s all ease;
+  border: 1px solid rgba(255,255,255,.1);
+
+  &:hover {
+    background-color: $primary;
+  }
+
+
+  &.show-scroll {
+    opacity:  1;
+    z-index: 1000;
+  }
+}
+
+
+// MOD - SIGNLE LANDING PAGE
+body.single-lp {
+  .scroll-up {
+    @include max768 {
+      display: none;
+    }
+  }
+}

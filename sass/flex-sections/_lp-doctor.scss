@@ -1,0 +1,106 @@
+.lp-doctor {
+  background-color: #fff;
+
+  &__header {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    align-items: center;
+
+    @include max576 {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  &__photo {
+    width: 104px;
+    height: 104px;
+    border-radius: 50%;
+    margin-right: 24px;
+    margin-top: -8px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 24px;
+    position: relative;
+    overflow: hidden;
+  }
+
+
+
+  &__row {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__col-zl {
+    flex: 0 0 245px;
+    margin-right: 48px;
+
+    @include max992 {
+      order: 2;
+      margin-right: 0;
+      margin-top: 32px;
+
+    }
+  }
+
+  &__col-content {
+    flex: 1 0 calc(100% - 293px);
+
+    @include max992 {
+      order: 1;
+      flex: 0 0 100%;
+    }
+  }
+
+
+  .owl-lp-doctors {
+
+    .item {
+      padding-top: 8px;
+    }
+
+  }
+}
+
+
+.zl {
+  background-color: #37c3a5;
+  color: #fff;
+  padding: 32px 24px;
+
+  &__logo {
+    display: block;
+    max-width: 130px;
+    margin-bottom: 16px;
+
+    path {
+      fill: #fff;
+    }
+  }
+
+  &__count {
+    font-size: 48px;
+  }
+
+  &__desc {
+    font-size: 18px;
+    margin-bottom: 24px;
+  }
+
+  &__btn {
+    background-color: #fff;
+    color: #26b294;
+    padding: 8px 12px;
+    display: block;
+    text-align: center;
+    transition: .2s all ease;
+
+    &:hover {
+      background-color: #f3f3f3;
+    }
+  }
+}
