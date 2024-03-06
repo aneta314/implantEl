@@ -1,10 +1,11 @@
 .offer-section {
+  .row {
+    justify-content: space-between;
+    &--carousel {
+    }
 
-  &--carousel {
-
-  }
-
-  &--list {
-    margin-bottom: 40px;
+    &--list {
+      margin-bottom: 40px;
+    }
   }
 }

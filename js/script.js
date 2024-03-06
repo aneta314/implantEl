@@ -212,7 +212,7 @@ jQuery(document).ready(function ($) {
       items: 1,
       loop: true,
       dots: true,
-      autoplay: false,
+      autoplay: true,
       smartSpeed: 500,
       animateIn: "fadeIn",
       animateOut: "fadeOut",
@@ -221,11 +221,14 @@ jQuery(document).ready(function ($) {
 
     $(".owl-offer").owlCarousel({
       nav: true,
-      navText: ["<", ">"],
+      // navText: [
+      //   '<i class="icon-nav-prev"></i>',
+      //   '<i class="icon-nav-next"></i>',
+      // ],
       margin: 30,
       slideSpeed: 300,
       paginationSpeed: 400,
-      items: 4,
+      items: 2,
       loop: true,
       dots: false,
       autoplay: true,
@@ -240,7 +243,7 @@ jQuery(document).ready(function ($) {
           items: 2,
         },
         992: {
-          items: 3,
+          items: 2,
         },
       },
     });

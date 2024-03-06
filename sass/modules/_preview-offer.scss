@@ -4,22 +4,46 @@
 
   &__photo {
     width: 100%;
+    min-height: 342px;
+    border-radius: 50%;
     padding-bottom: 72%;
-    background-color: $primary-lightest;
     margin-bottom: 16px;
     position: relative;
+
+    img {
+      width: 342px !important;
+      height: 342px;
+      border-radius: 50%;
+    }
   }
 
   &__title {
-    font-size: 19px;
+    font-size: 36px;
+    color: $primary;
     text-align: center;
+    margin-bottom: 1rem;
   }
 }
 
+.owl-offer {
+  button {
+    border: 0 !important;
+  }
+}
+
+.owl-carousel.owl-offer .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+  border: 0 !important;
+}
+.owl-carousel.owl-offer .owl-nav,
+.owl-carousel .owl-nav {
+  top: -15rem;
+}
+// }
 
 // OFFER LIST SECTION MOD
-.offer-section--list {
-  .preview-offer {
-    margin-bottom: 48px;
-  }
-}
+// .offer-section--list {
+//   .preview-offer {
+//     margin-bottom: 48px;
+//   }
+// }

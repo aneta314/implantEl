@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Text section
  * 
@@ -22,10 +23,10 @@ $class = $group['class'];
 $col_class = 'col';
 
 //layout, width, positioning etc determines the classes that will be used on the wrappers
-if($layout == 'photo-left') {
-  $col_class = 'col-lg-6';
-} elseif($layout == 'photo-right') {
-  $col_class = 'col-lg-6 order-lg-2';
+if ($layout == 'photo-left') {
+  $col_class = 'col-lg-7';
+} elseif ($layout == 'photo-right') {
+  $col_class = 'col-lg-7 order-lg-2';
 } ?>
 
 <div class="text-section <?php echo $class; ?> section-margin-bottom">
@@ -33,58 +34,58 @@ if($layout == 'photo-left') {
     <div class="row">
       <?php
       // COL PHOTO
-      if($layout != 'simple') : ?>
+      if ($layout != 'simple') : ?>
         <div class="<?php echo $col_class; ?>">
           <?php
-          if($group['photo']):
+          if ($group['photo']) :
             echo wp_get_attachment_image($group['photo'], 'medium_large', false, array('class' => 'text-section__photo', 'loading' => 'lazy'));
           endif; ?>
         </div>
-      <?php 
-      endif; 
+      <?php
+      endif;
 
       // COL CONTENT
       ?>
       <div class="col">
-        <?php 
+        <?php
         // INTRO
-        if($intro): ?>
+        if ($intro) : ?>
           <p class="intro"><?php echo $intro; ?></p>
-        <?php 
+        <?php
         endif;
 
         // TITLE
-        if($title): 
-          echo '<'.$markup.' class="headline">'.$title.'</'.$markup.'>';
+        if ($title) :
+          echo '<' . $markup . ' class="headline">' . $title . '</' . $markup . '>';
         endif;
-        
+
         // TEXT EDITOR
         ?>
         <div class="standard-format standard-format--post"><?php echo $group['content']; ?></div>
-        <?php 
+        <?php
         // BTNS
-        if($group['btns'] == 'true'): ?>
+        if ($group['btns'] == 'true') : ?>
           <div class="btns-wrapper">
             <?php
             // BTN 1 (SECONDARY)
             $link = $group['link'];
-            if($link):
-              $class = (substr($link['url'], 0, 1) == '#')? 'smooth-scroll' : '';
+            if ($link) :
+              $class = (substr($link['url'], 0, 1) == '#') ? 'smooth-scroll' : '';
               $link_target = $link['target'] ? $link['target'] : '_self'; ?>
-              <a href="<?php echo $link['url']; ?>" class="btn btn--secondary <?php echo $class; ?>" target="<?php echo esc_attr( $link_target ); ?>" ><?php echo $link['title']; ?></a>
-            <?php 
+              <a href="<?php echo $link['url']; ?>" class="btn btn--secondary <?php echo $class; ?>" target="<?php echo esc_attr($link_target); ?>"><?php echo $link['title']; ?></a>
+            <?php
             endif;
 
             // BTN 2 (PRIMARY)
             $link = $group['link_2'];
-            if($link):
-              $class = (substr($link['url'], 0, 1) == '#')? 'smooth-scroll' : '';
+            if ($link) :
+              $class = (substr($link['url'], 0, 1) == '#') ? 'smooth-scroll' : '';
               $link_target = $link['target'] ? $link['target'] : '_self'; ?>
-              <a href="<?php echo $link['url']; ?>" class="btn <?php echo $class; ?>" target="<?php echo esc_attr( $link_target ); ?>" ><?php echo $link['title']; ?></a>
-            <?php 
+              <a href="<?php echo $link['url']; ?>" class="btn <?php echo $class; ?>" target="<?php echo esc_attr($link_target); ?>"><?php echo $link['title']; ?></a>
+            <?php
             endif; ?>
           </div>
-        <?php 
+        <?php
         endif; ?>
       </div>
     </div>

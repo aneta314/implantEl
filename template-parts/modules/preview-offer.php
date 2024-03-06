@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Offer preview module
  * 
@@ -9,11 +10,12 @@
  * @author Amelia
  * 
  */
-$post_id = $args['post_id']; // ids ?>
+$post_id = $args['post_id']; // ids 
+?>
 
 <a href="<?php echo get_the_permalink($post_id); ?>" class="preview-offer">
   <div class="preview-offer__photo">
-    <?php echo get_the_post_thumbnail($post_id, 'medium_large', array('title' => get_the_title($post_id), 'class'=>'absolute-img')); ?>
+    <?php echo get_the_post_thumbnail($post_id, 'medium_large', array('title' => get_the_title($post_id), 'class' => 'absolute-img')); ?>
   </div>
-  <p class="preview-offer__title"><?php echo get_the_title($post_id); ?></p>
+  <h3 class="preview-offer__title"><?php echo get_the_title($post_id); ?></h3>
 </a>

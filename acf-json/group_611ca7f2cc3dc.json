@@ -3,6 +3,13 @@
     "title": "Main FLEX",
     "fields": [
         {
+            "allow_backendsearch": false,
+            "show_column_filter": false,
+            "allow_bulkedit": false,
+            "allow_quickedit": false,
+            "show_column": false,
+            "show_column_weight": 1000,
+            "show_column_sortable": false,
             "key": "field_611ca7fa375d3__trashed",
             "label": "Pole elastyczne",
             "name": "flex_content",
@@ -24,6 +31,13 @@
                     "display": "block",
                     "sub_fields": [
                         {
+                            "allow_backendsearch": false,
+                            "show_column_filter": false,
+                            "allow_bulkedit": false,
+                            "allow_quickedit": false,
+                            "show_column": false,
+                            "show_column_weight": 1000,
+                            "show_column_sortable": false,
                             "key": "field_611cd97fb8f7f",
                             "label": "Grupa",
                             "name": "group",
@@ -37,15 +51,16 @@
                                 "class": "",
                                 "id": ""
                             },
-                            "show_column_filter": false,
-                            "allow_bulkedit": false,
-                            "allow_quickedit": false,
-                            "show_column": false,
-                            "show_column_weight": 1000,
-                            "show_column_sortable": false,
                             "layout": "block",
                             "sub_fields": [
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": 0,
                                     "key": "field_6297527057876",
                                     "label": "Intro",
                                     "name": "intro",
@@ -59,12 +74,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": 0,
-                                    "allow_quickedit": 0,
-                                    "show_column": 0,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": 0,
                                     "default_value": "",
                                     "placeholder": "",
                                     "prepend": "",
@@ -72,6 +81,13 @@
                                     "maxlength": ""
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_611cd999b8f80",
                                     "label": "Tytuł",
                                     "name": "title",
@@ -85,12 +101,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": 0,
-                                    "allow_quickedit": 0,
-                                    "show_column": 0,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "default_value": "",
                                     "maxlength": "",
                                     "placeholder": "",
@@ -98,6 +108,13 @@
                                     "append": ""
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": 0,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_653265f62946a",
                                     "label": "Typ nagłówka",
                                     "name": "title_markup",
@@ -111,12 +128,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": 0,
-                                    "allow_bulkedit": 0,
-                                    "allow_quickedit": 0,
-                                    "show_column": 0,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "choices": {
                                         "h1": "h1",
                                         "h2": "h2",
@@ -133,6 +144,13 @@
                                     "layout": "horizontal"
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": false,
+                                    "allow_quickedit": false,
+                                    "show_column": false,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_611cd99fb8f81",
                                     "label": "Pole tekstowe",
                                     "name": "content",
@@ -146,12 +164,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": false,
-                                    "allow_quickedit": false,
-                                    "show_column": false,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "default_value": "",
                                     "tabs": "all",
                                     "toolbar": "full",
@@ -159,6 +171,13 @@
                                     "delay": 0
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": false,
+                                    "allow_quickedit": false,
+                                    "show_column": false,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_616e6a6300887",
                                     "label": "Przyciski",
                                     "name": "btns",
@@ -172,12 +191,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": false,
-                                    "allow_quickedit": false,
-                                    "show_column": false,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "choices": {
                                         "false": "Nie",
                                         "true": "Tak"
@@ -190,6 +203,13 @@
                                     "save_other_choice": 0
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": false,
+                                    "allow_quickedit": false,
+                                    "show_column": false,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_616e6aae00888",
                                     "label": "Przycisk 1",
                                     "name": "link",
@@ -211,15 +231,16 @@
                                         "class": "",
                                         "id": ""
                                     },
+                                    "return_format": "array"
+                                },
+                                {
+                                    "allow_backendsearch": false,
                                     "show_column_filter": false,
                                     "allow_bulkedit": false,
                                     "allow_quickedit": false,
                                     "show_column": false,
                                     "show_column_weight": 1000,
                                     "show_column_sortable": false,
-                                    "return_format": "array"
-                                },
-                                {
                                     "key": "field_616e6afe0088a",
                                     "label": "Przycisk 2",
                                     "name": "link_2",
@@ -241,15 +262,16 @@
                                         "class": "",
                                         "id": ""
                                     },
+                                    "return_format": "array"
+                                },
+                                {
+                                    "allow_backendsearch": false,
                                     "show_column_filter": false,
                                     "allow_bulkedit": false,
                                     "allow_quickedit": false,
                                     "show_column": false,
                                     "show_column_weight": 1000,
                                     "show_column_sortable": false,
-                                    "return_format": "array"
-                                },
-                                {
                                     "key": "field_616e6b3c0088b",
                                     "label": "Układ",
                                     "name": "layout",
@@ -263,12 +285,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": false,
-                                    "allow_quickedit": false,
-                                    "show_column": false,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "choices": {
                                         "simple": "Prosty",
                                         "photo-left": "Zdjęcie po lewej stronie",
@@ -282,6 +298,13 @@
                                     "save_other_choice": 0
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": false,
+                                    "allow_quickedit": false,
+                                    "show_column": false,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_616e6bd20088c",
                                     "label": "Zdjęcie",
                                     "name": "photo",
@@ -310,12 +333,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": false,
-                                    "allow_quickedit": false,
-                                    "show_column": false,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "return_format": "id",
                                     "preview_size": "medium",
                                     "library": "all",
@@ -328,6 +345,13 @@
                                     "mime_types": ""
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": false,
+                                    "allow_quickedit": false,
+                                    "show_column": false,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_616e6c0e0088e",
                                     "label": "Dodatkowa klasa",
                                     "name": "class",
@@ -341,12 +365,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": false,
-                                    "allow_quickedit": false,
-                                    "show_column": false,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "default_value": "",
                                     "placeholder": "",
                                     "prepend": "",
@@ -366,6 +384,13 @@
                     "display": "block",
                     "sub_fields": [
                         {
+                            "allow_backendsearch": false,
+                            "show_column_filter": false,
+                            "allow_bulkedit": false,
+                            "allow_quickedit": false,
+                            "show_column": false,
+                            "show_column_weight": 1000,
+                            "show_column_sortable": false,
                             "key": "field_616e8a879f31c",
                             "label": "Grupa",
                             "name": "group",
@@ -379,15 +404,16 @@
                                 "class": "",
                                 "id": ""
                             },
-                            "show_column_filter": false,
-                            "allow_bulkedit": false,
-                            "allow_quickedit": false,
-                            "show_column": false,
-                            "show_column_weight": 1000,
-                            "show_column_sortable": false,
                             "layout": "block",
                             "sub_fields": [
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": false,
+                                    "allow_quickedit": false,
+                                    "show_column": false,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_616e8ae89f31e",
                                     "label": "Intro",
                                     "name": "intro",
@@ -401,12 +427,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": false,
-                                    "allow_quickedit": false,
-                                    "show_column": false,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "default_value": "",
                                     "placeholder": "",
                                     "prepend": "",
@@ -414,6 +434,13 @@
                                     "maxlength": ""
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_616e8ae19f31d",
                                     "label": "Tytuł",
                                     "name": "title",
@@ -427,12 +454,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": 0,
-                                    "allow_quickedit": 0,
-                                    "show_column": 0,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "default_value": "",
                                     "maxlength": "",
                                     "placeholder": "",
@@ -440,6 +461,13 @@
                                     "append": ""
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": 0,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_6532660f2946b",
                                     "label": "Typ nagłówka",
                                     "name": "title_markup",
@@ -453,12 +481,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": 0,
-                                    "allow_bulkedit": 0,
-                                    "allow_quickedit": 0,
-                                    "show_column": 0,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "choices": {
                                         "h1": "h1",
                                         "h2": "h2",
@@ -475,6 +497,13 @@
                                     "layout": "horizontal"
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": false,
+                                    "allow_quickedit": false,
+                                    "show_column": false,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_6297535881f7d",
                                     "label": "Opis",
                                     "name": "desc",
@@ -488,12 +517,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": false,
-                                    "allow_quickedit": false,
-                                    "show_column": false,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "default_value": "",
                                     "placeholder": "",
                                     "maxlength": "",
@@ -501,6 +524,13 @@
                                     "new_lines": ""
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": false,
+                                    "allow_quickedit": false,
+                                    "show_column": false,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_616e8af49f31f",
                                     "label": "Infografiki",
                                     "name": "icons",
@@ -514,12 +544,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": false,
-                                    "allow_quickedit": false,
-                                    "show_column": false,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "collapsed": "",
                                     "min": 0,
                                     "max": 0,
@@ -528,6 +552,13 @@
                                     "rows_per_page": 20,
                                     "sub_fields": [
                                         {
+                                            "allow_backendsearch": false,
+                                            "show_column_filter": false,
+                                            "allow_bulkedit": false,
+                                            "allow_quickedit": false,
+                                            "show_column": false,
+                                            "show_column_weight": 1000,
+                                            "show_column_sortable": false,
                                             "key": "field_616e8b489f320",
                                             "label": "Ikona",
                                             "name": "icon",
@@ -541,12 +572,6 @@
                                                 "class": "",
                                                 "id": ""
                                             },
-                                            "show_column_filter": false,
-                                            "allow_bulkedit": false,
-                                            "allow_quickedit": false,
-                                            "show_column": false,
-                                            "show_column_weight": 1000,
-                                            "show_column_sortable": false,
                                             "return_format": "id",
                                             "preview_size": "medium",
                                             "library": "all",
@@ -560,6 +585,13 @@
                                             "parent_repeater": "field_616e8af49f31f"
                                         },
                                         {
+                                            "allow_backendsearch": false,
+                                            "show_column_filter": false,
+                                            "allow_bulkedit": false,
+                                            "allow_quickedit": false,
+                                            "show_column": false,
+                                            "show_column_weight": 1000,
+                                            "show_column_sortable": false,
                                             "key": "field_616e8b659f321",
                                             "label": "Tytuł",
                                             "name": "title",
@@ -573,12 +605,6 @@
                                                 "class": "",
                                                 "id": ""
                                             },
-                                            "show_column_filter": false,
-                                            "allow_bulkedit": false,
-                                            "allow_quickedit": false,
-                                            "show_column": false,
-                                            "show_column_weight": 1000,
-                                            "show_column_sortable": false,
                                             "default_value": "",
                                             "placeholder": "",
                                             "prepend": "",
@@ -587,6 +613,13 @@
                                             "parent_repeater": "field_616e8af49f31f"
                                         },
                                         {
+                                            "allow_backendsearch": false,
+                                            "show_column_filter": false,
+                                            "allow_bulkedit": false,
+                                            "allow_quickedit": false,
+                                            "show_column": false,
+                                            "show_column_weight": 1000,
+                                            "show_column_sortable": false,
                                             "key": "field_616e8b719f322",
                                             "label": "Krótki opis",
                                             "name": "desc",
@@ -600,12 +633,6 @@
                                                 "class": "",
                                                 "id": ""
                                             },
-                                            "show_column_filter": false,
-                                            "allow_bulkedit": false,
-                                            "allow_quickedit": false,
-                                            "show_column": false,
-                                            "show_column_weight": 1000,
-                                            "show_column_sortable": false,
                                             "default_value": "",
                                             "placeholder": "",
                                             "maxlength": "",
@@ -616,6 +643,13 @@
                                     ]
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": false,
+                                    "allow_quickedit": false,
+                                    "show_column": false,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_616e8c3a9f325",
                                     "label": "Przyciski",
                                     "name": "btns",
@@ -629,12 +663,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": false,
-                                    "allow_quickedit": false,
-                                    "show_column": false,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "choices": {
                                         "no": "Nie",
                                         "yes": "Tak"
@@ -647,6 +675,13 @@
                                     "save_other_choice": 0
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": false,
+                                    "allow_quickedit": false,
+                                    "show_column": false,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_616e8ba59f323",
                                     "label": "Przycisk 1",
                                     "name": "link",
@@ -668,15 +703,16 @@
                                         "class": "",
                                         "id": ""
                                     },
+                                    "return_format": "array"
+                                },
+                                {
+                                    "allow_backendsearch": false,
                                     "show_column_filter": false,
                                     "allow_bulkedit": false,
                                     "allow_quickedit": false,
                                     "show_column": false,
                                     "show_column_weight": 1000,
                                     "show_column_sortable": false,
-                                    "return_format": "array"
-                                },
-                                {
                                     "key": "field_616e8c029f324",
                                     "label": "Przycisk 2",
                                     "name": "link_2",
@@ -698,12 +734,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": false,
-                                    "allow_quickedit": false,
-                                    "show_column": false,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "return_format": "array"
                                 }
                             ]
@@ -719,6 +749,13 @@
                     "display": "block",
                     "sub_fields": [
                         {
+                            "allow_backendsearch": false,
+                            "show_column_filter": false,
+                            "allow_bulkedit": false,
+                            "allow_quickedit": false,
+                            "show_column": false,
+                            "show_column_weight": 1000,
+                            "show_column_sortable": false,
                             "key": "field_611cd21a341a8",
                             "label": "Grupa",
                             "name": "group",
@@ -732,15 +769,16 @@
                                 "class": "",
                                 "id": ""
                             },
-                            "show_column_filter": false,
-                            "allow_bulkedit": false,
-                            "allow_quickedit": false,
-                            "show_column": false,
-                            "show_column_weight": 1000,
-                            "show_column_sortable": false,
                             "layout": "block",
                             "sub_fields": [
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": 0,
                                     "key": "field_6297547182e4d",
                                     "label": "Intro",
                                     "name": "intro",
@@ -754,12 +792,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": 0,
-                                    "allow_quickedit": 0,
-                                    "show_column": 0,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": 0,
                                     "default_value": "",
                                     "placeholder": "",
                                     "prepend": "",
@@ -767,6 +799,13 @@
                                     "maxlength": ""
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_611cd27a341a9",
                                     "label": "Tytuł",
                                     "name": "title",
@@ -780,12 +819,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": 0,
-                                    "allow_quickedit": 0,
-                                    "show_column": 0,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "default_value": "",
                                     "maxlength": "",
                                     "placeholder": "",
@@ -793,6 +826,13 @@
                                     "append": ""
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": 0,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_653263d46ba4e",
                                     "label": "Typ nagłówka",
                                     "name": "title_markup",
@@ -806,12 +846,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": 0,
-                                    "allow_bulkedit": 0,
-                                    "allow_quickedit": 0,
-                                    "show_column": 0,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "choices": {
                                         "h1": "h1",
                                         "h2": "h2",
@@ -828,6 +862,13 @@
                                     "layout": "horizontal"
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": false,
+                                    "allow_quickedit": false,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_611cd287341aa",
                                     "label": "Galeria zdjęć",
                                     "name": "gallery",
@@ -841,12 +882,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": false,
-                                    "allow_quickedit": false,
-                                    "show_column": 0,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "return_format": "id",
                                     "preview_size": "medium",
                                     "insert": "append",
@@ -874,6 +909,13 @@
                     "display": "block",
                     "sub_fields": [
                         {
+                            "allow_backendsearch": false,
+                            "show_column_filter": false,
+                            "allow_bulkedit": false,
+                            "allow_quickedit": false,
+                            "show_column": false,
+                            "show_column_weight": 1000,
+                            "show_column_sortable": false,
                             "key": "field_616ea40f807c8",
                             "label": "Grupa",
                             "name": "group",
@@ -887,15 +929,16 @@
                                 "class": "",
                                 "id": ""
                             },
-                            "show_column_filter": false,
-                            "allow_bulkedit": false,
-                            "allow_quickedit": false,
-                            "show_column": false,
-                            "show_column_weight": 1000,
-                            "show_column_sortable": false,
                             "layout": "block",
                             "sub_fields": [
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": 0,
                                     "key": "field_62975daf25e54",
                                     "label": "Intro",
                                     "name": "intro",
@@ -909,12 +952,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": 0,
-                                    "allow_quickedit": 0,
-                                    "show_column": 0,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": 0,
                                     "default_value": "",
                                     "placeholder": "",
                                     "prepend": "",
@@ -922,6 +959,13 @@
                                     "maxlength": ""
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_616ea42f807c9",
                                     "label": "Tytuł",
                                     "name": "title",
@@ -935,12 +979,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": 0,
-                                    "allow_quickedit": 0,
-                                    "show_column": 0,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "default_value": "",
                                     "maxlength": "",
                                     "placeholder": "",
@@ -948,6 +986,13 @@
                                     "append": ""
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": 0,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_65325f1670d83",
                                     "label": "Typ nagłówka",
                                     "name": "title_markup",
@@ -961,12 +1006,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": 0,
-                                    "allow_bulkedit": 0,
-                                    "allow_quickedit": 0,
-                                    "show_column": 0,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "choices": {
                                         "h1": "h1",
                                         "h2": "h2",
@@ -983,6 +1022,40 @@
                                     "layout": "horizontal"
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": false,
+                                    "allow_quickedit": false,
+                                    "show_column": false,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
+                                    "key": "field_65e81562d58d3",
+                                    "label": "Tekst",
+                                    "name": "text",
+                                    "aria-label": "",
+                                    "type": "wysiwyg",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "tabs": "all",
+                                    "toolbar": "full",
+                                    "media_upload": 1,
+                                    "delay": 0
+                                },
+                                {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": false,
+                                    "allow_quickedit": false,
+                                    "show_column": false,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_616ea442807ca",
                                     "label": "Układ",
                                     "name": "layout",
@@ -996,12 +1069,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": false,
-                                    "allow_quickedit": false,
-                                    "show_column": false,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "choices": {
                                         "list": "Lista",
                                         "carousel": "Karuzela"
@@ -1014,6 +1081,13 @@
                                     "save_other_choice": 0
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": 0,
                                     "key": "field_6310aadadeb1c",
                                     "label": "Typ postu",
                                     "name": "post_type",
@@ -1027,12 +1101,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": 0,
-                                    "allow_quickedit": 0,
-                                    "show_column": 0,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": 0,
                                     "choices": {
                                         "offer": "Stomatologia",
                                         "medicine": "Medycyna estetyczna"
@@ -1045,6 +1113,13 @@
                                     "save_other_choice": 0
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": false,
+                                    "allow_quickedit": false,
+                                    "show_column": false,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_616ea491807cb",
                                     "label": "Przyciski",
                                     "name": "btns",
@@ -1058,12 +1133,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": false,
-                                    "allow_quickedit": false,
-                                    "show_column": false,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "choices": {
                                         "no": "Nie",
                                         "yes": "Tak"
@@ -1076,6 +1145,13 @@
                                     "save_other_choice": 0
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": false,
+                                    "allow_quickedit": false,
+                                    "show_column": false,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_616ea4c4807cc",
                                     "label": "Przycisk 1",
                                     "name": "link",
@@ -1097,15 +1173,16 @@
                                         "class": "",
                                         "id": ""
                                     },
+                                    "return_format": "array"
+                                },
+                                {
+                                    "allow_backendsearch": false,
                                     "show_column_filter": false,
                                     "allow_bulkedit": false,
                                     "allow_quickedit": false,
                                     "show_column": false,
                                     "show_column_weight": 1000,
                                     "show_column_sortable": false,
-                                    "return_format": "array"
-                                },
-                                {
                                     "key": "field_616ea4f7807cd",
                                     "label": "Przycisk 2",
                                     "name": "link_2",
@@ -1127,12 +1204,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": false,
-                                    "allow_quickedit": false,
-                                    "show_column": false,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "return_format": "array"
                                 }
                             ]
@@ -1148,6 +1219,13 @@
                     "display": "block",
                     "sub_fields": [
                         {
+                            "allow_backendsearch": false,
+                            "show_column_filter": false,
+                            "allow_bulkedit": false,
+                            "allow_quickedit": false,
+                            "show_column": false,
+                            "show_column_weight": 1000,
+                            "show_column_sortable": false,
                             "key": "field_616eb6250ea00",
                             "label": "Grupa",
                             "name": "group",
@@ -1161,15 +1239,16 @@
                                 "class": "",
                                 "id": ""
                             },
-                            "show_column_filter": false,
-                            "allow_bulkedit": false,
-                            "allow_quickedit": false,
-                            "show_column": false,
-                            "show_column_weight": 1000,
-                            "show_column_sortable": false,
                             "layout": "block",
                             "sub_fields": [
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": 0,
                                     "key": "field_62975dc425e56",
                                     "label": "Intro",
                                     "name": "intro",
@@ -1183,12 +1262,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": 0,
-                                    "allow_quickedit": 0,
-                                    "show_column": 0,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": 0,
                                     "default_value": "",
                                     "placeholder": "",
                                     "prepend": "",
@@ -1196,6 +1269,13 @@
                                     "maxlength": ""
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_616eb6250ea01",
                                     "label": "Tytuł",
                                     "name": "title",
@@ -1209,12 +1289,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": 0,
-                                    "allow_quickedit": 0,
-                                    "show_column": 0,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "default_value": "",
                                     "maxlength": "",
                                     "placeholder": "",
@@ -1222,6 +1296,13 @@
                                     "append": ""
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": 0,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_653263b96ba4d",
                                     "label": "Typ nagłówka",
                                     "name": "title_markup",
@@ -1235,12 +1316,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": 0,
-                                    "allow_bulkedit": 0,
-                                    "allow_quickedit": 0,
-                                    "show_column": 0,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "choices": {
                                         "h1": "h1",
                                         "h2": "h2",
@@ -1257,6 +1332,13 @@
                                     "layout": "horizontal"
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": 0,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_616eb6250ea02",
                                     "label": "Układ",
                                     "name": "layout",
@@ -1270,12 +1352,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": 0,
-                                    "allow_bulkedit": 0,
-                                    "allow_quickedit": 0,
-                                    "show_column": 0,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "choices": {
                                         "list": "Lista",
                                         "list_category": "Lista z podziałem kategorii",
@@ -1289,6 +1365,13 @@
                                     "save_other_choice": 0
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": 0,
                                     "key": "field_616eb6260ea03",
                                     "label": "Przyciski",
                                     "name": "btns",
@@ -1302,12 +1385,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": 0,
-                                    "allow_quickedit": 0,
-                                    "show_column": 0,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": 0,
                                     "choices": {
                                         "no": "Nie",
                                         "yes": "Tak"
@@ -1320,6 +1397,13 @@
                                     "return_format": "value"
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_616eb6260ea04",
                                     "label": "Przycisk 1",
                                     "name": "link",
@@ -1341,15 +1425,16 @@
                                         "class": "",
                                         "id": ""
                                     },
+                                    "return_format": "array"
+                                },
+                                {
+                                    "allow_backendsearch": false,
                                     "show_column_filter": false,
                                     "allow_bulkedit": 0,
                                     "allow_quickedit": 0,
                                     "show_column": 0,
                                     "show_column_weight": 1000,
                                     "show_column_sortable": false,
-                                    "return_format": "array"
-                                },
-                                {
                                     "key": "field_616eb6260ea05",
                                     "label": "Przycisk 2",
                                     "name": "link_2",
@@ -1371,12 +1456,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": 0,
-                                    "allow_quickedit": 0,
-                                    "show_column": 0,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "return_format": "array"
                                 }
                             ]
@@ -1392,6 +1471,13 @@
                     "display": "block",
                     "sub_fields": [
                         {
+                            "allow_backendsearch": false,
+                            "show_column_filter": false,
+                            "allow_bulkedit": false,
+                            "allow_quickedit": false,
+                            "show_column": false,
+                            "show_column_weight": 1000,
+                            "show_column_sortable": false,
                             "key": "field_6596bb4a4d185",
                             "label": "Grupa",
                             "name": "group",
@@ -1408,6 +1494,13 @@
                             "layout": "block",
                             "sub_fields": [
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_6596bb4a4d186",
                                     "label": "Intro",
                                     "name": "intro",
@@ -1425,12 +1518,16 @@
                                     "maxlength": "",
                                     "placeholder": "",
                                     "prepend": "",
-                                    "append": "",
-                                    "show_column": 0,
-                                    "allow_quickedit": 0,
-                                    "allow_bulkedit": 0
+                                    "append": ""
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_6596bb4a4d187",
                                     "label": "Tytuł",
                                     "name": "title",
@@ -1448,12 +1545,16 @@
                                     "maxlength": "",
                                     "placeholder": "",
                                     "prepend": "",
-                                    "append": "",
-                                    "show_column": 0,
-                                    "allow_quickedit": 0,
-                                    "allow_bulkedit": 0
+                                    "append": ""
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_6596bb4a4d188",
                                     "label": "Typ nagłówka",
                                     "name": "title_markup",
@@ -1480,12 +1581,16 @@
                                     "default_value": "h2",
                                     "return_format": "value",
                                     "allow_null": 0,
-                                    "layout": "horizontal",
-                                    "show_column": 0,
-                                    "allow_quickedit": 0,
-                                    "allow_bulkedit": 0
+                                    "layout": "horizontal"
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_6596bb4a4d18a",
                                     "label": "Przyciski",
                                     "name": "btns",
@@ -1508,12 +1613,16 @@
                                     "allow_null": 0,
                                     "other_choice": 0,
                                     "layout": "vertical",
-                                    "show_column": 0,
-                                    "allow_quickedit": 0,
-                                    "allow_bulkedit": 0,
                                     "save_other_choice": 0
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_6596bb4a4d18b",
                                     "label": "Przycisk 1",
                                     "name": "link",
@@ -1534,12 +1643,16 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "return_format": "array",
-                                    "show_column": 0,
-                                    "allow_quickedit": 0,
-                                    "allow_bulkedit": 0
+                                    "return_format": "array"
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_6596bb4a4d18c",
                                     "label": "Przycisk 2",
                                     "name": "link_2",
@@ -1560,10 +1673,7 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "return_format": "array",
-                                    "show_column": 0,
-                                    "allow_quickedit": 0,
-                                    "allow_bulkedit": 0
+                                    "return_format": "array"
                                 }
                             ]
                         }
@@ -1578,6 +1688,13 @@
                     "display": "block",
                     "sub_fields": [
                         {
+                            "allow_backendsearch": false,
+                            "show_column_filter": false,
+                            "allow_bulkedit": false,
+                            "allow_quickedit": false,
+                            "show_column": false,
+                            "show_column_weight": 1000,
+                            "show_column_sortable": false,
                             "key": "field_659d23ff94a53",
                             "label": "Grupa",
                             "name": "group",
@@ -1594,6 +1711,13 @@
                             "layout": "block",
                             "sub_fields": [
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_659d245a94a5a",
                                     "label": "Domyślna oferta",
                                     "name": "default_offer",
@@ -1618,9 +1742,6 @@
                                     "return_format": "id",
                                     "multiple": 0,
                                     "allow_null": 0,
-                                    "show_column": 0,
-                                    "allow_quickedit": 0,
-                                    "allow_bulkedit": 0,
                                     "bidirectional": 0,
                                     "ui": 1,
                                     "bidirectional_target": []
@@ -1638,6 +1759,13 @@
                     "display": "block",
                     "sub_fields": [
                         {
+                            "allow_backendsearch": false,
+                            "show_column_filter": false,
+                            "allow_bulkedit": false,
+                            "allow_quickedit": false,
+                            "show_column": false,
+                            "show_column_weight": 1000,
+                            "show_column_sortable": false,
                             "key": "field_6295ce6c5ea11",
                             "label": "Grupa",
                             "name": "group",
@@ -1651,15 +1779,16 @@
                                 "class": "",
                                 "id": ""
                             },
-                            "show_column_filter": false,
-                            "allow_bulkedit": false,
-                            "allow_quickedit": false,
-                            "show_column": false,
-                            "show_column_weight": 1000,
-                            "show_column_sortable": false,
                             "layout": "block",
                             "sub_fields": [
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": false,
+                                    "allow_quickedit": false,
+                                    "show_column": false,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_6295cea45ea12",
                                     "label": "Intro",
                                     "name": "intro",
@@ -1673,12 +1802,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": false,
-                                    "allow_quickedit": false,
-                                    "show_column": false,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "default_value": "",
                                     "placeholder": "",
                                     "prepend": "",
@@ -1686,6 +1809,13 @@
                                     "maxlength": ""
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_6295ceac5ea13",
                                     "label": "Tytuł",
                                     "name": "title",
@@ -1699,12 +1829,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": 0,
-                                    "allow_quickedit": 0,
-                                    "show_column": 0,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "default_value": "",
                                     "maxlength": "",
                                     "placeholder": "",
@@ -1712,6 +1836,13 @@
                                     "append": ""
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": 0,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_65363e67085e8",
                                     "label": "Typ nagłówka",
                                     "name": "title_markup",
@@ -1725,12 +1856,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": 0,
-                                    "allow_bulkedit": 0,
-                                    "allow_quickedit": 0,
-                                    "show_column": 0,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "choices": {
                                         "h1": "h1",
                                         "h2": "h2",
@@ -1747,6 +1872,13 @@
                                     "layout": "horizontal"
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": false,
+                                    "allow_quickedit": false,
+                                    "show_column": false,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_6295ced15ea14",
                                     "label": "Zdjęcie",
                                     "name": "image",
@@ -1760,12 +1892,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": false,
-                                    "allow_quickedit": false,
-                                    "show_column": false,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "return_format": "id",
                                     "preview_size": "medium",
                                     "library": "all",
@@ -1790,6 +1916,13 @@
                     "display": "block",
                     "sub_fields": [
                         {
+                            "allow_backendsearch": false,
+                            "show_column_filter": false,
+                            "allow_bulkedit": false,
+                            "allow_quickedit": false,
+                            "show_column": false,
+                            "show_column_weight": 1000,
+                            "show_column_sortable": false,
                             "key": "field_6295ec84e8783",
                             "label": "Grupa",
                             "name": "group",
@@ -1803,15 +1936,16 @@
                                 "class": "",
                                 "id": ""
                             },
-                            "show_column_filter": false,
-                            "allow_bulkedit": false,
-                            "allow_quickedit": false,
-                            "show_column": false,
-                            "show_column_weight": 1000,
-                            "show_column_sortable": false,
                             "layout": "block",
                             "sub_fields": [
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": false,
+                                    "allow_quickedit": false,
+                                    "show_column": false,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_629858d2d3256",
                                     "label": "Lekarze",
                                     "name": "doctors",
@@ -1825,12 +1959,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": false,
-                                    "allow_quickedit": false,
-                                    "show_column": false,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "collapsed": "",
                                     "min": 0,
                                     "max": 0,
@@ -1839,6 +1967,13 @@
                                     "rows_per_page": 20,
                                     "sub_fields": [
                                         {
+                                            "allow_backendsearch": false,
+                                            "show_column_filter": false,
+                                            "allow_bulkedit": false,
+                                            "allow_quickedit": false,
+                                            "show_column": false,
+                                            "show_column_weight": 1000,
+                                            "show_column_sortable": false,
                                             "key": "field_6295ec91e8784",
                                             "label": "Intro",
                                             "name": "intro",
@@ -1852,12 +1987,6 @@
                                                 "class": "",
                                                 "id": ""
                                             },
-                                            "show_column_filter": false,
-                                            "allow_bulkedit": false,
-                                            "allow_quickedit": false,
-                                            "show_column": false,
-                                            "show_column_weight": 1000,
-                                            "show_column_sortable": false,
                                             "default_value": "",
                                             "placeholder": "",
                                             "prepend": "",
@@ -1866,6 +1995,13 @@
                                             "parent_repeater": "field_629858d2d3256"
                                         },
                                         {
+                                            "allow_backendsearch": false,
+                                            "show_column_filter": false,
+                                            "allow_bulkedit": 0,
+                                            "allow_quickedit": 0,
+                                            "show_column": 0,
+                                            "show_column_weight": 1000,
+                                            "show_column_sortable": false,
                                             "key": "field_6295ec9ce8785",
                                             "label": "Tytuł",
                                             "name": "title",
@@ -1879,12 +2015,6 @@
                                                 "class": "",
                                                 "id": ""
                                             },
-                                            "show_column_filter": false,
-                                            "allow_bulkedit": 0,
-                                            "allow_quickedit": 0,
-                                            "show_column": 0,
-                                            "show_column_weight": 1000,
-                                            "show_column_sortable": false,
                                             "default_value": "",
                                             "maxlength": "",
                                             "placeholder": "",
@@ -1893,6 +2023,13 @@
                                             "parent_repeater": "field_629858d2d3256"
                                         },
                                         {
+                                            "allow_backendsearch": false,
+                                            "show_column_filter": 0,
+                                            "allow_bulkedit": 0,
+                                            "allow_quickedit": 0,
+                                            "show_column": 0,
+                                            "show_column_weight": 1000,
+                                            "show_column_sortable": false,
                                             "key": "field_65363e87085eb",
                                             "label": "Typ nagłówka",
                                             "name": "title_markup",
@@ -1906,12 +2043,6 @@
                                                 "class": "",
                                                 "id": ""
                                             },
-                                            "show_column_filter": 0,
-                                            "allow_bulkedit": 0,
-                                            "allow_quickedit": 0,
-                                            "show_column": 0,
-                                            "show_column_weight": 1000,
-                                            "show_column_sortable": false,
                                             "choices": {
                                                 "h1": "h1",
                                                 "h2": "h2",
@@ -1929,6 +2060,13 @@
                                             "parent_repeater": "field_629858d2d3256"
                                         },
                                         {
+                                            "allow_backendsearch": false,
+                                            "show_column_filter": false,
+                                            "allow_bulkedit": false,
+                                            "allow_quickedit": false,
+                                            "show_column": false,
+                                            "show_column_weight": 1000,
+                                            "show_column_sortable": false,
                                             "key": "field_6295eca5e8786",
                                             "label": "Treść",
                                             "name": "content",
@@ -1942,12 +2080,6 @@
                                                 "class": "",
                                                 "id": ""
                                             },
-                                            "show_column_filter": false,
-                                            "allow_bulkedit": false,
-                                            "allow_quickedit": false,
-                                            "show_column": false,
-                                            "show_column_weight": 1000,
-                                            "show_column_sortable": false,
                                             "default_value": "",
                                             "tabs": "all",
                                             "toolbar": "full",
@@ -1956,6 +2088,13 @@
                                             "parent_repeater": "field_629858d2d3256"
                                         },
                                         {
+                                            "allow_backendsearch": false,
+                                            "show_column_filter": false,
+                                            "allow_bulkedit": false,
+                                            "allow_quickedit": false,
+                                            "show_column": false,
+                                            "show_column_weight": 1000,
+                                            "show_column_sortable": false,
                                             "key": "field_6295f88fec56b",
                                             "label": "Przycisk",
                                             "name": "link",
@@ -1969,16 +2108,17 @@
                                                 "class": "",
                                                 "id": ""
                                             },
+                                            "return_format": "array",
+                                            "parent_repeater": "field_629858d2d3256"
+                                        },
+                                        {
+                                            "allow_backendsearch": false,
                                             "show_column_filter": false,
                                             "allow_bulkedit": false,
                                             "allow_quickedit": false,
                                             "show_column": false,
                                             "show_column_weight": 1000,
                                             "show_column_sortable": false,
-                                            "return_format": "array",
-                                            "parent_repeater": "field_629858d2d3256"
-                                        },
-                                        {
                                             "key": "field_6295edc4e8787",
                                             "label": "Zdjęcie lekarza",
                                             "name": "image",
@@ -1992,12 +2132,6 @@
                                                 "class": "",
                                                 "id": ""
                                             },
-                                            "show_column_filter": false,
-                                            "allow_bulkedit": false,
-                                            "allow_quickedit": false,
-                                            "show_column": false,
-                                            "show_column_weight": 1000,
-                                            "show_column_sortable": false,
                                             "return_format": "id",
                                             "preview_size": "thumbnail",
                                             "library": "all",
@@ -2011,6 +2145,13 @@
                                             "parent_repeater": "field_629858d2d3256"
                                         },
                                         {
+                                            "allow_backendsearch": false,
+                                            "show_column_filter": false,
+                                            "allow_bulkedit": false,
+                                            "allow_quickedit": false,
+                                            "show_column": false,
+                                            "show_column_weight": 1000,
+                                            "show_column_sortable": false,
                                             "key": "field_62985885d3255",
                                             "label": "Dodać widget \"100% zadowolonych pacjentów\"",
                                             "name": "zl",
@@ -2024,12 +2165,6 @@
                                                 "class": "",
                                                 "id": ""
                                             },
-                                            "show_column_filter": false,
-                                            "allow_bulkedit": false,
-                                            "allow_quickedit": false,
-                                            "show_column": false,
-                                            "show_column_weight": 1000,
-                                            "show_column_sortable": false,
                                             "message": "",
                                             "default_value": 0,
                                             "ui": 0,
@@ -2052,6 +2187,13 @@
                     "display": "block",
                     "sub_fields": [
                         {
+                            "allow_backendsearch": false,
+                            "show_column_filter": false,
+                            "allow_bulkedit": false,
+                            "allow_quickedit": false,
+                            "show_column": false,
+                            "show_column_weight": 1000,
+                            "show_column_sortable": false,
                             "key": "field_6295fdfc6fdb0",
                             "label": "Grupa",
                             "name": "group",
@@ -2065,15 +2207,16 @@
                                 "class": "",
                                 "id": ""
                             },
-                            "show_column_filter": false,
-                            "allow_bulkedit": false,
-                            "allow_quickedit": false,
-                            "show_column": false,
-                            "show_column_weight": 1000,
-                            "show_column_sortable": false,
                             "layout": "block",
                             "sub_fields": [
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": false,
+                                    "allow_quickedit": false,
+                                    "show_column": false,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_6295fe0f6fdb1",
                                     "label": "Intro",
                                     "name": "intro",
@@ -2087,12 +2230,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": false,
-                                    "allow_quickedit": false,
-                                    "show_column": false,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "default_value": "",
                                     "placeholder": "",
                                     "prepend": "",
@@ -2100,6 +2237,13 @@
                                     "maxlength": ""
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_6295fe136fdb2",
                                     "label": "Tytuł",
                                     "name": "title",
@@ -2113,12 +2257,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": 0,
-                                    "allow_quickedit": 0,
-                                    "show_column": 0,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "default_value": "",
                                     "maxlength": "",
                                     "placeholder": "",
@@ -2126,6 +2264,13 @@
                                     "append": ""
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": 0,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_65363e83085ea",
                                     "label": "Typ nagłówka",
                                     "name": "title_markup",
@@ -2139,12 +2284,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": 0,
-                                    "allow_bulkedit": 0,
-                                    "allow_quickedit": 0,
-                                    "show_column": 0,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "choices": {
                                         "h1": "h1",
                                         "h2": "h2",
@@ -2161,6 +2300,13 @@
                                     "layout": "horizontal"
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": false,
+                                    "allow_quickedit": false,
+                                    "show_column": false,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_6295fe206fdb3",
                                     "label": "Treść",
                                     "name": "content",
@@ -2174,12 +2320,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": false,
-                                    "allow_quickedit": false,
-                                    "show_column": false,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "default_value": "",
                                     "tabs": "all",
                                     "toolbar": "full",
@@ -2187,6 +2327,13 @@
                                     "delay": 0
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": false,
+                                    "allow_quickedit": false,
+                                    "show_column": false,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_6298606e20d5b",
                                     "label": "Wyświetlić karuzelę cen?",
                                     "name": "display_pricelist",
@@ -2200,12 +2347,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": false,
-                                    "allow_quickedit": false,
-                                    "show_column": false,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "message": "",
                                     "default_value": 0,
                                     "ui": 0,
@@ -2225,6 +2366,13 @@
                     "display": "block",
                     "sub_fields": [
                         {
+                            "allow_backendsearch": false,
+                            "show_column_filter": false,
+                            "allow_bulkedit": false,
+                            "allow_quickedit": false,
+                            "show_column": false,
+                            "show_column_weight": 1000,
+                            "show_column_sortable": false,
                             "key": "field_62961bfa68ea8",
                             "label": "Grupa",
                             "name": "group",
@@ -2238,15 +2386,16 @@
                                 "class": "",
                                 "id": ""
                             },
-                            "show_column_filter": false,
-                            "allow_bulkedit": false,
-                            "allow_quickedit": false,
-                            "show_column": false,
-                            "show_column_weight": 1000,
-                            "show_column_sortable": false,
                             "layout": "block",
                             "sub_fields": [
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": false,
+                                    "allow_quickedit": false,
+                                    "show_column": false,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_62961c1768ea9",
                                     "label": "Intro",
                                     "name": "intro",
@@ -2260,12 +2409,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": false,
-                                    "allow_quickedit": false,
-                                    "show_column": false,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "default_value": "",
                                     "placeholder": "",
                                     "prepend": "",
@@ -2273,6 +2416,13 @@
                                     "maxlength": ""
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_62961c1e68eaa",
                                     "label": "Tytuł",
                                     "name": "title",
@@ -2286,12 +2436,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": 0,
-                                    "allow_quickedit": 0,
-                                    "show_column": 0,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "default_value": "",
                                     "maxlength": "",
                                     "placeholder": "",
@@ -2299,6 +2443,13 @@
                                     "append": ""
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": 0,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_65363e7a085e9",
                                     "label": "Typ nagłówka",
                                     "name": "title_markup",
@@ -2312,12 +2463,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": 0,
-                                    "allow_bulkedit": 0,
-                                    "allow_quickedit": 0,
-                                    "show_column": 0,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "choices": {
                                         "h1": "h1",
                                         "h2": "h2",
@@ -2334,6 +2479,13 @@
                                     "layout": "horizontal"
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": false,
+                                    "allow_quickedit": false,
+                                    "show_column": false,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_62961c2668eab",
                                     "label": "Info",
                                     "name": "",
@@ -2347,12 +2499,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": false,
-                                    "allow_quickedit": false,
-                                    "show_column": false,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "message": "Cennik pobierany z zakładki \"Cennik\" na edycji tej strony",
                                     "new_lines": "wpautop",
                                     "esc_html": 0
@@ -2370,6 +2516,13 @@
                     "display": "block",
                     "sub_fields": [
                         {
+                            "allow_backendsearch": false,
+                            "show_column_filter": false,
+                            "allow_bulkedit": false,
+                            "allow_quickedit": false,
+                            "show_column": false,
+                            "show_column_weight": 1000,
+                            "show_column_sortable": false,
                             "key": "field_6297127796ea6",
                             "label": "Grupa",
                             "name": "group",
@@ -2383,15 +2536,16 @@
                                 "class": "",
                                 "id": ""
                             },
-                            "show_column_filter": false,
-                            "allow_bulkedit": false,
-                            "allow_quickedit": false,
-                            "show_column": false,
-                            "show_column_weight": 1000,
-                            "show_column_sortable": false,
                             "layout": "block",
                             "sub_fields": [
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": 0,
                                     "key": "field_6297127796ea7",
                                     "label": "Intro",
                                     "name": "intro",
@@ -2405,12 +2559,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": 0,
-                                    "allow_quickedit": 0,
-                                    "show_column": 0,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": 0,
                                     "default_value": "",
                                     "placeholder": "",
                                     "prepend": "",
@@ -2418,6 +2566,13 @@
                                     "maxlength": ""
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_6297127796ea8",
                                     "label": "Tytuł",
                                     "name": "title",
@@ -2431,12 +2586,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": 0,
-                                    "allow_quickedit": 0,
-                                    "show_column": 0,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "default_value": "",
                                     "maxlength": "",
                                     "placeholder": "",
@@ -2444,6 +2593,13 @@
                                     "append": ""
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": 0,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_65363f1a085ec",
                                     "label": "Typ nagłówka",
                                     "name": "title_markup",
@@ -2457,12 +2613,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": 0,
-                                    "allow_bulkedit": 0,
-                                    "allow_quickedit": 0,
-                                    "show_column": 0,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "choices": {
                                         "h1": "h1",
                                         "h2": "h2",
@@ -2479,6 +2629,13 @@
                                     "layout": "horizontal"
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": 0,
                                     "key": "field_6297127796ea9",
                                     "label": "Rodzaj opinii",
                                     "name": "source",
@@ -2492,12 +2649,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": 0,
-                                    "allow_quickedit": 0,
-                                    "show_column": 0,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": 0,
                                     "choices": {
                                         "own": "Dedykowane pod LP",
                                         "global": "Globalne - z zakładki 314 Theme"
@@ -2510,6 +2661,13 @@
                                     "save_other_choice": 0
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": false,
+                                    "allow_quickedit": false,
+                                    "show_column": false,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_6297155696eaa",
                                     "label": "Opinie",
                                     "name": "testimonials",
@@ -2531,12 +2689,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": false,
-                                    "allow_quickedit": false,
-                                    "show_column": false,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "collapsed": "",
                                     "min": 0,
                                     "max": 0,
@@ -2545,6 +2697,13 @@
                                     "rows_per_page": 20,
                                     "sub_fields": [
                                         {
+                                            "allow_backendsearch": false,
+                                            "show_column_filter": false,
+                                            "allow_bulkedit": false,
+                                            "allow_quickedit": false,
+                                            "show_column": false,
+                                            "show_column_weight": 1000,
+                                            "show_column_sortable": false,
                                             "key": "field_6297156596eab",
                                             "label": "Opinia",
                                             "name": "testimonial",
@@ -2558,12 +2717,6 @@
                                                 "class": "",
                                                 "id": ""
                                             },
-                                            "show_column_filter": false,
-                                            "allow_bulkedit": false,
-                                            "allow_quickedit": false,
-                                            "show_column": false,
-                                            "show_column_weight": 1000,
-                                            "show_column_sortable": false,
                                             "default_value": "",
                                             "placeholder": "",
                                             "maxlength": "",
@@ -2572,6 +2725,13 @@
                                             "parent_repeater": "field_6297155696eaa"
                                         },
                                         {
+                                            "allow_backendsearch": false,
+                                            "show_column_filter": false,
+                                            "allow_bulkedit": false,
+                                            "allow_quickedit": false,
+                                            "show_column": false,
+                                            "show_column_weight": 1000,
+                                            "show_column_sortable": false,
                                             "key": "field_6297157a96eac",
                                             "label": "Autor",
                                             "name": "author",
@@ -2585,12 +2745,6 @@
                                                 "class": "",
                                                 "id": ""
                                             },
-                                            "show_column_filter": false,
-                                            "allow_bulkedit": false,
-                                            "allow_quickedit": false,
-                                            "show_column": false,
-                                            "show_column_weight": 1000,
-                                            "show_column_sortable": false,
                                             "default_value": "",
                                             "placeholder": "",
                                             "prepend": "",
@@ -2601,6 +2755,13 @@
                                     ]
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": 0,
                                     "key": "field_62972a9c0d95f",
                                     "label": "Źródło opinii",
                                     "name": "source_2",
@@ -2614,12 +2775,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": 0,
-                                    "allow_quickedit": 0,
-                                    "show_column": 0,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": 0,
                                     "default_value": "",
                                     "placeholder": "",
                                     "prepend": "",
@@ -2639,6 +2794,13 @@
                     "display": "block",
                     "sub_fields": [
                         {
+                            "allow_backendsearch": false,
+                            "show_column_filter": false,
+                            "allow_bulkedit": false,
+                            "allow_quickedit": false,
+                            "show_column": false,
+                            "show_column_weight": 1000,
+                            "show_column_sortable": false,
                             "key": "field_6536409d31309",
                             "label": "Grupa",
                             "name": "group",
@@ -2652,15 +2814,16 @@
                                 "class": "",
                                 "id": ""
                             },
-                            "show_column_filter": false,
-                            "allow_bulkedit": false,
-                            "allow_quickedit": false,
-                            "show_column": false,
-                            "show_column_weight": 1000,
-                            "show_column_sortable": false,
                             "layout": "block",
                             "sub_fields": [
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": 0,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_65363fdcd466a",
                                     "label": "Typ nagłówka",
                                     "name": "title_markup",
@@ -2674,12 +2837,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": 0,
-                                    "allow_bulkedit": 0,
-                                    "allow_quickedit": 0,
-                                    "show_column": 0,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "choices": {
                                         "h1": "h1",
                                         "h2": "h2",
@@ -2696,6 +2853,13 @@
                                     "layout": "horizontal"
                                 },
                                 {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": false,
+                                    "allow_quickedit": false,
+                                    "show_column": false,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
                                     "key": "field_62972f4902b6d",
                                     "label": "Info",
                                     "name": "",
@@ -2709,12 +2873,6 @@
                                         "class": "",
                                         "id": ""
                                     },
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": false,
-                                    "allow_quickedit": false,
-                                    "show_column": false,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
                                     "message": "Dane pobierane są z zakładek \"314 Theme\" oraz z zakładki \"Formularz\" w edycji tej podstrony",
                                     "new_lines": "wpautop",
                                     "esc_html": 0
@@ -2758,5 +2916,6 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1706608222
+    "qef_simple_location_rules": 0,
+    "modified": 1709708667
 }
