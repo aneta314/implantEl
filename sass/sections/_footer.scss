@@ -1,13 +1,43 @@
+.sub-footer {
+  position: relative;
+  background-color: $gray;
+  padding: 4rem 0;
+  &::after {
+    content: url(../img/after2.png);
+    display: inline;
+    height: 361px;
+    //width: 416px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  &__headline {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  ul {
+    li {
+      list-style: disc;
+      font-size: 16px;
+      color: $primary;
+      line-height: 1.5rem;
+    }
+  }
+}
+
 .footer {
-  background-color: $primary-darkest;
+  background-color: #fff;
 
   p {
-    color: #fff;
+    color: $font-color-base;
     text-align: center;
     margin-bottom: 16px;
 
     a {
       color: $primary-light;
     }
+  }
+  .footer-flex {
+    justify-content: space-between;
   }
 }

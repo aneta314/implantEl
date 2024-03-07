@@ -1,5 +1,4 @@
 .wpcf7 {
-
   // chrome autocomplete highlight fix
   input:-webkit-autofill,
   input:-webkit-autofill:hover,
@@ -8,20 +7,22 @@
     transition: background-color 5000s ease-in-out 0s;
   }
   // BASIC INPUTS
-  input:not([type='checkbox']), textarea, select {
+  input:not([type="checkbox"]),
+  textarea,
+  select {
     font-family: $font-family;
     font-size: 16px;
-    color: $primary;
+    color: $primary-lighter;
     background-color: transparent;
-    padding: 12px 0 4px;
+    padding: 12px 0 4px 14px;
     margin-bottom: 16px;
     width: 100%;
-    border: none;
-    border-bottom: 1px solid $primary-lighter;
-    border-radius: 0;
+    border: 2px solid $gray;
+    border-radius: 40px;
+    height: 52px;
 
     &::placeholder {
-      color: $primary;
+      color: $primary-lighter;
     }
 
     &:focus {
@@ -38,8 +39,8 @@
   }
 
   // CHECKBOX
-  input[type='checkbox'] {
-    -webkit-appearance:checkbox;
+  input[type="checkbox"] {
+    -webkit-appearance: checkbox;
     margin-right: 10px;
     min-width: 12px;
   }
@@ -51,7 +52,8 @@
     background-position: right 50%;
     background-repeat: no-repeat;
     background-image: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" style="opacity: .6" version="1"><path d="M4 8L0 4h8z"/></svg>');
-    border-radius: 0%;
+    border-radius: 40px;
+    padding: 14px 15px;
 
     &:focus {
       box-shadow: none;
@@ -61,10 +63,9 @@
 
   // TEXTAREA
   textarea {
-    height: 46px;
+    height: 52px;
     margin-bottom: 12px;
   }
-
 
   // ACCEPTANCE
   .wpcf7-acceptance {
@@ -93,7 +94,6 @@
     }
   }
 
-
   // SUBMIT
   button[type="submit"],
   input[type="submit"] {
@@ -114,7 +114,6 @@
       color: #fff;
     }
   }
-
 
   // AJAX LOADER
   .ajax-loader {
@@ -143,12 +142,11 @@
     line-height: 1.5;
     margin-top: 32px !important;
   }
-
-
 }
 
 // ERROR - STATUS INFO
-.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output {
+.wpcf7 form.invalid .wpcf7-response-output,
+.wpcf7 form.unaccepted .wpcf7-response-output {
   border: 1px solid $red;
   color: $red;
 }

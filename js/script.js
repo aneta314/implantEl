@@ -284,7 +284,7 @@ jQuery(document).ready(function ($) {
       paginationSpeed: 400,
       items: 3,
       loop: true,
-      //dots: true,
+      dots: false,
       autoplay: false,
       autoplayHoverPause: true,
       smartSpeed: 500,

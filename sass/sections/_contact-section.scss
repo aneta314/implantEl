@@ -1,0 +1,21 @@
+#contact-section {
+  position: relative;
+  top: -11rem;
+
+  .container--contact {
+    max-width: 1246px;
+    .standard-format {
+      p {
+        a {
+          text-decoration: none;
+          color: $font-color-base;
+        }
+      }
+    }
+  }
+  .contact {
+    &__image {
+      border-radius: 155px;
+    }
+  }
+}

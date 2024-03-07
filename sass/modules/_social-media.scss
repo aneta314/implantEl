@@ -30,6 +30,9 @@
 
   .social-media {
     display: none;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
 
     @include min992 {
       display: -webkit-flex;
@@ -48,6 +51,14 @@
 
     &__item {
       margin: 2px 0;
+    }
+    .intro-line {
+      writing-mode: vertical-lr;
+      transform: rotate(180deg);
+      width: 32px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
 }
