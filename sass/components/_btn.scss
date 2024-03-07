@@ -5,7 +5,7 @@
   background: linear-gradient(
     90deg,
     rgba(149, 190, 90, 1) 0%,
-    rgba(59, 105, 69, 1) 50%
+    rgba(59, 105, 69, 1) 100%
   );
   //border: 1px solid $primary;
   border-radius: 20px;
@@ -27,7 +27,8 @@
     border: 1px solid $primary;
     border-radius: 20px;
     color: $primary;
-    background-color: rgba(255, 255, 255, 0.5);
+    background: #fff;
+    //background-color: rgba(255, 255, 255, 0.5);
     &::after {
       content: "\f006";
       font-family: "fontello";

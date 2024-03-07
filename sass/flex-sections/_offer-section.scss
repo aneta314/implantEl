@@ -1,4 +1,14 @@
 .offer-section {
+  position: relative;
+  &::before {
+    content: url(../img/before1.png);
+    display: inline;
+    height: auto;
+    width: 316px;
+    position: absolute;
+    top: -12rem;
+    left: 6px;
+  }
   .row {
     justify-content: space-between;
     &--carousel {

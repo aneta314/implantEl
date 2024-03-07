@@ -35,3 +35,28 @@
     left: 19rem;
   }
 }
+
+.hp-team-section {
+  position: relative;
+  &::after {
+    content: url(../img/after1.png);
+    display: inline;
+    height: auto;
+    width: 416px;
+    position: absolute;
+    right: -19.5rem;
+    top: 0;
+  }
+}
+
+.hp-cta-section {
+  padding: 8rem 0;
+  .col-lg-7 {
+    position: absolute;
+    max-width: 1364px !important;
+    height: auto;
+    img {
+      width: 100%;
+    }
+  }
+}

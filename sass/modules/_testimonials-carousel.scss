@@ -15,10 +15,10 @@
 
 .owl-testimonials {
   padding-bottom: 24px;
-  margin-bottom: 48px;
 
   .owl-nav {
-    button.owl-prev, button.owl-next {
+    button.owl-prev,
+    button.owl-next {
       top: 30%;
     }
   }
@@ -29,6 +29,32 @@
     .owl-dot {
       &.active {
         background-color: $primary-light;
+      }
+    }
+  }
+  .owl-item {
+    .item {
+      .testimonial {
+        background-color: #fff;
+        padding: 2rem 1.5rem 1rem;
+        &__shortened {
+          text-align: left;
+        }
+        &__content {
+          text-align: left;
+        }
+        &__author {
+          text-align: right;
+        }
+        &__related-offer {
+          background-color: $gray;
+          .taxonomy {
+            &__name {
+              color: $primary;
+              font-size: 20px;
+            }
+          }
+        }
       }
     }
   }

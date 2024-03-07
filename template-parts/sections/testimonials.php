@@ -1,4 +1,5 @@
-<?php 
+<?php
+
 /**
  * Testimonials section
  * 
@@ -21,13 +22,8 @@ $testimonilas_group = get_field('testimonials_group', 'options');  ?>
     get_template_part('template-parts/modules/testimonials-carousel', null, array('testimonials' => $testimonilas_group['testimonials'])); ?>
 
     <div class="testimonials__share">
-      <p><?php pi_e('Dodaj opinię:', 'pi'); ?>  </p>
-
-      <div class="d-flex justify-content-center">
-        <a href="<?php echo $testimonilas_group['google']; ?>" target="_blank" class="testimonials__share__item"><i class="icon-google"></i></a>
-        <br>
-        <a href="<?php echo $testimonilas_group['facebook']; ?>" target="_blank" class="testimonials__share__item"><i class="icon-facebook"></i></a>
-      </div>
+      <a href="<?php echo $testimonilas_group['google']; ?>" target="_blank" class="btn"><?php pi_e('Dodaj opinię Google', 'pi'); ?> </a>
+      <a href="<?php echo $testimonilas_group['facebook']; ?>" target="_blank" class="btn"><?php pi_e('Dodaj opinię Facebook', 'pi'); ?> </a>
     </div>
 
   </div>

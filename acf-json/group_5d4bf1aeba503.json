@@ -3,6 +3,13 @@
     "title": "314 Theme",
     "fields": [
         {
+            "allow_backendsearch": false,
+            "show_column_filter": false,
+            "allow_bulkedit": false,
+            "allow_quickedit": false,
+            "show_column": false,
+            "show_column_weight": 1000,
+            "show_column_sortable": false,
             "key": "field_5d56854c1085e",
             "label": "Identyfikacja graficzna",
             "name": "",
@@ -20,6 +27,13 @@
             "endpoint": 0
         },
         {
+            "allow_backendsearch": false,
+            "show_column_filter": false,
+            "allow_bulkedit": false,
+            "allow_quickedit": false,
+            "show_column": false,
+            "show_column_weight": 1000,
+            "show_column_sortable": false,
             "key": "field_5d4bf1ca2072f",
             "label": "Logo",
             "name": "logo",
@@ -45,6 +59,13 @@
             "mime_types": ""
         },
         {
+            "allow_backendsearch": false,
+            "show_column_filter": false,
+            "allow_bulkedit": false,
+            "allow_quickedit": false,
+            "show_column": false,
+            "show_column_weight": 1000,
+            "show_column_sortable": false,
             "key": "field_5d56855a1085f",
             "label": "Dane kontaktowe",
             "name": "",
@@ -62,6 +83,13 @@
             "endpoint": 0
         },
         {
+            "allow_backendsearch": false,
+            "show_column_filter": false,
+            "allow_bulkedit": false,
+            "allow_quickedit": false,
+            "show_column": false,
+            "show_column_weight": 1000,
+            "show_column_sortable": false,
             "key": "field_611e1959b71c9",
             "label": "Grupa",
             "name": "contact_group",
@@ -78,6 +106,13 @@
             "layout": "block",
             "sub_fields": [
                 {
+                    "allow_backendsearch": false,
+                    "show_column_filter": false,
+                    "allow_bulkedit": false,
+                    "allow_quickedit": false,
+                    "show_column": false,
+                    "show_column_weight": 1000,
+                    "show_column_sortable": false,
                     "key": "field_5d9da02d04f4a",
                     "label": "Miasto",
                     "name": "city",
@@ -98,6 +133,13 @@
                     "maxlength": ""
                 },
                 {
+                    "allow_backendsearch": false,
+                    "show_column_filter": false,
+                    "allow_bulkedit": false,
+                    "allow_quickedit": false,
+                    "show_column": false,
+                    "show_column_weight": 1000,
+                    "show_column_sortable": false,
                     "key": "field_611e19e3eb797",
                     "label": "Kod pocztowy",
                     "name": "city_code",
@@ -118,6 +160,13 @@
                     "maxlength": ""
                 },
                 {
+                    "allow_backendsearch": false,
+                    "show_column_filter": false,
+                    "allow_bulkedit": false,
+                    "allow_quickedit": false,
+                    "show_column": false,
+                    "show_column_weight": 1000,
+                    "show_column_sortable": false,
                     "key": "field_5d9da02504f49",
                     "label": "Ulica",
                     "name": "street",
@@ -138,6 +187,13 @@
                     "maxlength": ""
                 },
                 {
+                    "allow_backendsearch": false,
+                    "show_column_filter": false,
+                    "allow_bulkedit": false,
+                    "allow_quickedit": false,
+                    "show_column": false,
+                    "show_column_weight": 1000,
+                    "show_column_sortable": false,
                     "key": "field_5d5685f656538",
                     "label": "Telefon",
                     "name": "phone",
@@ -158,6 +214,13 @@
                     "maxlength": ""
                 },
                 {
+                    "allow_backendsearch": false,
+                    "show_column_filter": false,
+                    "allow_bulkedit": false,
+                    "allow_quickedit": false,
+                    "show_column": false,
+                    "show_column_weight": 1000,
+                    "show_column_sortable": false,
                     "key": "field_5d56862a5653a",
                     "label": "E-mail",
                     "name": "mail",
@@ -178,6 +241,13 @@
                     "maxlength": ""
                 },
                 {
+                    "allow_backendsearch": false,
+                    "show_column_filter": false,
+                    "allow_bulkedit": false,
+                    "allow_quickedit": false,
+                    "show_column": false,
+                    "show_column_weight": 1000,
+                    "show_column_sortable": false,
                     "key": "field_5d56861656539",
                     "label": "Godziny otwarcia",
                     "name": "hours",
@@ -200,6 +270,13 @@
             ]
         },
         {
+            "allow_backendsearch": false,
+            "show_column_filter": false,
+            "allow_bulkedit": 0,
+            "allow_quickedit": 0,
+            "show_column": 0,
+            "show_column_weight": 1000,
+            "show_column_sortable": 0,
             "key": "field_5d5687921bd28",
             "label": "Odnośnik do wizytówki Google",
             "name": "google_map_link",
@@ -214,14 +291,16 @@
                 "id": ""
             },
             "default_value": "",
-            "placeholder": "",
-            "show_column": 0,
-            "show_column_sortable": 0,
-            "show_column_weight": 1000,
-            "allow_quickedit": 0,
-            "allow_bulkedit": 0
+            "placeholder": ""
         },
         {
+            "allow_backendsearch": false,
+            "show_column_filter": false,
+            "allow_bulkedit": false,
+            "allow_quickedit": false,
+            "show_column": false,
+            "show_column_weight": 1000,
+            "show_column_sortable": false,
             "key": "field_611e0feefcd39",
             "label": "Opinie",
             "name": "",
@@ -239,6 +318,13 @@
             "endpoint": 0
         },
         {
+            "allow_backendsearch": false,
+            "show_column_filter": false,
+            "allow_bulkedit": false,
+            "allow_quickedit": false,
+            "show_column": false,
+            "show_column_weight": 1000,
+            "show_column_sortable": false,
             "key": "field_611e10bb4aa71",
             "label": "Grupa",
             "name": "testimonials_group",
@@ -255,6 +341,13 @@
             "layout": "block",
             "sub_fields": [
                 {
+                    "allow_backendsearch": false,
+                    "show_column_filter": false,
+                    "allow_bulkedit": false,
+                    "allow_quickedit": false,
+                    "show_column": false,
+                    "show_column_weight": 1000,
+                    "show_column_sortable": false,
                     "key": "field_611e12775e9a7",
                     "label": "Tytuł",
                     "name": "title",
@@ -275,6 +368,13 @@
                     "maxlength": ""
                 },
                 {
+                    "allow_backendsearch": false,
+                    "show_column_filter": false,
+                    "allow_bulkedit": false,
+                    "allow_quickedit": false,
+                    "show_column": false,
+                    "show_column_weight": 1000,
+                    "show_column_sortable": false,
                     "key": "field_611e10d34aa72",
                     "label": "Opinie",
                     "name": "testimonials",
@@ -296,6 +396,13 @@
                     "rows_per_page": 20,
                     "sub_fields": [
                         {
+                            "allow_backendsearch": false,
+                            "show_column_filter": false,
+                            "allow_bulkedit": false,
+                            "allow_quickedit": false,
+                            "show_column": false,
+                            "show_column_weight": 1000,
+                            "show_column_sortable": false,
                             "key": "field_611e10df4aa73",
                             "label": "Opinia",
                             "name": "testimonial",
@@ -317,6 +424,41 @@
                             "parent_repeater": "field_611e10d34aa72"
                         },
                         {
+                            "allow_backendsearch": 0,
+                            "show_column_filter": false,
+                            "allow_bulkedit": 0,
+                            "allow_quickedit": 0,
+                            "show_column": 0,
+                            "show_column_weight": 1000,
+                            "show_column_sortable": false,
+                            "key": "field_65e92a997601e",
+                            "label": "Skrócona opinia",
+                            "name": "shortened",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_611e10d34aa72"
+                        },
+                        {
+                            "allow_backendsearch": false,
+                            "show_column_filter": false,
+                            "allow_bulkedit": false,
+                            "allow_quickedit": false,
+                            "show_column": false,
+                            "show_column_weight": 1000,
+                            "show_column_sortable": false,
                             "key": "field_611e10e94aa74",
                             "label": "Autor",
                             "name": "author",
@@ -338,6 +480,13 @@
                             "parent_repeater": "field_611e10d34aa72"
                         },
                         {
+                            "allow_backendsearch": false,
+                            "show_column_filter": 0,
+                            "allow_bulkedit": 0,
+                            "allow_quickedit": 0,
+                            "show_column": 0,
+                            "show_column_weight": 1000,
+                            "show_column_sortable": false,
                             "key": "field_659691bbbce18",
                             "label": "Oferta powiązana",
                             "name": "related_offer",
@@ -355,7 +504,7 @@
                             "add_term": 0,
                             "save_terms": 0,
                             "load_terms": 0,
-                            "return_format": "id",
+                            "return_format": "object",
                             "field_type": "checkbox",
                             "bidirectional": 0,
                             "multiple": 0,
@@ -366,6 +515,13 @@
                     ]
                 },
                 {
+                    "allow_backendsearch": false,
+                    "show_column_filter": false,
+                    "allow_bulkedit": false,
+                    "allow_quickedit": false,
+                    "show_column": false,
+                    "show_column_weight": 1000,
+                    "show_column_sortable": false,
                     "key": "field_6153119ef12ee",
                     "label": "URL - dodawanie opinii w Google",
                     "name": "google",
@@ -383,6 +539,13 @@
                     "placeholder": ""
                 },
                 {
+                    "allow_backendsearch": false,
+                    "show_column_filter": false,
+                    "allow_bulkedit": false,
+                    "allow_quickedit": false,
+                    "show_column": false,
+                    "show_column_weight": 1000,
+                    "show_column_sortable": false,
                     "key": "field_615311d9f12ef",
                     "label": "URL - dodawanie opinii na Facebooku",
                     "name": "facebook",
@@ -402,6 +565,13 @@
             ]
         },
         {
+            "allow_backendsearch": false,
+            "show_column_filter": false,
+            "allow_bulkedit": false,
+            "allow_quickedit": false,
+            "show_column": false,
+            "show_column_weight": 1000,
+            "show_column_sortable": false,
             "key": "field_5d56a10a5e8f6",
             "label": "Social media",
             "name": "",
@@ -419,6 +589,13 @@
             "endpoint": 0
         },
         {
+            "allow_backendsearch": false,
+            "show_column_filter": false,
+            "allow_bulkedit": false,
+            "allow_quickedit": false,
+            "show_column": false,
+            "show_column_weight": 1000,
+            "show_column_sortable": false,
             "key": "field_616d6474a2d98",
             "label": "Social media",
             "name": "social_media",
@@ -440,6 +617,13 @@
             "rows_per_page": 20,
             "sub_fields": [
                 {
+                    "allow_backendsearch": false,
+                    "show_column_filter": false,
+                    "allow_bulkedit": false,
+                    "allow_quickedit": false,
+                    "show_column": false,
+                    "show_column_weight": 1000,
+                    "show_column_sortable": false,
                     "key": "field_616d6493a2d99",
                     "label": "Medium",
                     "name": "social_media",
@@ -472,6 +656,13 @@
                     "parent_repeater": "field_616d6474a2d98"
                 },
                 {
+                    "allow_backendsearch": false,
+                    "show_column_filter": false,
+                    "allow_bulkedit": false,
+                    "allow_quickedit": false,
+                    "show_column": false,
+                    "show_column_weight": 1000,
+                    "show_column_sortable": false,
                     "key": "field_616d6577a2d9a",
                     "label": "Url",
                     "name": "url",
@@ -492,6 +683,13 @@
             ]
         },
         {
+            "allow_backendsearch": false,
+            "show_column_filter": false,
+            "allow_bulkedit": false,
+            "allow_quickedit": false,
+            "show_column": false,
+            "show_column_weight": 1000,
+            "show_column_sortable": false,
             "key": "field_6310b581b4c7d",
             "label": "Blog",
             "name": "",
@@ -509,6 +707,13 @@
             "endpoint": 0
         },
         {
+            "allow_backendsearch": false,
+            "show_column_filter": false,
+            "allow_bulkedit": false,
+            "allow_quickedit": false,
+            "show_column": false,
+            "show_column_weight": 1000,
+            "show_column_sortable": false,
             "key": "field_6310b58ab4c7e",
             "label": "Krótki opis gabinetu",
             "name": "blog_about",
@@ -529,6 +734,13 @@
             "new_lines": ""
         },
         {
+            "allow_backendsearch": false,
+            "show_column_filter": false,
+            "allow_bulkedit": false,
+            "allow_quickedit": false,
+            "show_column": false,
+            "show_column_weight": 1000,
+            "show_column_sortable": false,
             "key": "field_5d6638c43fb7c",
             "label": "Mapa",
             "name": "",
@@ -546,6 +758,13 @@
             "endpoint": 0
         },
         {
+            "allow_backendsearch": false,
+            "show_column_filter": false,
+            "allow_bulkedit": false,
+            "allow_quickedit": false,
+            "show_column": false,
+            "show_column_weight": 1000,
+            "show_column_sortable": false,
             "key": "field_5d6638d13fb7d",
             "label": "Lokalizacje",
             "name": "lokalizacje",
@@ -567,6 +786,13 @@
             "rows_per_page": 20,
             "sub_fields": [
                 {
+                    "allow_backendsearch": false,
+                    "show_column_filter": false,
+                    "allow_bulkedit": false,
+                    "allow_quickedit": false,
+                    "show_column": false,
+                    "show_column_weight": 1000,
+                    "show_column_sortable": false,
                     "center_lat": 52.187404745599999,
                     "center_lng": 19.698486328125,
                     "zoom": 6,
@@ -595,6 +821,13 @@
             ]
         },
         {
+            "allow_backendsearch": false,
+            "show_column_filter": false,
+            "allow_bulkedit": 0,
+            "allow_quickedit": 0,
+            "show_column": 0,
+            "show_column_weight": 1000,
+            "show_column_sortable": 0,
             "key": "field_61767756d8742",
             "label": "Google Map - wyznacz trasę",
             "name": "google_map_link_2",
@@ -609,14 +842,16 @@
                 "id": ""
             },
             "default_value": "",
-            "placeholder": "",
-            "show_column": 0,
-            "show_column_sortable": 0,
-            "show_column_weight": 1000,
-            "allow_quickedit": 0,
-            "allow_bulkedit": 0
+            "placeholder": ""
         },
         {
+            "allow_backendsearch": false,
+            "show_column_filter": false,
+            "allow_bulkedit": false,
+            "allow_quickedit": false,
+            "show_column": false,
+            "show_column_weight": 1000,
+            "show_column_sortable": false,
             "key": "field_616954bbf8a79",
             "label": "Opcje",
             "name": "",
@@ -634,6 +869,13 @@
             "endpoint": 0
         },
         {
+            "allow_backendsearch": false,
+            "show_column_filter": false,
+            "allow_bulkedit": false,
+            "allow_quickedit": false,
+            "show_column": false,
+            "show_column_weight": 1000,
+            "show_column_sortable": false,
             "key": "field_616954ce22e34",
             "label": "Ukrywaj numery telefonów",
             "name": "hide_phones",
@@ -654,6 +896,13 @@
             "ui_off_text": ""
         },
         {
+            "allow_backendsearch": false,
+            "show_column_filter": false,
+            "allow_bulkedit": 0,
+            "allow_quickedit": 0,
+            "show_column": 0,
+            "show_column_weight": 1000,
+            "show_column_sortable": false,
             "key": "field_652fdb6e4b949",
             "label": "Ukryj opcję zapisywania zdjęć w menu kontekstowym przeglądarki",
             "name": "hide_image_save_option",
@@ -670,13 +919,17 @@
             "message": "Powyższe opcje nie zapobiegają kopiowaniu zawartości, jedynie w nieznacznym stopniu ją utrudniają.",
             "default_value": 0,
             "ui": 0,
-            "show_column": 0,
-            "allow_quickedit": 0,
-            "allow_bulkedit": 0,
             "ui_on_text": "",
             "ui_off_text": ""
         },
         {
+            "allow_backendsearch": false,
+            "show_column_filter": false,
+            "allow_bulkedit": 0,
+            "allow_quickedit": 0,
+            "show_column": 0,
+            "show_column_weight": 1000,
+            "show_column_sortable": false,
             "key": "field_652fdc4b4b94a",
             "label": "Wyłącz możliwość zaznaczania tekstu w przeglądarce",
             "name": "disable_text_select",
@@ -693,13 +946,17 @@
             "message": "Powyższe opcje nie zapobiegają kopiowaniu zawartości, jedynie w nieznacznym stopniu ją utrudniają.",
             "default_value": 0,
             "ui": 0,
-            "show_column": 0,
-            "allow_quickedit": 0,
-            "allow_bulkedit": 0,
             "ui_on_text": "",
             "ui_off_text": ""
         },
         {
+            "allow_backendsearch": false,
+            "show_column_filter": false,
+            "allow_bulkedit": false,
+            "allow_quickedit": false,
+            "show_column": false,
+            "show_column_weight": 1000,
+            "show_column_sortable": false,
             "key": "field_6568697860925",
             "label": "Sortowanie dynamiczne",
             "name": "",
@@ -717,6 +974,13 @@
             "endpoint": 0
         },
         {
+            "allow_backendsearch": false,
+            "show_column_filter": false,
+            "allow_bulkedit": 0,
+            "allow_quickedit": 0,
+            "show_column": 0,
+            "show_column_weight": 1000,
+            "show_column_sortable": false,
             "key": "field_6540d1fdbb644",
             "label": "Typy CPT które będą sortowane dynamicznie (na podstawie relacji ofertowej)",
             "name": "dynamically_sorted_post_types",
@@ -744,13 +1008,17 @@
             "allow_custom": 0,
             "layout": "vertical",
             "toggle": 0,
-            "show_column": 0,
-            "allow_quickedit": 0,
-            "allow_bulkedit": 0,
             "save_custom": 0,
             "custom_choice_button_text": "Dodaj nowy wybór"
         },
         {
+            "allow_backendsearch": false,
+            "show_column_filter": false,
+            "allow_bulkedit": 0,
+            "allow_quickedit": 0,
+            "show_column": 0,
+            "show_column_weight": 1000,
+            "show_column_sortable": false,
             "key": "field_6569a1b04aad7",
             "label": "Typy CPT które do których będzie dopinana relacja ofertowa (bez sortowania)",
             "name": "post_types_with_offer_relationship",
@@ -770,13 +1038,17 @@
             "allow_custom": 0,
             "layout": "vertical",
             "toggle": 0,
-            "show_column": 0,
-            "allow_quickedit": 0,
-            "allow_bulkedit": 0,
             "save_custom": 0,
             "custom_choice_button_text": "Dodaj nowy wybór"
         },
         {
+            "allow_backendsearch": false,
+            "show_column_filter": false,
+            "allow_bulkedit": false,
+            "allow_quickedit": false,
+            "show_column": false,
+            "show_column_weight": 1000,
+            "show_column_sortable": false,
             "key": "field_65267745eebc8",
             "label": "DEBUG",
             "name": "",
@@ -794,6 +1066,13 @@
             "endpoint": 0
         },
         {
+            "allow_backendsearch": false,
+            "show_column_filter": false,
+            "allow_bulkedit": 0,
+            "allow_quickedit": 0,
+            "show_column": 0,
+            "show_column_weight": 1000,
+            "show_column_sortable": false,
             "key": "field_6526771aeebc7",
             "label": "pi_translation_strings",
             "name": "pi_translation_strings",
@@ -812,9 +1091,6 @@
             "rows": "",
             "placeholder": "",
             "new_lines": "",
-            "show_column": 0,
-            "allow_quickedit": 0,
-            "allow_bulkedit": 0,
             "disabled": 1
         }
     ],
@@ -836,5 +1112,6 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1704367427
+    "qef_simple_location_rules": 0,
+    "modified": 1709786938
 }

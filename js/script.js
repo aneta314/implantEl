@@ -282,13 +282,14 @@ jQuery(document).ready(function ($) {
       navText: ["<", ">"],
       slideSpeed: 300,
       paginationSpeed: 400,
-      items: 1,
+      items: 3,
       loop: true,
-      dots: true,
+      //dots: true,
       autoplay: false,
       autoplayHoverPause: true,
       smartSpeed: 500,
       autoplayTimeout: 5000,
+      margin: 30,
       responsive: {
         0: {
           nav: false,

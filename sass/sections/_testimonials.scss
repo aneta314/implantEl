@@ -1,5 +1,15 @@
 .testimonials {
-  background-color: $primary-lightest;
+  background-color: $testimonials;
+  padding-bottom: 20rem;
+  position: relative;
+  &::before {
+    content: url(../img/before3.png);
+    display: inline;
+    height: auto;
+    width: 668px;
+    position: absolute;
+    top: -3rem;
+  }
 
   &__share {
     text-align: center;
