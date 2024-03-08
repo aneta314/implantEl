@@ -14,8 +14,6 @@
 }
 
 .owl-testimonials {
-  padding-bottom: 24px;
-
   .owl-nav {
     button.owl-prev,
     button.owl-next {
@@ -42,12 +40,15 @@
         }
         &__content {
           text-align: left;
+          color: $primary-light;
         }
         &__author {
           text-align: right;
         }
         &__related-offer {
           background-color: $gray;
+          display: flex;
+          padding: 1.5rem 1rem 0;
           .taxonomy {
             &__name {
               color: $primary;

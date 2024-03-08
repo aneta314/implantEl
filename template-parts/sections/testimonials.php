@@ -15,8 +15,8 @@
 $testimonilas_group = get_field('testimonials_group', 'options');  ?>
 <div class="testimonials section-padding section-margin-bottom">
   <div class="container">
-    <h6 class="headline center"><?php echo $testimonilas_group['title']; ?></h6>
-
+    <h2 class="headline center"><?php echo $testimonilas_group['title']; ?></h2>
+    <p class="testimonials__p"><?php pi_e('Zobacz, co o naszym gabinecie piszą Ci, którzy skorzystali z naszych usług', 'pi'); ?></p>
     <!-- TESTIMONIALS CAROUSEL -->
     <?php  //'testimonials' key is a repeater
     get_template_part('template-parts/modules/testimonials-carousel', null, array('testimonials' => $testimonilas_group['testimonials'])); ?>

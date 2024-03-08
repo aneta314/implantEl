@@ -1,0 +1,14 @@
+.text-section-cta {
+  .container-text-section-cta {
+    max-width: 1106px;
+    .row {
+      gap: 21px;
+      position: relative;
+      .col-text {
+        position: absolute;
+        max-width: 63%;
+        left: 27rem;
+      }
+    }
+  }
+}

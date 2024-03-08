@@ -33,6 +33,16 @@
   &--right {
     position: relative;
     left: 19rem;
+    img {
+      position: relative;
+      right: -1rem;
+    }
+  }
+  &--left {
+    img {
+      position: relative;
+      left: -1rem;
+    }
   }
 }
 

@@ -1,15 +1,21 @@
 .sub-footer {
   position: relative;
-  background-color: $gray;
-  padding: 4rem 0;
+  background-color: $sub-footer;
+  padding: 3.4rem 0;
   &::after {
     content: url(../img/after2.png);
     display: inline;
-    height: 361px;
-    //width: 416px;
+    height: 375px;
     position: absolute;
     right: 0;
     top: 0;
+    overflow: hidden;
+  }
+  .row {
+    .col-lg-3,
+    .col-lg-5 {
+      margin-top: 2rem;
+    }
   }
   &__headline {
     font-size: 24px;
@@ -21,6 +27,17 @@
       font-size: 16px;
       color: $primary;
       line-height: 1.5rem;
+    }
+  }
+  &__text {
+    max-width: 75%;
+    margin: 1rem 0;
+  }
+  ul {
+    li {
+      &::marker {
+        color: $font-color-base;
+      }
     }
   }
 }

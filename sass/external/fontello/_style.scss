@@ -1,11 +1,13 @@
 @font-face {
-  font-family: 'icons-font';
-  src: url('../fonts/fontello/font/icons-font.eot?4690817');
-  src: url('../fonts/fontello/font/icons-font.eot?4690817#iefix') format('embedded-opentype'),
-       url('../fonts/fontello/font/icons-font.woff2?4690817') format('woff2'),
-       url('../fonts/fontello/font/icons-font.woff?4690817') format('woff'),
-       url('../fonts/fontello/font/icons-font.ttf?4690817') format('truetype'),
-       url('../fonts/fontello/font/icons-font.svg?4690817#icons-font') format('svg');
+  font-family: "icons-font";
+  src: url("../fonts/fontello/font/icons-font.eot?4690817");
+  src: url("../fonts/fontello/font/icons-font.eot?4690817#iefix")
+      format("embedded-opentype"),
+    url("../fonts/fontello/font/icons-font.woff2?4690817") format("woff2"),
+    url("../fonts/fontello/font/icons-font.woff?4690817") format("woff"),
+    url("../fonts/fontello/font/icons-font.ttf?4690817") format("truetype"),
+    url("../fonts/fontello/font/icons-font.svg?4690817#icons-font")
+      format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -19,7 +21,8 @@
   }
 }
 */
-[class^="icon-"]:before, [class*=" icon-"]:before {
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
   font-family: "icons-font";
   font-style: normal;
   font-weight: normal;
@@ -28,7 +31,7 @@
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
-  margin-right: .2em;
+  margin-right: 0.2em;
   text-align: center;
   /* opacity: .8; */
 
@@ -41,7 +44,7 @@
 
   /* Animation center compensation - margins should be symmetric */
   /* remove if not needed */
-  margin-left: .2em;
+  margin-left: 0.2em;
 
   /* you can be more comfortable with increased icons size */
   /* font-size: 120%; */
@@ -54,21 +57,57 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
-.icon-mail:before { content: '\e800'; } /* '' */
-.icon-close:before { content: '\e801'; } /* '' */
-.icon-phone:before { content: '\e802'; } /* '' */
-.icon-search:before { content: '\e803'; } /* '' */
-.icon-location:before { content: '\e804'; } /* '' */
-.icon-znanylekarz:before { content: '\e805'; } /* '' */
-.icon-info:before { content: '\e806'; } /* '' */
-.icon-twitter:before { content: '\f099'; } /* '' */
-.icon-mail-alt:before { content: '\f0e0'; } /* '' */
-.icon-linkedin:before { content: '\f0e1'; } /* '' */
-.icon-arrow-left:before { content: '\f104'; } /* '' */
-.icon-arrow-right:before { content: '\f105'; } /* '' */
-.icon-arrow-up:before { content: '\f106'; } /* '' */
-.icon-arrow-down:before { content: '\f107'; } /* '' */
-.icon-youtube:before { content: '\f16a'; } /* '' */
-.icon-instagram:before { content: '\f16d'; } /* '' */
-.icon-google:before { content: '\f1a0'; } /* '' */
-.icon-facebook:before { content: '\f30c'; } /* '' */
+.icon-mail:before {
+  content: "\e800";
+} /* '' */
+.icon-close:before {
+  content: "\e801";
+} /* '' */
+.icon-phone:before {
+  content: "\e802";
+} /* '' */
+.icon-search:before {
+  content: "\e803";
+} /* '' */
+.icon-location:before {
+  content: "\e804";
+} /* '' */
+.icon-znanylekarz:before {
+  content: "\e805";
+} /* '' */
+.icon-info:before {
+  content: "\e806";
+} /* '' */
+.icon-twitter:before {
+  content: "\f099";
+} /* '' */
+.icon-mail-alt:before {
+  content: "\f0e0";
+} /* '' */
+.icon-linkedin:before {
+  content: "\f0e1";
+} /* '' */
+.icon-arrow-left:before {
+  content: "\f104";
+} /* '' */
+.icon-arrow-right:before {
+  content: "\f105";
+} /* '' */
+.icon-arrow-up:before {
+  content: "\f106";
+} /* '' */
+.icon-arrow-down:before {
+  content: "\f107";
+} /* '' */
+.icon-youtube:before {
+  content: "\f16a";
+} /* '' */
+.icon-instagram:before {
+  content: "\f16d";
+} /* '' */
+.icon-google:before {
+  content: "\f1a0";
+} /* '' */
+.icon-facebook:before {
+  content: "\f30c";
+} /* '' */

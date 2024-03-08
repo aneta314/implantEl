@@ -43,6 +43,7 @@ if (!is_singular('lp')) : ?>
 																							endif; ?>">
 				</a>
 
+				<p class="sub-footer__text"><?php pi_e('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod facilisis augue, sed efficitur nulla varius vitae. Vestibulum vitae consectetur libero..', 'pi'); ?> </p>
 
 				<!-- SOCIAL MEDIA -->
 				<?php

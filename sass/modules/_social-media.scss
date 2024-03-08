@@ -3,6 +3,7 @@
   display: -ms-flex;
   display: flex;
   flex-wrap: wrap;
+  gap: 0.4rem;
 
   &__item {
     display: -webkit-flex;
@@ -12,14 +13,24 @@
     justify-content: center;
     width: 32px;
     height: 32px;
-    background-color: $primary;
     color: #fff;
-    font-size: 15px;
+    font-size: 20px;
     margin: 8px 4px;
     transition: 0.2s all ease;
 
     &:hover {
       background-color: $primary-dark;
+    }
+    .icon-instagram {
+      font-size: 2rem;
+      &::before {
+        color: $primary;
+      }
+    }
+    .icon-facebook:before {
+      background: #95be5a;
+      padding: 4px 14px;
+      border-radius: 4px;
     }
   }
 }
@@ -41,7 +52,7 @@
       flex-direction: column;
       position: absolute;
       top: 50%;
-      left: 0;
+      left: 1.5rem;
       transform: translateY(-50%);
       z-index: 3;
       width: 62px;

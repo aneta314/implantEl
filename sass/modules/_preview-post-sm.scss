@@ -4,7 +4,7 @@
   align-items: center;
   margin-top: 24px;
   margin-bottom: 8px;
-  transition: .3s all ease;
+  transition: 0.3s all ease;
   user-select: none;
 
   &:first-of-type {
@@ -12,9 +12,8 @@
   }
 
   &:hover {
-    opacity: .8;
+    opacity: 0.8;
   }
-
 
   &__col {
     width: calc(40% - 8px);

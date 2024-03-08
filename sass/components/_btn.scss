@@ -7,7 +7,6 @@
     rgba(149, 190, 90, 1) 0%,
     rgba(59, 105, 69, 1) 100%
   );
-  //border: 1px solid $primary;
   border-radius: 20px;
   line-height: 1.4;
   text-align: center;
@@ -17,25 +16,43 @@
   transition: 0.3s all ease;
   user-select: none;
 
+  &::after {
+    content: "\f105";
+    font-family: "icons-font";
+    position: block;
+    padding-left: 15px;
+    font-weight: 300;
+    font-size: 17px;
+  }
+
   &:hover {
-    background-color: $primary-light;
-    //border: 1px solid $primary-light;
+    background: #fff;
+    border: 1px solid $primary;
+    color: $primary;
+    cursor: pointer;
   }
 
   &--secondary {
     padding: 8px 24px;
     border: 1px solid $primary;
-    border-radius: 20px;
+    border-radius: 25px;
     color: $primary;
-    background: #fff;
-    //background-color: rgba(255, 255, 255, 0.5);
+    background: transparent;
     &::after {
-      content: "\f006";
-      font-family: "fontello";
+      content: "\f105";
+      font-family: "icons-font";
       position: block;
-      padding: 0 20px 0 17px;
+      padding-left: 15px;
       font-weight: 300;
-      font-size: 13px;
+      font-size: 17px;
+    }
+    &:hover {
+      background: linear-gradient(
+        90deg,
+        rgba(149, 190, 90, 1) 0%,
+        rgba(59, 105, 69, 1) 100%
+      );
+      color: #fff;
     }
   }
 

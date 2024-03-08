@@ -44,7 +44,7 @@ if ($hero_group['hero']) : ?>
             <?php
             if ($link) :
               $link_target = $link['target'] ? $link['target'] : '_self'; ?>
-              <a href="<?php echo $link['url']; ?>" class="btn--secondary" target="<?php echo esc_attr($link_target); ?>"><?php echo $link['title']; ?></a>
+              <a href="<?php echo $link['url']; ?>" class="btn--secondary" target="<?php echo esc_attr($link_target); ?>"><?php echo $link['title']; ?></i></a>
             <?php endif; ?>
           </div>
         </div>

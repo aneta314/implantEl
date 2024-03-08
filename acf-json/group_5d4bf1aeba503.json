@@ -570,6 +570,43 @@
                             "allow_null": 0,
                             "bidirectional_target": [],
                             "parent_repeater": "field_611e10d34aa72"
+                        },
+                        {
+                            "allow_backendsearch": false,
+                            "show_column_filter": false,
+                            "allow_bulkedit": false,
+                            "allow_quickedit": false,
+                            "show_column": false,
+                            "show_column_weight": 1000,
+                            "show_column_sortable": false,
+                            "key": "field_65ea942997221",
+                            "label": "Relacja",
+                            "name": "relation",
+                            "aria-label": "",
+                            "type": "relationship",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "post_type": [
+                                "offer"
+                            ],
+                            "post_status": "",
+                            "taxonomy": "",
+                            "filters": [
+                                "search"
+                            ],
+                            "return_format": "id",
+                            "min": "",
+                            "max": "",
+                            "elements": "",
+                            "bidirectional": 0,
+                            "bidirectional_target": [],
+                            "parent_repeater": "field_611e10d34aa72"
                         }
                     ]
                 },
@@ -1172,5 +1209,5 @@
     "description": "",
     "show_in_rest": 0,
     "qef_simple_location_rules": 0,
-    "modified": 1709792434
+    "modified": 1709873060
 }
