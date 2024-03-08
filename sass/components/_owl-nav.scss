@@ -1,5 +1,4 @@
 .owl-carousel {
-
   .owl-nav {
     display: -webkit-flex;
     display: -ms-flex;
@@ -8,13 +7,14 @@
     position: relative;
     z-index: 3;
 
-    button.owl-prev, button.owl-next {
+    button.owl-prev,
+    button.owl-next {
       display: block;
       border: 1px solid $primary-light !important;
       color: $primary-light;
       padding: 4px 10px 8px !important;
       font-size: 22px;
-      transition: .3s all ease;
+      transition: 0.3s all ease;
       margin: 8px;
 
       &:hover {
@@ -22,7 +22,6 @@
       }
     }
   }
-
 
   // ASIDE NAV
   &--aside-nav {
@@ -37,14 +36,14 @@
         margin-top: 0;
       }
 
-
-      button.owl-prev, button.owl-next {
+      button.owl-prev,
+      button.owl-next {
         display: block;
         border: 1px solid $primary-light !important;
         color: $primary-light;
         padding: 4px 10px 8px !important;
         font-size: 22px;
-        transition: .3s all ease;
+        transition: 0.3s all ease;
         margin: 8px;
 
         @include min1360 {
@@ -55,17 +54,22 @@
         }
 
         &:hover {
-          background-color: $primary-lightest;
+          background-color: transparent !important;
         }
-
       }
 
       button.owl-prev {
-        left: -64px;
+        left: -45px;
+        span {
+          font-size: 3rem;
+        }
       }
 
       button.owl-next {
-        right: -64px;
+        right: -45px;
+        span {
+          font-size: 3rem;
+        }
       }
     }
   }

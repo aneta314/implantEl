@@ -47,12 +47,10 @@ $contact_group = get_field('contact_group', 'options'); ?>
           </p>
 
           <!-- HOURS -->
-          <div class="pt-4">
-            <p>
-              <i class="icon-clock"></i>
-              <?php echo $contact_group['hours']; ?>
-            </p>
-          </div>
+          <p>
+            <i class="icon-clock"></i>
+            <?php echo $contact_group['hours']; ?>
+          </p>
 
           <!-- PHONE -->
           <p>

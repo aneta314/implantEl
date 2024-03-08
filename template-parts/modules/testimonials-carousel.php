@@ -14,7 +14,7 @@ $testimonials = $args['testimonials'];
 ?>
 
 <?php if ($testimonials) : ?>
-  <div class="owl-testimonials owl-carousel owl-carousel--aside-nav owl-theme section-margin-bottom">
+  <div class="owl-testimonials owl-carousel owl-carousel--aside-nav owl-theme">
     <?php foreach ($testimonials as $testimonial) :
     ?>
 

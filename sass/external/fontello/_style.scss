@@ -111,3 +111,13 @@
 .icon-facebook:before {
   content: "\f30c";
 } /* '' */
+
+.icon-clock {
+  height: 14px;
+  width: 14px;
+  &::before {
+    content: url("../img/clock.svg");
+    display: inline-block;
+    margin-right: 10px;
+  }
+}

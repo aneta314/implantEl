@@ -11,10 +11,23 @@
         }
       }
     }
+    .col-md-5 {
+      p {
+        margin-bottom: 40px;
+      }
+      .text-right {
+        text-align: right;
+      }
+    }
   }
   .contact {
     &__image {
       border-radius: 155px;
     }
   }
+}
+
+.icon-phone,
+.icon-location {
+  font-size: 1.3rem;
 }

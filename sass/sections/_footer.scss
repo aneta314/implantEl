@@ -1,7 +1,7 @@
 .sub-footer {
   position: relative;
   background-color: $sub-footer;
-  padding: 3.4rem 0;
+  padding: 2.7rem 0;
   &::after {
     content: url(../img/after2.png);
     display: inline;
@@ -31,7 +31,7 @@
   }
   &__text {
     max-width: 75%;
-    margin: 1rem 0;
+    margin: 2rem 0;
   }
   ul {
     li {

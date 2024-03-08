@@ -1,5 +1,7 @@
 .text-section {
   .container {
+    z-index: 1;
+    position: relative;
     .row {
       align-items: center;
       &__photo {
@@ -12,7 +14,7 @@
 .about-us {
   .text-section {
     &__photo {
-      margin-top: -9rem;
+      margin-top: -11rem;
       position: relative;
       z-index: 1;
     }
@@ -29,6 +31,9 @@
         width: 100%;
       }
     }
+    .row {
+      gap: 2rem;
+    }
   }
   &--right {
     position: relative;
@@ -37,11 +42,19 @@
       position: relative;
       right: -1rem;
     }
+    .col-lg-7 {
+      flex: 0 0 66%;
+      max-width: 66%;
+    }
   }
   &--left {
     img {
       position: relative;
       left: -1rem;
+    }
+    .col-lg-7 {
+      flex: 0 0 67.333333%;
+      max-width: 67.333333%;
     }
   }
 }
