@@ -65,29 +65,29 @@ $intro = get_field('dynamic_flex_section_intro', $post_to_display->ID);
 ?>
 <div class="dynamic-single-offer-section section-margin-bottom">
   <div class="container">
-	   <div class="row">
-       <div class="col-lg-5 left-side">
-    <?php
-    // INTRO
-    if ($intro) : ?>
-      <p class="intro"><?php echo $intro; ?></p>
-    <?php
-    endif;
-    // TITLE
-    if ($title) :
-      echo '<' . $markup . ' class="headline">' . $title . '</' . $markup . '>';
-    endif;
-    //display the content. text column will stretch to full width if there's no image column
-    ?>
-   
-      <?php the_field('dynamic_flex_section_text', $post_to_display->ID); ?>
-		<a class="btn" show-popup="#booking-popup"><?php pi_e('Umów wizytę', 'pi'); ?></a>
-      <a class="btn btn--secondary" href="<?php the_permalink($post_to_display->ID); ?>"><?php pi_e('Dowiedz się więcej', 'pi'); ?></a>
-      </div> 
-		   
+    <div class="row">
+      <div class="col-lg-7 col-xl-6 left-side">
+        <?php
+        // INTRO
+        if ($intro) : ?>
+          <p class="intro"><?php echo $intro; ?></p>
+        <?php
+        endif;
+        // TITLE
+        if ($title) :
+          echo '<' . $markup . ' class="headline">' . $title . '</' . $markup . '>';
+        endif;
+        //display the content. text column will stretch to full width if there's no image column
+        ?>
+
+        <?php the_field('dynamic_flex_section_text', $post_to_display->ID); ?>
+        <a class="btn" show-popup="#booking-popup"><?php pi_e('Umów wizytę', 'pi'); ?></a>
+        <a class="btn btn--secondary" href="<?php the_permalink($post_to_display->ID); ?>"><?php pi_e('Dowiedz się więcej', 'pi'); ?></a>
+      </div>
+
       <?php $image_id = get_field('dynamic_flex_section_image', $post_to_display->ID); //image id to display in the dynamic section
       //get the image by the supplied id - if it's not set, fallback to the post thumbnail
-      $image = $image_id ? wp_get_attachment_image($image_id, 'medium_large', false) : get_the_post_thumbnail($post_to_display->ID, 'full', array('title' => get_the_title($post_to_display->ID)));
+      $image = $image_id ? wp_get_attachment_image($image_id, 'hd', false) : get_the_post_thumbnail($post_to_display->ID, 'full', array('title' => get_the_title($post_to_display->ID)));
       if ($image) : ?>
         <?php echo $image;
         ?>

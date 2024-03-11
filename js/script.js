@@ -221,10 +221,6 @@ jQuery(document).ready(function ($) {
 
     $(".owl-offer").owlCarousel({
       nav: true,
-      // navText: [
-      //   '<i class="icon-nav-prev"></i>',
-      //   '<i class="icon-nav-next"></i>',
-      // ],
       margin: 30,
       slideSpeed: 300,
       paginationSpeed: 400,
@@ -240,9 +236,6 @@ jQuery(document).ready(function ($) {
           items: 1,
         },
         576: {
-          items: 2,
-        },
-        992: {
           items: 2,
         },
       },
@@ -293,6 +286,13 @@ jQuery(document).ready(function ($) {
       responsive: {
         0: {
           nav: false,
+          items: 1,
+        },
+        768: {
+          items: 2,
+        },
+        1024: {
+          items: 3,
         },
         1360: {
           nav: true,

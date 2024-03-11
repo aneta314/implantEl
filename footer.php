@@ -33,7 +33,7 @@ if (!is_singular('lp')) : ?>
 <div class="sub-footer">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-4">
+			<div class="col-xs-4 col-lg-4">
 				<?php
 				//array of logo data
 				$logo = get_field('logo', 'options'); ?>
@@ -61,27 +61,32 @@ if (!is_singular('lp')) : ?>
 
 					</div>
 			</div>
-			<div class="col-lg-3">
-				<h4 class="sub-footer__headline"> <?php pi_e('Menu', 'pi'); ?></h4>
-				<nav class="sub-footer1">
-					<?php
-					wp_nav_menu(array(
-						'theme_location' => 'footer-1',
-						'menu_id'        => 'footer-1',
-					));
-					?>
-				</nav>
-			</div>
-			<div class="col-lg-5">
-				<h4 class="sub-footer__headline"> <?php pi_e('Oferta', 'pi'); ?></h4>
-				<nav class="sub-footer2">
-					<?php
-					wp_nav_menu(array(
-						'theme_location' => 'footer-2',
-						'menu_id'        => 'footer-2',
-					));
-					?>
-				</nav>
+
+			<div class="col-lg-8">
+				<div class="row">
+					<div class="col-xs-3 col-lg-3">
+						<h4 class="sub-footer__headline"> <?php pi_e('Menu', 'pi'); ?></h4>
+						<nav class="sub-footer1">
+							<?php
+							wp_nav_menu(array(
+								'theme_location' => 'footer-1',
+								'menu_id'        => 'footer-1',
+							));
+							?>
+						</nav>
+					</div>
+					<div class="col-xs-5 col-lg-5">
+						<h4 class="sub-footer__headline"> <?php pi_e('Oferta', 'pi'); ?></h4>
+						<nav class="sub-footer2">
+							<?php
+							wp_nav_menu(array(
+								'theme_location' => 'footer-2',
+								'menu_id'        => 'footer-2',
+							));
+							?>
+						</nav>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

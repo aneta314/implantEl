@@ -32,7 +32,7 @@
       justify-content: center;
       margin-top: 32px;
 
-      @include min1360 {
+      @include min992 {
         margin-top: 0;
       }
 
@@ -46,12 +46,12 @@
         transition: 0.3s all ease;
         margin: 8px;
 
-        @include min1360 {
-          position: absolute;
-          top: 48%;
-          transform: translateY(-50%);
-          margin: 0;
-        }
+        //@include min992 {
+        position: absolute;
+        top: 48%;
+        transform: translateY(-50%);
+        margin: 0;
+        //}
 
         &:hover {
           background-color: transparent !important;
@@ -60,6 +60,15 @@
 
       button.owl-prev {
         left: -45px;
+        @include max992 {
+          left: -1rem;
+        }
+        @include max768 {
+          left: -45px;
+        }
+        @include max576 {
+          left: 1rem;
+        }
         span {
           font-size: 3rem;
         }
@@ -67,6 +76,15 @@
 
       button.owl-next {
         right: -45px;
+        @include max992 {
+          right: -0.5rem;
+        }
+        @include max768 {
+          right: -45px;
+        }
+        @include max576 {
+          right: 1.5rem;
+        }
         span {
           font-size: 3rem;
         }

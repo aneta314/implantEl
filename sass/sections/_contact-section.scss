@@ -11,6 +11,10 @@
         }
       }
     }
+    .col-md-4 {
+      display: flex;
+      justify-content: center;
+    }
     .col-md-5 {
       p {
         margin-bottom: 40px;

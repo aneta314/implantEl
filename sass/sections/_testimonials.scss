@@ -10,12 +10,20 @@
     position: absolute;
     top: -3rem;
   }
+  .headline {
+    position: relative;
+    z-index: 1;
+  }
   &__p {
     text-align: center;
     margin-bottom: 3rem;
+    position: relative;
+    z-index: 1;
   }
   &__share {
     text-align: center;
+    position: relative;
+    z-index: 1;
 
     &__item {
       width: 32px;

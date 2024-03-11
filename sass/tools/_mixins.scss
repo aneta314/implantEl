@@ -36,8 +36,6 @@
   }
 }
 
-
-
 // MAX WIDTH
 
 @mixin max576 {
@@ -54,6 +52,12 @@
 
 @mixin max992 {
   @media (max-width: 991.98px) {
+    @content;
+  }
+}
+
+@mixin max1024 {
+  @media (max-width: 1023.98px) {
     @content;
   }
 }

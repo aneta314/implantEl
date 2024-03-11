@@ -9,10 +9,25 @@
   &::after {
     content: url(../img/Vector.png);
     display: inline;
-    height: 61px;
+    height: 55px;
     position: absolute;
     right: -6rem;
     top: 0rem;
+    @include max1200 {
+      right: -4rem;
+    }
+    @include max576 {
+      right: -2rem;
+    }
+    @include min576 {
+      right: -6rem;
+    }
+    @include min768 {
+      right: -1rem;
+    }
+    @include min992 {
+      right: -6rem;
+    }
   }
 
   &:hover {
@@ -35,5 +50,7 @@
     color: $primary;
     font-size: 20px;
     max-width: 160px;
+    position: relative;
+    z-index: 1;
   }
 }

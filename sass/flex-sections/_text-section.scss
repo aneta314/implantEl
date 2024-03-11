@@ -9,6 +9,15 @@
       }
     }
   }
+  &-cta {
+    img {
+      &:nth-of-type(2n) {
+        @include max768 {
+          display: none;
+        }
+      }
+    }
+  }
 }
 
 .about-us {
@@ -38,6 +47,22 @@
   &--right {
     position: relative;
     left: 19rem;
+    @include max1480 {
+      left: 10rem;
+    }
+    @include max576 {
+      left: 0;
+    }
+    @include min576 {
+      left: 0;
+    }
+    @include min1200 {
+      left: 0;
+    }
+    @include min1360 {
+      left: 6rem;
+    }
+
     img {
       position: relative;
       right: -1rem;
@@ -48,6 +73,12 @@
     }
   }
   &--left {
+    @include max1480 {
+      left: -5rem;
+    }
+    @include max1024 {
+      left: 0;
+    }
     img {
       position: relative;
       left: -1rem;

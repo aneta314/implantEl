@@ -4,6 +4,23 @@
     max-width: 800px;
     margin: 32px auto 48px;
   }
+  .row {
+    @include max1200 {
+      gap: 3rem;
+      justify-content: center;
+    }
+    .col-md-3.col-xl-2 {
+      @include max768 {
+        max-width: 40%;
+      }
+      @media all and (min-width: 280px) and (max-width: 576px) {
+        max-width: 65%;
+      }
+      @include max576 {
+        max-width: 49%;
+      }
+    }
+  }
 }
 
 // INFOGRAPHIC MODULE
@@ -12,12 +29,19 @@
   border: 3px solid $gray;
   padding: 3rem 14px;
   border-radius: 100px;
-  width: 195px;
+  //width: 195px;
   height: 335px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   color: $primary;
+  @include max1200 {
+    margin-bottom: 0;
+    height: 320px;
+  }
+  @include max992 {
+    height: 290px;
+  }
 
   &__icon-wrapper {
     display: -webkit-flex;
@@ -26,10 +50,13 @@
     justify-content: center;
     align-items: cener;
     //background-color: $primary-light;
-    width: 109px;
+    width: auto;
     height: 96px;
     //padding: 24px;
     margin: 0 auto 32px;
+    @include max992 {
+      height: 80px;
+    }
 
     svg,
     img {
@@ -41,6 +68,11 @@
       polygon {
         //fill: #fff;
       }
+    }
+  }
+  &__title {
+    @include max992 {
+      font-size: 20px;
     }
   }
 }

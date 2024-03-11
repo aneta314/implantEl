@@ -16,6 +16,12 @@
     .col-lg-5 {
       margin-top: 2rem;
     }
+    .col-lg-3 {
+      max-width: 25%;
+    }
+    .col-lg-5 {
+      max-width: 41.6%;
+    }
   }
   &__headline {
     font-size: 24px;
@@ -51,7 +57,7 @@
     margin-bottom: 16px;
 
     a {
-      color: $primary-light;
+      color: $primary;
     }
   }
   .footer-flex {

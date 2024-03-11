@@ -2,6 +2,10 @@
   margin-bottom: 16px;
   position: relative;
   z-index: 3;
+  @include max992 {
+    height: 52px;
+    //width: 100%;
+  }
 }
 
 .wpcf7 .float-labels > label {
@@ -9,13 +13,16 @@
   top: -6px;
   left: 10px;
   transition: all 0.1s ease-in-out;
-  //color: $primary;
   color: $font-color-base;
   font-size: 16px;
   z-index: 1;
   background-color: #fff;
   display: block;
   padding: 0 4px;
+  @include max992 {
+    padding: 0;
+    //width: auto;
+  }
 }
 
 .wpcf7 .float-labels > label.move {
@@ -28,4 +35,9 @@
 
 .wpcf7 .float-labels-container {
   margin-top: 2rem;
+}
+
+label[for="your-offer"] {
+  width: 100%;
+  left: 0 !important;
 }

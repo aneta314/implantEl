@@ -6,13 +6,26 @@
     width: 100%;
     top: 75px;
     left: -28rem;
+    @include max1480 {
+      left: -21rem;
+    }
+    @include max1360 {
+      left: -19rem;
+    }
+    @include max1200 {
+      left: -17rem;
+    }
+    @include max1024 {
+      left: -14rem;
+    }
+    @include max768 {
+      left: -11rem;
+    }
+    @include max576 {
+      left: -3rem;
+    }
 
     .owl-dot {
-      // background-color: $primary;
-      // display: block;
-      // width: 10px;
-      // height: 10px;
-      // margin: 0 6px;
       background-color: #9c9e9f;
       display: block;
       width: 76px;
@@ -21,7 +34,6 @@
       border-radius: 10px;
 
       &.active {
-        //background-color: $primary-lightest;
         opacity: 0.4;
       }
     }

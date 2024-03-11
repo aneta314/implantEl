@@ -44,7 +44,7 @@ $intro = $group['intro'];
       <div class="row">
         <?php
         foreach ($group['icons'] as $infographic) : ?>
-          <div class="col-md-2">
+          <div class="col-md-3 col-xl-2">
             <div class="infographic">
               <?php $photo_id = $infographic['icon'];
               if ($photo_id) : ?>
@@ -54,9 +54,9 @@ $intro = $group['intro'];
               <?php
               endif; ?>
               <h6 class="infographic__title headline headline--xs center"><?php echo $infographic['title']; ?></h6>
-              <div class="infographic__desc standard-format">
+              <!-- <div class="infographic__desc standard-format">
                 <p class="center"><?php echo $infographic['desc']; ?></p>
-              </div>
+              </div> -->
             </div>
           </div>
         <?php

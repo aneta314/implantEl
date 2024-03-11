@@ -6,10 +6,6 @@ $hero-height: 500px;
 
   &__slide {
     position: relative;
-
-    .absolute-img {
-      //opacity:  .1;
-    }
   }
 
   &__content {
@@ -17,6 +13,24 @@ $hero-height: 500px;
     max-width: 560px;
     position: relative;
     left: -22rem;
+    @include max1480 {
+      left: -15rem;
+    }
+    @include max1360 {
+      left: -13rem;
+    }
+    @include max1200 {
+      left: -11rem;
+    }
+    @include max1024 {
+      left: -8rem;
+    }
+    @include max768 {
+      left: -5rem;
+    }
+    @include max576 {
+      left: 0;
+    }
   }
 }
 

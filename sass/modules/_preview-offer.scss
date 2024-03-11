@@ -10,10 +10,28 @@
     margin-bottom: 16px;
     position: relative;
 
+    @include max1200 {
+      min-height: 275px;
+    }
+    @include max576 {
+      padding-bottom: 50%;
+    }
+
     img {
       width: 342px !important;
       height: 342px;
       border-radius: 50%;
+      @include max1360 {
+        width: 320px !important;
+        height: 320px;
+      }
+      @include max1200 {
+        width: 250px !important;
+        height: 250px;
+      }
+      @include max992 {
+        margin: 0 auto;
+      }
     }
   }
 

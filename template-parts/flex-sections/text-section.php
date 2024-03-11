@@ -38,7 +38,7 @@ if ($layout == 'photo-left') {
         <div class="<?php echo $col_class; ?>">
           <?php
           if ($group['photo']) :
-            echo wp_get_attachment_image($group['photo'], 'medium_large', false, array('class' => 'text-section__photo', 'loading' => 'lazy'));
+            echo wp_get_attachment_image($group['photo'], 'hd', false, array('class' => 'text-section__photo', 'loading' => 'lazy'));
           endif; ?>
         </div>
       <?php

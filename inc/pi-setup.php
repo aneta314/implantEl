@@ -144,7 +144,8 @@ add_action('widgets_init', 'pi_widgets_init');
  */
 function pi_scripts()
 {
-	wp_enqueue_style('pi-google-fonts', '//fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap&subset=latin-ext', array(), null);
+	// wp_enqueue_style('pi-google-fonts', '//fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap&subset=latin-ext', array(), null);
+	wp_enqueue_style('pi-google-fonts', '//fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap', array(), null);
 	wp_enqueue_style('pi-style', get_template_directory_uri() . '/css/style.css');
 
 	wp_enqueue_script('pi-injector-svg', get_template_directory_uri() . '/js/svg-injector.min.js', array(), NULL, true);

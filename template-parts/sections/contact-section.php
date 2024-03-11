@@ -17,19 +17,17 @@ $contact_group = get_field('contact_group', 'options'); ?>
   <div class="container container--contact">
     <div class="row">
 
-      <div class="col-md-4">
+      <div class="col-lg-4">
         <?php $img = $contact_group['img'];
         if ($img) : ?>
-          <img src="<?php echo wp_get_attachment_image_url($img, 'medium_large'); ?>" class="contact__image" alt="contact photo">
+          <img src="<?php echo wp_get_attachment_image_url($img, 'hd'); ?>" class="contact__image" alt="contact photo">
         <?php endif; ?>
       </div>
 
-      <div class="col-md-3">
+      <div class="col-lg-3">
         <div class="intro"><?php pi_e('Zapraszamy', 'pi'); ?></div>
         <h6 class="headline headline--sm headline--mb-xl"><?php pi_e('Kontakt', 'pi'); ?></h6>
         <div class="standard-format">
-
-
           <!-- DESCRIPTION -->
           <?php $description = $contact_group['description'];
           if ($description) : ?>
@@ -66,9 +64,7 @@ $contact_group = get_field('contact_group', 'options'); ?>
 
         </div>
       </div>
-
-
-      <div class="col-md-5">
+      <div class="col-lg-5">
         <div class="intro"><?php pi_e('Umów wizytę', 'pi'); ?></div>
         <p class="headline headline--sm"><?php pi_e('Napisz do nas', 'pi'); ?> </p>
         <div class="standard-format mb-4">
@@ -78,7 +74,6 @@ $contact_group = get_field('contact_group', 'options'); ?>
         <div class="float-labels-container">
           <?php echo do_shortcode('[contact-form-7 id="48" title="Rejestracja online"]'); ?>
         </div>
-
       </div>
     </div>
   </div>

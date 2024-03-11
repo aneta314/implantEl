@@ -11,9 +11,9 @@
   }
   .row {
     justify-content: space-between;
-    &--carousel {
+    @include max1480 {
+      justify-content: space-around;
     }
-
     &--list {
       margin-bottom: 40px;
     }

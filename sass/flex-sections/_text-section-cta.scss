@@ -8,6 +8,31 @@
         position: absolute;
         max-width: 63%;
         left: 27rem;
+        // @include min576 {
+        //   left: 17rem;
+        // }
+        // @include min768 {
+        //   left: 19rem;
+        // }
+        @include max1200 {
+          left: 20rem;
+        }
+        @include max992 {
+          position: relative;
+          max-width: 100%;
+          left: 0;
+        }
+      }
+      img {
+        @include max992 {
+          margin: 0 auto;
+        }
+        &:nth-of-type(2n) {
+          display: none;
+          @include min1200 {
+            display: block;
+          }
+        }
       }
     }
   }
