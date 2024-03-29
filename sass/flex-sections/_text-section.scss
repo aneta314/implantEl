@@ -47,12 +47,6 @@
   &--right {
     position: relative;
     left: 19rem;
-    @include max1480 {
-      left: 10rem;
-    }
-    @include max576 {
-      left: 0;
-    }
     @include min576 {
       left: 0;
     }
@@ -61,6 +55,16 @@
     }
     @include min1360 {
       left: 6rem;
+    }
+
+    @include max1480 {
+      left: 10rem;
+    }
+    @include min1480 {
+      left: 19rem;
+    }
+    @include max576 {
+      left: 0;
     }
 
     img {

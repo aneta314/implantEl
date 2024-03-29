@@ -31,6 +31,9 @@ $hero-height: 500px;
     @include max576 {
       left: 0;
     }
+    .standard-format {
+      margin-bottom: 2rem;
+    }
   }
 }
 

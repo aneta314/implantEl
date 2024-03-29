@@ -272,7 +272,7 @@ jQuery(document).ready(function ($) {
 
     $(".owl-testimonials").owlCarousel({
       nav: false,
-      navText: ["<", ">"],
+      //navText: ["<", ">"],
       slideSpeed: 300,
       paginationSpeed: 400,
       items: 3,

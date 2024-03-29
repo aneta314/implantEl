@@ -9,7 +9,7 @@
   align-items: center;
   opacity: 0;
   z-index: -1000;
-  transition: .8s all ease;
+  transition: 0.8s all ease;
 
   &.show-popup {
     opacity: 1;
@@ -30,25 +30,25 @@
     z-index: 5;
     cursor: pointer;
     background-color: $primary-lighter;
-    opacity: .9;
+    opacity: 0.9;
   }
 
   &__box {
     z-index: 75;
     display: block;
     position: relative;
-    max-height: calc(100vh - 88px);
+    max-height: calc(100vh - 30px);
     overflow-y: auto;
-    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.08);
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.08);
     max-width: calc(100vw - 16px);
-    width: 720px;
+    width: 992px;
     margin-top: 50vh;
-    transition: .5s all ease;
+    transition: 0.5s all ease;
     background-color: #fff;
     padding: 32px 16px 24px;
 
     @include min768 {
-      padding: 48px 32px 40px;
+      padding: 45px 32px 40px;
     }
   }
 
@@ -69,10 +69,14 @@
     color: #fff;
     z-index: 99;
     cursor: pointer;
-    transition: .2s all ease;
+    transition: 0.2s all ease;
 
     &:hover {
       background-color: $red;
     }
   }
+}
+
+.text-right {
+  text-align: right;
 }

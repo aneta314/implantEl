@@ -10,7 +10,8 @@
     button.owl-prev,
     button.owl-next {
       display: block;
-      border: 1px solid $primary-light !important;
+      //border: 1px solid $primary-light !important;
+      border: none;
       color: $primary-light;
       padding: 4px 10px 8px !important;
       font-size: 22px;
@@ -39,7 +40,7 @@
       button.owl-prev,
       button.owl-next {
         display: block;
-        border: 1px solid $primary-light !important;
+        //border: 1px solid $primary-light !important;
         color: $primary-light;
         padding: 4px 10px 8px !important;
         font-size: 22px;

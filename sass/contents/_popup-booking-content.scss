@@ -1,4 +1,8 @@
 .popup-booking-content {
+  width: 60%;
+  @include max992 {
+    width: 100%;
+  }
   &__desc {
     margin-bottom: 40px;
   }
@@ -18,7 +22,7 @@
       }
     }
 
-    &>div:nth-of-type(2) {
+    & > div:nth-of-type(2) {
       p {
         margin-bottom: 8px;
 
@@ -26,8 +30,19 @@
           text-align: right;
           margin-bottom: 0;
         }
-
       }
+    }
+  }
+}
+
+.popup-booking {
+  &__wrapper {
+    display: flex;
+  }
+  &__img {
+    width: 40%;
+    @include max992 {
+      display: none;
     }
   }
 }
