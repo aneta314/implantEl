@@ -4,7 +4,7 @@
 
   &__photo {
     width: 100%;
-    min-height: 342px;
+    min-height: 307px;
     border-radius: 50%;
     padding-bottom: 72%;
     margin-bottom: 16px;
@@ -18,8 +18,8 @@
     }
 
     img {
-      width: 342px !important;
-      height: 342px;
+      width: 307px !important;
+      height: 307px;
       border-radius: 50%;
       @include max1360 {
         width: 320px !important;
@@ -36,7 +36,7 @@
   }
 
   &__title {
-    font-size: 36px;
+    font-size: 24px;
     color: $primary;
     text-align: center;
     margin-bottom: 1rem;

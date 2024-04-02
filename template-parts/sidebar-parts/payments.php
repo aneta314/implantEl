@@ -1,4 +1,5 @@
-<?php 
+<?php
+
 /**
  * 'Payments' sidebar element
  * 
@@ -12,25 +13,40 @@
  */
 ?>
 <div class="sidebar__item">
-  <div class="doctors-carousel">
-    <h5 class="headline headline--xs center"><?php pi_e('Płatność', 'pi'); ?></h5>
+  <div class="sidebar__item--payments">
+    <h5 class="headline headline--xs"><?php pi_e('Rodzaje płatności', 'pi'); ?></h5>
 
+    <?php
+    $sidebar_group = get_field('sidebar_group', 'options');
+
+    $icons = $sidebar_group['icons'];
+    var_dump($icons);
+    if ($sidebar_group) : ?>
+      <div class="sidebar__payments">
+        <?php foreach ($icons as $icon) : ?>
+          <?php
+          if ($icon) :
+            echo wp_get_attachment_image($icon['icon'], 'hd', false, array('class' => 'absolute-img hero__img'));
+          endif; ?>
+        <?php endforeach; ?>
+      </div>
+    <?php endif; ?>
     <div class="standard-format">
-      <p class="center"><?php pi_e('Oferujemy możliwość płatności przy pomocy kart debetowych VISA, Mastercard, płatności gotówką oraz dogodne finansowanie MediRaty.', 'pi'); ?> </p>
+      <p class=""><?php pi_e('Przyjmujemy płatności gotówką, kartą (również zbliżeniowo) oraz BLIKiem. Oferujemy również usługi kredytowe poprzez MediRaty. Ceny każdego zabiegu ustalane są indywidualnie. By poznać orientacyjne ceny, zapraszamy do podstrony cennik. ', 'pi'); ?> </p>
 
       <?php
       // btn only for single offer
-      if(is_singular('offer')):
+      if (is_singular('offer')) :
         $pricetables = detect_pricetables(get_the_ID());
         $permalink = get_the_permalink(83);
-        if($pricetables):
+        if ($pricetables) :
           $permalink = '#cennik';
         endif; ?>
 
         <div class="d-flex justify-content-center mb-3">
           <a href="<?php echo $permalink; ?>" class="btn smooth-scroll"> <?php pi_e('Cennik', 'pi'); ?> </a>
         </div> <?php
-      endif; ?>
+              endif; ?>
     </div>
 
   </div>

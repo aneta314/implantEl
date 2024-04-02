@@ -15,13 +15,14 @@
   }
 
   &__title {
-    transition: .2s all ease;
+    transition: 0.2s all ease;
 
     & > a {
       position: relative;
 
       &:after {
-        content: '\279E';
+        content: "\f105";
+        font-family: "icons-font";
         position: relative;
         top: -4px;
         display: inline-flex;
@@ -31,10 +32,10 @@
         height: 24px;
         border-radius: 50%;
         font-size: 14px;
-        background-color: $primary-light;
+        background-color: $primary;
         color: #fff;
         margin-left: 4px;
-        transition: .2s all ease;
+        transition: 0.2s all ease;
       }
     }
 

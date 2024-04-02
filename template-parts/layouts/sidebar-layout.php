@@ -1,4 +1,5 @@
-<?php 
+<?php
+
 /**
  * Sidebar layout template.
  * 
@@ -16,29 +17,28 @@
 <div class="container">
   <div class="row">
     <div class="col-lg-9 pr-lg-5">
-
       <?php
 
       // SINGLE BLOG POST
-      if(is_singular('post')):
+      if (is_singular('post')) :
         get_template_part('template-parts/contents/single-post-content');
       endif;
 
 
       // SINGLE OFFER
-      if(is_singular('offer')):
+      if (is_singular('offer')) :
         get_template_part('template-parts/contents/single-offer-content');
       endif;
 
 
       // BLOG TEMPLATE OR CATEGORY ARCHIVE
-      if(is_page_template('templates/blog.php') || is_category() || is_tax('offer-relationship')):
+      if (is_page_template('templates/blog.php') || is_category() || is_tax('offer-relationship')) :
         get_template_part('template-parts/contents/template-blog-content', null, array('pi_skip_rearrange' => true));
       endif;
 
 
       // PRICELIST TEMPLATE
-      if(is_page_template('templates/pricelist.php')):
+      if (is_page_template('templates/pricelist.php')) :
         get_template_part('template-parts/contents/template-pricelist-content');
       endif; ?>
 

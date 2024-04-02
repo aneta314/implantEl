@@ -38,39 +38,38 @@
 // HERO MODS
 .hero {
   position: relative;
+}
+.social-media {
+  display: none;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
 
-  .social-media {
-    display: none;
-    border-radius: 30px;
+  @include min992 {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 1.5rem;
+    transform: translateY(-50%);
+    z-index: 3;
+    width: 62px;
+    height: 222px;
+    background-color: #fff;
+  }
+
+  &__item {
+    margin: 2px 0;
+  }
+  .intro-line {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    width: 32px;
+    display: flex;
     justify-content: center;
     align-items: center;
-
-    @include min992 {
-      display: -webkit-flex;
-      display: -ms-flex;
-      display: flex;
-      flex-direction: column;
-      position: absolute;
-      top: 50%;
-      left: 1.5rem;
-      transform: translateY(-50%);
-      z-index: 3;
-      width: 62px;
-      height: 222px;
-      background-color: #fff;
-    }
-
-    &__item {
-      margin: 2px 0;
-    }
-    .intro-line {
-      writing-mode: vertical-lr;
-      transform: rotate(180deg);
-      width: 32px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
   }
 }
 

@@ -1,5 +1,5 @@
 #contact-section {
-  margin-top: -11rem;
+  //margin-top: -11rem;
 
   .container--contact {
     max-width: 1246px;
@@ -34,4 +34,10 @@
 .icon-phone,
 .icon-location {
   font-size: 1.3rem;
+}
+
+.home {
+  #contact-section {
+    margin-top: -11rem;
+  }
 }

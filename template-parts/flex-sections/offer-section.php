@@ -35,7 +35,8 @@ if ($layout == 'carousel') {
 //in theory this section could be used to display any arbitrary CPT, as long as it conforms to the template
 $args = array(
   'type' => 'post',
-  'post_type' => $post_type,
+  //'post_type' => $post_type,
+  'post_type' => 'offer',
   'posts_per_page' => -1,
   'no_found_rows' => true,
   'tax_query'  => array(
@@ -66,22 +67,22 @@ $loop = new WP_Query($args);
               endwhile; ?>
             </div>
           </div>
-      <?php
+        <?php
         endif;
       // LIST LAYOUT 
-      /*  else:
-      if( $loop->have_posts() ): ?>
-        <div class="row">
+      else :
+        if ($loop->have_posts()) : ?>
+          <!-- <div class="row"> -->
           <?php
-          while( $loop->have_posts() ): $loop->the_post(); ?>
-            <div class="col-lg-4 col-md-6">
-              <?php get_template_part( 'template-parts/modules/preview-offer', null, array('post_id' => get_the_ID()) ); ?>
+          while ($loop->have_posts()) : $loop->the_post(); ?>
+            <div class="col-lg-3 col-md-6">
+              <?php get_template_part('template-parts/modules/preview-offer', null, array('post_id' => get_the_ID())); ?>
             </div>
           <?php
           endwhile; ?>
-        </div>
+          <!-- </div> -->
       <?php
-      endif; */
+        endif;
       endif;
       wp_reset_postdata(); ?>
 

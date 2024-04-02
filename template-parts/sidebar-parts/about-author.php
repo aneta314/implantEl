@@ -1,4 +1,5 @@
-<?php 
+<?php
+
 /**
  * 'About' sidebar element
  * 
@@ -13,7 +14,7 @@
 $contact_group = get_field('contact_group', 'options'); ?>
 
 <div class="sidebar__item sidebar__item--sticky">
-  <h5 class="headline headline--xs center"><?php echo get_bloginfo('name'); ?></h5>
+  <h5 class="headline headline--xs"><?php echo get_bloginfo('name'); ?></h5>
   <div class="standard-format">
     <p class="center"> <?php the_field('blog_about', 'options'); ?></p>
     <div class="d-flex justify-content-center mb-4">
@@ -22,7 +23,7 @@ $contact_group = get_field('contact_group', 'options'); ?>
 
     <div class="d-flex justify-content-center mb-2">
       <i class="icon-phone"></i>
-      <?php echo do_shortcode('[hidden-number phone="'.$contact_group['phone'].'"]'); ?>
+      <?php echo do_shortcode('[hidden-number phone="' . $contact_group['phone'] . '"]'); ?>
     </div>
 
   </div>

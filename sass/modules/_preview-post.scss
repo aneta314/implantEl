@@ -4,8 +4,8 @@
   padding-bottom: 72px;
   user-select: none;
   container-type: inline-size;
-  @container(max-width: 400px) {
-    .preview-post__image{
+  @container (max-width: 400px) {
+    .preview-post__image {
       min-width: 100% !important;
     }
   }
@@ -13,6 +13,9 @@
   &__img {
     display: block;
     margin-bottom: 32px;
+    height: 206px;
+    border-radius: 200px;
+    object-fit: cover;
 
     @include min768 {
       margin-bottom: 0;
@@ -23,6 +26,10 @@
     color: $primary-light;
     font-size: 14px;
     margin-bottom: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin: 1rem 0;
   }
 
   &__title {
@@ -33,4 +40,3 @@
     margin-top: 24px;
   }
 }
-

@@ -10,10 +10,10 @@
 
   .page-numbers {
     display: inline-block;
-    padding: 10px 13px;
-    background-color: #fff;
-    border: 1px solid $primary-darkest;
-    color: $primary-darkest;
+    padding: 10px 15px;
+    background-color: $primary;
+    //border: 1px solid $primary;
+    color: #fff;
     margin: 4px;
     transition: 0.2s all ease;
     display: -webkit-flex;
@@ -21,6 +21,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 50%;
+    border: none;
 
     &:hover {
       background-color: $primary-light;
@@ -29,7 +31,7 @@
     }
 
     &.current {
-      background-color: $primary-darkest;
+      background-color: $primary-light;
       color: #fff;
     }
 
@@ -42,21 +44,20 @@
 
     &.next {
       i {
-
       }
     }
 
     &.prev {
       i {
-
       }
     }
 
     &.next,
     &.prev {
-      background-color: $primary-darkest;
-      color: #fff;
+      background-color: #fff;
+      color: #000;
       transition: 0.2s all ease;
+      border: 1px solid $primary-light;
 
       &:active,
       &:hover {
