@@ -46,7 +46,7 @@ if (!is_singular('lp')) : ?>
 				<p class="sub-footer__text"><?php pi_e('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod facilisis augue, sed efficitur nulla varius vitae. Vestibulum vitae consectetur libero..', 'pi'); ?> </p>
 
 				<!-- SOCIAL MEDIA -->
-				<?php
+				<?php /*
 				$social_media = get_field('social_media', 'options');
 				if ($social_media) : ?>
 					<div class="social-media">
@@ -57,9 +57,9 @@ if (!is_singular('lp')) : ?>
 							</a>
 					<?php
 						endforeach;
-					endif; ?>
+					endif; */ ?>
 
-					</div>
+				<!-- </div> -->
 			</div>
 
 			<div class="col-lg-8">

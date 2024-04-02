@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Latest posts sidebar element
  * 
@@ -13,7 +14,8 @@
 //this way the query will only get "related" posts
 $terms = get_the_terms(get_the_ID(), 'category');
 $terms_ids = array();
-foreach($terms as $term) {
+$permalink = get_the_permalink(365);
+foreach ($terms as $term) {
   array_push($terms_ids, $term->term_id);
 }
 
@@ -26,18 +28,25 @@ $args = array(
   'category__in' => $terms_ids,
 );
 
-$loop = new WP_Query( $args );
+$loop = new WP_Query($args);
 
-if( $loop->have_posts() ): ?>
+if ($loop->have_posts()) : ?>
   <div class="sidebar__item">
-    <h5 class="headline headline--xs center"><?php pi_e('Polecane wpisy', 'pi'); ?></h5>
+    <h5 class="headline headline--xs"><?php pi_e('Ostatnie wpisy', 'pi'); ?></h5>
 
-    <?php while( $loop->have_posts() ): $loop->the_post(); ?>
+    <?php while ($loop->have_posts()) : $loop->the_post(); ?>
 
       <?php get_template_part('template-parts/modules/preview-post-sm', null, array('post_id' => get_the_ID()));  ?>
 
     <?php endwhile; ?>
+    <div class="standard-format">
+
+      <div class="d-flex mb-3 mt-3">
+        <a href="<?php echo $permalink; ?>" class="btn smooth-scroll"> <?php pi_e('Wszystkie wpisy', 'pi'); ?> </a>
+      </div>
+    </div>
   </div>
+
 
 <?php endif;
 wp_reset_postdata(); ?>

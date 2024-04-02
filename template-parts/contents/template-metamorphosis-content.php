@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Metamorphosis page template content
  * 
@@ -14,23 +15,23 @@
   <div class="container">
 
     <?php //pagination stuff
-    $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
+    $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 
     $args = array(
       'type' => 'post',
       'post_type' => 'metamorphosis',
       'order' => 'ASC',
-      'posts_per_page' => 6, //paginate by X
+      'posts_per_page' => -1, //paginate by X
       'paged' => $paged,
     );
 
-    $loop = new WP_Query( $args );
+    $loop = new WP_Query($args);
 
-    if( $loop->have_posts() ): ?>
+    if ($loop->have_posts()) : ?>
       <div class="row">
         <?php
-        while( $loop->have_posts() ): $loop->the_post(); ?>
-          <div class="col-lg-6">
+        while ($loop->have_posts()) : $loop->the_post(); ?>
+          <div class="col-lg-12">
 
             <?php
             // METAMORPHOSIS PREVIEW
@@ -41,7 +42,8 @@
         endwhile; ?>
       </div>
 
-      <?php //PAGINATION ?>
+      <?php //PAGINATION 
+      ?>
       <div class="pagination">
         <?php custom_pagination($loop, '', ''); ?>
       </div>

@@ -616,4 +616,36 @@ jQuery(document).ready(function ($) {
   }
 
   readMore();
+
+  /*
+  =================================
+    SHOW METAMORPHOSIS BEFORE IMG
+  =================================
+  */
+
+  function showMetamorphosisImg() {
+    var $btn = $(".preview-metamorphosis .btn");
+
+    $btn.on("click", function (e) {
+      e.preventDefault();
+      $(this).parent().toggleClass("show");
+      $(this).hide();
+    });
+  }
+
+  showMetamorphosisImg();
+
+  function showNextRow() {
+    var $show_next_row = $(".show-next-row");
+    $show_next_row.on("click", function (e) {
+      e.preventDefault();
+      id = $(this).attr("href");
+      $(this).parent().addClass("hide"); // hide btn after clicking
+      $btnNr = parseInt($(this).parent().attr("nr")) + 1; // create id of next btn
+      $nextBtnId = ".btn-holder--" + $btnNr; // create id of next btn
+      $(this).parent().parent().find(id).addClass("show"); // show next row of items
+      $(this).parent().parent().find($nextBtnId).addClass("show"); // show next btn
+    });
+  }
+  showNextRow();
 });

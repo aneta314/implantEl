@@ -1,6 +1,6 @@
 .preview-post-sm {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   margin-top: 24px;
   margin-bottom: 8px;
@@ -16,21 +16,29 @@
   }
 
   &__col {
-    width: calc(40% - 8px);
+    //width: calc(40% - 8px);
 
     &:last-of-type {
-      width: calc(60% - 8px);
+      width: calc(65% - 8px);
     }
   }
 
   &__date {
-    color: $primary;
-    margin-bottom: 8px;
+    color: #9c9e9f;
     font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin: 1rem 0 0.5rem;
   }
 
   &__title {
     line-height: 1.4;
     margin-bottom: 17px;
+    color: $primary;
+  }
+  &__img {
+    width: 83px;
+    border-radius: 50%;
   }
 }

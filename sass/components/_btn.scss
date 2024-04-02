@@ -85,4 +85,24 @@
       margin: 0 -4px 0 4px;
     }
   }
+  &--prev {
+    padding: 8px 24px;
+    border: 1px solid $primary;
+    border-radius: 25px;
+    color: #fff;
+    background: linear-gradient(
+      90deg,
+      rgba(149, 190, 90, 1) 0%,
+      rgba(59, 105, 69, 1) 100%
+    );
+    transform: rotate(90deg);
+    &::before {
+      content: "\f104";
+      font-family: "icons-font";
+      position: block;
+      padding-right: 15px;
+      font-weight: 300;
+      font-size: 17px;
+    }
+  }
 }

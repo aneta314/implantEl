@@ -5,14 +5,12 @@
   margin-bottom: 0;
   margin-left: -4px;
   flex-wrap: wrap;
-  justify-content: center;
   font-size: 14px;
 
   .page-numbers {
     display: inline-block;
     padding: 10px 15px;
     background-color: $primary;
-    //border: 1px solid $primary;
     color: #fff;
     margin: 4px;
     transition: 0.2s all ease;

@@ -15,7 +15,7 @@
 $curr_term_id = get_queried_object()->term_id; ?>
 
 <div class="sidebar__item">
-  <h5 class="headline headline--xs"> <?php pi_e('Kategorie wpisów', 'pi'); ?> </h5>
+  <h5 class="headline headline--xs"> <?php pi_e('Kategorie', 'pi'); ?> </h5>
   <ul class="terms-list">
     <?php
     //sadly, have to query all the posts first, otherwise "get_terms" will fetch terms
@@ -38,9 +38,4 @@ $curr_term_id = get_queried_object()->term_id; ?>
     <?php endforeach; ?>
   </ul>
 
-  <?php if (!is_page_template('templates/blog.php')) : ?>
-    <div class="d-flex justify-content-center mb-3">
-      <a href="<?php echo get_the_permalink(365); ?>" class="btn"> <?php pi_e('Wszystkie wpisy', 'pi'); ?> </a>
-    </div>
-  <?php endif; ?>
 </div>

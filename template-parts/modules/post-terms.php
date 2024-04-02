@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Post terms module
  * 
@@ -18,9 +19,13 @@ $taxonomy = $args['taxonomy'];
 $terms = wp_get_post_terms($post_id, $taxonomy);
 ?>
 
-<div class="post-terms">
+<div class="post-terms align-items-center">
+  <p>
+    <?php echo 'Kategoria:'; ?>
+  </p>
   <?php
-  foreach($terms as $term):  ?>
+  foreach ($terms as $term) :  ?>
+
     <a href="<?php echo get_term_link($term->term_id, $taxonomy); ?>" class="post-terms__item">
       <?php echo $term->name; ?>
     </a>

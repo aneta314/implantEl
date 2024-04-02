@@ -12,7 +12,7 @@
  */
 
 //array of attachment ids (returned from the gallery ACF field)
-$gallery = $args['gallery']; ?>
+$gallery = $args['gallery'];  ?>
 
 <div class="gallery" data-featherlight data-featherlight-filter="a">
   <div class="row">
@@ -31,11 +31,12 @@ $gallery = $args['gallery']; ?>
         </a>
       </div>
       <?php if ($counter > 8) : ?>
-        <div class="btn"><?php pi_e('Rozwiń galerię', 'pi'); ?></div>
+        <div class="btn show-next-row"><?php pi_e('Rozwiń galerię', 'pi'); ?></div>
       <?php
       else : '';
 
       endif; ?>
+
     <?php endforeach; ?>
 
   </div>
@@ -43,7 +44,7 @@ $gallery = $args['gallery']; ?>
 
 <?php /*
 if ($gallery) :
-  $items_in_row = 5;
+  $items_in_row = 8;
   $posts_number = count($gallery);
   $rows_number = $posts_number / $items_in_row;
 ?>
@@ -76,4 +77,5 @@ if ($gallery) :
   </div>
   </div>
 <?php
-endif; */ ?>
+endif; */
+?>

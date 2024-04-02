@@ -10,10 +10,10 @@
     }
   }
 
-  p, li {
+  p,
+  li {
     a:not(.btn) {
-      color: $primary-light;
-      text-decoration: underline;
+      color: $primary;
 
       &:hover {
         color: $primary-light;
@@ -21,7 +21,8 @@
     }
   }
 
-  ul, ol {
+  ul,
+  ol {
     margin-bottom: 24px;
 
     li {
@@ -35,7 +36,7 @@
   ul {
     & > li {
       &:before {
-        content:  '>';
+        content: ">";
         position: absolute;
         display: block;
         color: $primary-light;
@@ -45,12 +46,10 @@
     }
   }
 
-
   ol {
     counter-reset: item;
 
     & > li {
-
       &:before {
         content: counter(item) ". ";
         counter-increment: item;
@@ -62,9 +61,13 @@
     }
   }
 
-
   &--post {
-    h1,h2,h3,h4,h5,h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       line-height: 1.4;
       margin-bottom: 24px;
       font-size: 32px;
@@ -79,4 +82,14 @@
       margin-top: 48px;
     }
   }
+  p.sidebar__contact--phone {
+    // &__contact {
+    //   &--phone {
+    a {
+      color: #000;
+      text-decoration: none;
+    }
+  }
+  //   }
+  // }
 }

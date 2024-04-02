@@ -10,3 +10,16 @@
     }
   }
 }
+
+.single-team {
+  .gallery {
+    &__photo {
+      img {
+        border-radius: 0;
+        max-width: 177px;
+        height: 127px;
+        width: 100%;
+      }
+    }
+  }
+}

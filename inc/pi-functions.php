@@ -110,9 +110,9 @@ function custom_pagination($loop, $prev, $next)
 		'type'         => 'plain',
 		'end_size'     => 5,
 		'mid_size'     => 1,
-		'prev_next'    => true,
+		'prev_next'    => false,
 		'prev_text'    => sprintf('<i> < </i> %1$s', pi__($prev, 'text-domain')),
-		'next_text'    => sprintf('%1$s <i> > </i>', pi__($next, 'text-domain')),
+		//'next_text'    => sprintf('%1$s <i> > </i>', pi__($next, 'text-domain')),
 		'add_args'     => false,
 		'add_fragment' => '',
 	));

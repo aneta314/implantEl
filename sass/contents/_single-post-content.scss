@@ -7,13 +7,18 @@
   &__date {
     color: $primary-light;
     font-size: 14px;
+    color: #9c9e9f;
+    font-size: 14px;
     margin-bottom: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin: 1rem 0;
   }
 
   &__content {
     margin-top: 32px;
   }
-
 
   &__nav {
     display: -webkit-flex;
@@ -21,16 +26,15 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    border-top: 1px solid $primary-lightest;
+    //border-top: 1px solid $primary-lightest;
     padding-top: 40px;
     flex-wrap: wrap;
 
     a {
       width: 100%;
-      text-transform: uppercase;
       letter-spacing: 1px;
       font-size: 13px;
-      transition: .3s all ease;
+      transition: 0.3s all ease;
       margin-bottom: 40px;
 
       @include min576 {
@@ -47,5 +51,4 @@
       }
     }
   }
-
 }

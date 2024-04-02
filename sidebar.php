@@ -30,11 +30,17 @@ $contact_group    = get_field('contact_group', 'options') ?? null;
 
 
   // single blog post or blog tempalte or blog category
-  if (is_singular('post') || is_page_template('templates/blog.php') || is_category() || is_tax('offer-relationship')) :
+  if (is_page_template('templates/blog.php') || is_category() || is_tax('offer-relationship')) :
 
 
     // CATEGORIES LIST
     get_template_part('template-parts/sidebar-parts/terms-list');
+
+    // DENTAL OFFICE
+    get_template_part('template-parts/sidebar-parts/dental-office');
+
+    // CONTACT
+    get_template_part('template-parts/sidebar-parts/contact');
 
   endif;
 
@@ -43,8 +49,18 @@ $contact_group    = get_field('contact_group', 'options') ?? null;
   // single blog post
   if (is_singular('post')) :
 
-    // LATEST POSTS
+    // CATEGORIES LIST
+    get_template_part('template-parts/sidebar-parts/terms-list');
+
+    // LATEST POSTS 
     get_template_part('template-parts/sidebar-parts/latest-posts');
+
+    // DENTAL OFFICE
+    get_template_part('template-parts/sidebar-parts/dental-office');
+
+    // CONTACT
+    get_template_part('template-parts/sidebar-parts/contact');
+
 
   endif;
 
