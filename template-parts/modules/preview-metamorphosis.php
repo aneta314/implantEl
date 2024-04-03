@@ -44,14 +44,15 @@ $group = get_field('group', $post_id); ?>
   <div class="preview-metamorphosis__content">
     <h4 class="headline headline--xxs"><?php echo get_the_title($post_id); ?></h4>
     <div class="standard-format">
-      <p><?php echo $metamorphosis_post->post_content; ?></p>
+      <p><?php echo $metamorphosis_post->post_content;
+          ?></p>
     </div>
   </div>
   <div class="preview-metamorphosis__images">
     <img class="before" src="<?php echo wp_get_attachment_image_url($group['before'], 'hd'); ?>" alt="<?php echo get_the_title($post_id); ?> - przed">
     <i class="arrow-metamorphosis"></i>
     <img class="after" src="<?php echo wp_get_attachment_image_url($group['after'], 'hd'); ?>" alt="<?php echo get_the_title($post_id); ?> - po">
-    <a class="preview-metamorphosis__btn btn" href="#"><?php pi_e('Zobacz przed', 'pi'); ?></a>
+    <a class="preview-metamorphosis__btn" href="#"><?php pi_e('Kliknij by odkryć ', 'pi'); ?></a>
   </div>
 
 </div>

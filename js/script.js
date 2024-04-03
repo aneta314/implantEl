@@ -301,8 +301,8 @@ jQuery(document).ready(function ($) {
     });
 
     $(".owl-doctors").owlCarousel({
-      nav: true,
-      navText: ["<", ">"],
+      //nav: true,
+      //navText: ["<", ">"],
       slideSpeed: 300,
       paginationSpeed: 400,
       items: 1,

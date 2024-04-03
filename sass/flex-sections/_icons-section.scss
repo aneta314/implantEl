@@ -27,7 +27,7 @@
 .infographic {
   margin-bottom: 48px;
   border: 3px solid $gray;
-  padding: 3rem 14px;
+  padding: 2rem 14px;
   border-radius: 100px;
   //width: 195px;
   height: 335px;
@@ -71,8 +71,6 @@
     }
   }
   &__title {
-    @include max992 {
-      font-size: 20px;
-    }
+    font-size: 20px;
   }
 }

@@ -86,7 +86,7 @@ $loop = new WP_Query($args);
         <div class="row">
           <?php
           while ($loop->have_posts()) : $loop->the_post(); ?>
-            <div class="col-lg-6 col-md-4 col-sm-6">
+            <div class="col-sm-6">
               <?php get_template_part('template-parts/modules/preview-person', null, array('post_id' => get_the_ID())); ?>
             </div>
           <?php

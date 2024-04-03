@@ -8,13 +8,13 @@
 
   &__photo {
     width: 100%;
-    padding-bottom: 120%;
+    padding-bottom: 65%;
     margin-bottom: 16px;
     position: relative;
-    // img {
-    //   width: 340px;
-    //   height: 100%;
-    // }
+    img {
+      width: 100%;
+      height: auto;
+    }
   }
 
   &__right-side {
@@ -44,5 +44,21 @@
   .preview-person {
     display: flex;
     margin-bottom: 56px;
+  }
+}
+
+// SIDEBAR
+.sidebar {
+  .preview-person {
+    display: flex;
+    &__title {
+      font-size: 20px;
+    }
+    &__right-side {
+      margin-top: 0;
+    }
+    &__position {
+      font-size: 16px;
+    }
   }
 }

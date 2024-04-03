@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Doctors carousel sidebar element
  * 
@@ -13,7 +14,7 @@
 //theoretically we're in a single offer post, so fetch the relation taxonomy for this post
 global $post;
 $relation_terms = get_the_terms($post, 'offer-relationship');
-if($relation_terms):
+if ($relation_terms) :
   //get_the_terms returns an array of "objects", let's reduce it to a 1d array of IDs
   $relation_terms = array_column($relation_terms, 'term_id');
   //if there's any relationship terms, fetch any team member that also belongs to these terms
@@ -33,24 +34,24 @@ if($relation_terms):
   //this will return an array of ids, unlike wp_query which will return whole objects
   $doctors = get_posts($args);
 
-  if($doctors): ?>
+  if ($doctors) : ?>
     <div class="sidebar__item">
       <div class="doctors-carousel">
-        <h5 class="headline headline--xs center"><?php pi_e('Zabieg wykonuje', 'pi'); ?></h5>
+        <h5 class="headline headline--xs"><?php pi_e('Zabieg wykonuje', 'pi'); ?></h5>
 
         <div class="owl-doctors owl-carousel owl-theme">
 
-          <?php foreach($doctors as $post_id): ?>
+          <?php foreach ($doctors as $post_id) : ?>
 
-              <div class="item">
-                <?php get_template_part( 'template-parts/modules/preview-person', null, array('post_id' => $post_id) ); ?>
-              </div>
+            <div class="item">
+              <?php get_template_part('template-parts/modules/preview-person', null, array('post_id' => $post_id)); ?>
+            </div>
 
           <?php endforeach; ?>
         </div>
 
       </div>
     </div>
-  <?php
-  endif; 
-endif;?>
+<?php
+  endif;
+endif; ?>

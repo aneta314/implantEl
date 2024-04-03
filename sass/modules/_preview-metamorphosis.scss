@@ -1,4 +1,10 @@
 .preview-metamorphosis {
+  margin-bottom: 4rem;
+  &__content {
+    h4 {
+      font-size: 46px;
+    }
+  }
   &__images {
     display: flex;
     justify-content: space-between;
@@ -9,12 +15,10 @@
     .before {
       filter: blur(8px);
     }
-    .after {
-    }
     a {
       position: absolute;
-      top: calc(50% + 50px);
-      left: calc(25% - 85px);
+      top: calc(50% + 30px);
+      left: calc(25% - 110px);
     }
     i {
       width: 37px;
@@ -39,12 +43,17 @@
       width: 416px;
       position: absolute;
       right: -13.5rem;
-      bottom: -5px;
+      bottom: 3.5rem;
     }
   }
   &__images.show {
     .before {
       filter: blur(0) !important;
     }
+  }
+  &__btn {
+    color: white;
+    letter-spacing: 4px;
+    font-weight: 600;
   }
 }

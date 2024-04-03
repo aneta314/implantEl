@@ -18,15 +18,13 @@
 
     <?php
     $sidebar_group = get_field('sidebar_group', 'options');
-
-    $icons = $sidebar_group['icons'];
-    var_dump($icons);
+    $payments = $sidebar_group['payments'];
     if ($sidebar_group) : ?>
       <div class="sidebar__payments">
-        <?php foreach ($icons as $icon) : ?>
+        <?php foreach ($payments as $payment) : ?>
           <?php
-          if ($icon) :
-            echo wp_get_attachment_image($icon['icon'], 'hd', false, array('class' => 'absolute-img hero__img'));
+          if ($payment) :
+            echo wp_get_attachment_image($payment['img'], 'hd', false, array('class' => 'payments-img'));
           endif; ?>
         <?php endforeach; ?>
       </div>

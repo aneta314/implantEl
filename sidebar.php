@@ -104,8 +104,8 @@ $contact_group    = get_field('contact_group', 'options') ?? null;
   // single offer or pricelist template
   if (is_singular('offer')) :
 
-    // CTA - BOOK AN APPOINTMENT
-    get_template_part('template-parts/sidebar-parts/book-appt');
+  // CTA - BOOK AN APPOINTMENT
+  // get_template_part('template-parts/sidebar-parts/book-appt');
 
   endif; ?>
 

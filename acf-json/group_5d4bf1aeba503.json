@@ -844,9 +844,9 @@
             "show_column": false,
             "show_column_weight": 1000,
             "show_column_sortable": false,
-            "key": "field_660b77e4756f9",
+            "key": "field_660d0dd010aff",
             "label": "Sidebar",
-            "name": "sidebar",
+            "name": "sidebar_group",
             "aria-label": "",
             "type": "group",
             "instructions": "",
@@ -867,9 +867,9 @@
                     "show_column": false,
                     "show_column_weight": 1000,
                     "show_column_sortable": false,
-                    "key": "field_660b77f3756fa",
-                    "label": "Zdjęcie gabinet",
-                    "name": "zdjecie_gabinet",
+                    "key": "field_660d13be8a979",
+                    "label": "Gabinet zdjęcie",
+                    "name": "gabinet_zdjecie",
                     "aria-label": "",
                     "type": "image",
                     "instructions": "",
@@ -890,6 +890,70 @@
                     "max_size": "",
                     "mime_types": "",
                     "preview_size": "medium"
+                },
+                {
+                    "allow_backendsearch": false,
+                    "show_column_filter": false,
+                    "allow_bulkedit": false,
+                    "allow_quickedit": false,
+                    "show_column": false,
+                    "show_column_weight": 1000,
+                    "show_column_sortable": false,
+                    "key": "field_660d13cb8a97a",
+                    "label": "Płatności",
+                    "name": "payments",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "table",
+                    "pagination": 0,
+                    "min": 0,
+                    "max": 0,
+                    "collapsed": "",
+                    "button_label": "Dodaj wiersz",
+                    "rows_per_page": 20,
+                    "sub_fields": [
+                        {
+                            "allow_backendsearch": false,
+                            "show_column_filter": false,
+                            "allow_bulkedit": false,
+                            "allow_quickedit": false,
+                            "show_column": false,
+                            "show_column_weight": 1000,
+                            "show_column_sortable": false,
+                            "key": "field_660d13fe8a97b",
+                            "label": "Zdjęcie",
+                            "name": "img",
+                            "aria-label": "",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "id",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": "",
+                            "preview_size": "medium",
+                            "parent_repeater": "field_660d13cb8a97a"
+                        }
+                    ]
                 }
             ]
         },
@@ -1324,5 +1388,5 @@
     "description": "",
     "show_in_rest": 0,
     "qef_simple_location_rules": 0,
-    "modified": 1712028444
+    "modified": 1712133135
 }

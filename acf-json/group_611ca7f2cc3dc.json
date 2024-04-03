@@ -1048,6 +1048,372 @@
                     "min": "",
                     "max": ""
                 },
+                "layout_660cfae6ef207": {
+                    "key": "layout_660cfae6ef207",
+                    "name": "big_icons_section",
+                    "label": "Infografiki duże",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "allow_backendsearch": false,
+                            "show_column_filter": false,
+                            "allow_bulkedit": false,
+                            "allow_quickedit": false,
+                            "show_column": false,
+                            "show_column_weight": 1000,
+                            "show_column_sortable": false,
+                            "key": "field_660cfae6ef208",
+                            "label": "Grupa",
+                            "name": "group",
+                            "aria-label": "",
+                            "type": "group",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "layout": "block",
+                            "sub_fields": [
+                                {
+                                    "allow_backendsearch": 0,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
+                                    "key": "field_660cfae6ef209",
+                                    "label": "Intro",
+                                    "name": "intro",
+                                    "aria-label": "",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": ""
+                                },
+                                {
+                                    "allow_backendsearch": 0,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
+                                    "key": "field_660cfae6ef20a",
+                                    "label": "Tytuł",
+                                    "name": "title",
+                                    "aria-label": "",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "60",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": ""
+                                },
+                                {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": 0,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
+                                    "key": "field_660cfae6ef20b",
+                                    "label": "Typ nagłówka",
+                                    "name": "title_markup",
+                                    "aria-label": "",
+                                    "type": "button_group",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "40",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "choices": {
+                                        "h1": "h1",
+                                        "h2": "h2",
+                                        "h3": "h3",
+                                        "h4": "h4",
+                                        "h5": "h5",
+                                        "h6": "h6",
+                                        "p": "p",
+                                        "span": "span"
+                                    },
+                                    "default_value": "h2",
+                                    "return_format": "value",
+                                    "allow_null": 0,
+                                    "layout": "horizontal"
+                                },
+                                {
+                                    "allow_backendsearch": 0,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
+                                    "key": "field_660cfae6ef20c",
+                                    "label": "Opis",
+                                    "name": "desc",
+                                    "aria-label": "",
+                                    "type": "textarea",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "rows": 2,
+                                    "placeholder": "",
+                                    "new_lines": ""
+                                },
+                                {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": false,
+                                    "allow_quickedit": false,
+                                    "show_column": false,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
+                                    "key": "field_660cfae6ef20d",
+                                    "label": "Infografiki",
+                                    "name": "icons",
+                                    "aria-label": "",
+                                    "type": "repeater",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "layout": "block",
+                                    "pagination": 0,
+                                    "min": 0,
+                                    "max": 0,
+                                    "collapsed": "",
+                                    "button_label": "Dodaj infografikę",
+                                    "rows_per_page": 20,
+                                    "sub_fields": [
+                                        {
+                                            "allow_backendsearch": false,
+                                            "show_column_filter": false,
+                                            "allow_bulkedit": 0,
+                                            "allow_quickedit": 0,
+                                            "show_column": 0,
+                                            "show_column_weight": 1000,
+                                            "show_column_sortable": false,
+                                            "key": "field_660cfae6ef20e",
+                                            "label": "Ikona",
+                                            "name": "icon",
+                                            "aria-label": "",
+                                            "type": "image",
+                                            "instructions": "",
+                                            "required": 0,
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "return_format": "id",
+                                            "library": "all",
+                                            "min_width": "",
+                                            "min_height": "",
+                                            "min_size": "",
+                                            "max_width": "",
+                                            "max_height": "",
+                                            "max_size": "",
+                                            "mime_types": "svg",
+                                            "preview_size": "medium",
+                                            "parent_repeater": "field_660cfae6ef20d"
+                                        },
+                                        {
+                                            "allow_backendsearch": 0,
+                                            "show_column_filter": false,
+                                            "allow_bulkedit": 0,
+                                            "allow_quickedit": 0,
+                                            "show_column": 0,
+                                            "show_column_weight": 1000,
+                                            "show_column_sortable": false,
+                                            "key": "field_660cfae6ef20f",
+                                            "label": "Tytuł",
+                                            "name": "title",
+                                            "aria-label": "",
+                                            "type": "text",
+                                            "instructions": "",
+                                            "required": 0,
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "default_value": "",
+                                            "maxlength": "",
+                                            "placeholder": "",
+                                            "prepend": "",
+                                            "append": "",
+                                            "parent_repeater": "field_660cfae6ef20d"
+                                        },
+                                        {
+                                            "allow_backendsearch": 0,
+                                            "show_column_filter": false,
+                                            "allow_bulkedit": 0,
+                                            "allow_quickedit": 0,
+                                            "show_column": 0,
+                                            "show_column_weight": 1000,
+                                            "show_column_sortable": false,
+                                            "key": "field_660cfae6ef210",
+                                            "label": "Krótki opis",
+                                            "name": "desc",
+                                            "aria-label": "",
+                                            "type": "textarea",
+                                            "instructions": "",
+                                            "required": 0,
+                                            "conditional_logic": 0,
+                                            "wrapper": {
+                                                "width": "",
+                                                "class": "",
+                                                "id": ""
+                                            },
+                                            "default_value": "",
+                                            "maxlength": "",
+                                            "rows": 2,
+                                            "placeholder": "",
+                                            "new_lines": "",
+                                            "parent_repeater": "field_660cfae6ef20d"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": 0,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
+                                    "key": "field_660cfae6ef211",
+                                    "label": "Przyciski",
+                                    "name": "btns",
+                                    "aria-label": "",
+                                    "type": "radio",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "choices": {
+                                        "no": "Nie",
+                                        "yes": "Tak"
+                                    },
+                                    "default_value": "",
+                                    "return_format": "value",
+                                    "allow_null": 0,
+                                    "other_choice": 0,
+                                    "layout": "vertical",
+                                    "save_other_choice": 0
+                                },
+                                {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
+                                    "key": "field_660cfae6ef212",
+                                    "label": "Przycisk 1",
+                                    "name": "link",
+                                    "aria-label": "",
+                                    "type": "link",
+                                    "instructions": "Secondary",
+                                    "required": 0,
+                                    "conditional_logic": [
+                                        [
+                                            {
+                                                "field": "field_660cfae6ef211",
+                                                "operator": "==",
+                                                "value": "yes"
+                                            }
+                                        ]
+                                    ],
+                                    "wrapper": {
+                                        "width": "50",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "array"
+                                },
+                                {
+                                    "allow_backendsearch": false,
+                                    "show_column_filter": false,
+                                    "allow_bulkedit": 0,
+                                    "allow_quickedit": 0,
+                                    "show_column": 0,
+                                    "show_column_weight": 1000,
+                                    "show_column_sortable": false,
+                                    "key": "field_660cfae6ef213",
+                                    "label": "Przycisk 2",
+                                    "name": "link_2",
+                                    "aria-label": "",
+                                    "type": "link",
+                                    "instructions": "Primary",
+                                    "required": 0,
+                                    "conditional_logic": [
+                                        [
+                                            {
+                                                "field": "field_660cfae6ef211",
+                                                "operator": "==",
+                                                "value": "yes"
+                                            }
+                                        ]
+                                    ],
+                                    "wrapper": {
+                                        "width": "50",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "array"
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
                 "layout_611cd212341a7": {
                     "key": "layout_611cd212341a7",
                     "name": "gallery_section",
@@ -1216,10 +1582,8 @@
                                         "id": ""
                                     },
                                     "return_format": "id",
-                                    "preview_size": "medium",
-                                    "insert": "append",
                                     "library": "all",
-                                    "min": "",
+                                    "min": 8,
                                     "max": "",
                                     "min_width": "",
                                     "min_height": "",
@@ -1227,7 +1591,9 @@
                                     "max_width": "",
                                     "max_height": "",
                                     "max_size": "",
-                                    "mime_types": ""
+                                    "mime_types": "",
+                                    "insert": "append",
+                                    "preview_size": "medium"
                                 }
                             ]
                         }
@@ -3277,5 +3643,5 @@
     "description": "",
     "show_in_rest": 0,
     "qef_simple_location_rules": 0,
-    "modified": 1711687472
+    "modified": 1712126711
 }

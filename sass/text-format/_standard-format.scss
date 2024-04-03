@@ -36,10 +36,15 @@
   ul {
     & > li {
       &:before {
-        content: ">";
+        content: "\f105";
+        font-family: "icons-font";
+        position: block;
+        //padding-right: 15px;
+        font-weight: 300;
+        font-size: 17px;
         position: absolute;
         display: block;
-        color: $primary-light;
+        color: $primary;
         top: -2px;
         left: 0;
       }

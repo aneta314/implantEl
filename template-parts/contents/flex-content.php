@@ -18,6 +18,10 @@ if (have_rows('flex_content')) :
     if (get_row_layout() == 'text_section') :
       get_template_part('template-parts/flex-sections/text-section');
 
+    // BIG ICONS SECTION
+    elseif (get_row_layout() == 'big_icons_section') :
+      get_template_part('template-parts/flex-sections/big-icons-section');
+
     // ICONS SECTION
     elseif (get_row_layout() == 'icons_section') :
       get_template_part('template-parts/flex-sections/icons-section');

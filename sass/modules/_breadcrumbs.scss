@@ -1,8 +1,17 @@
 .breadcrumbs {
   line-height: 1.7;
   margin-bottom: 16px;
+  color: $primary-light;
 
   a {
-    color: $primary-darker;
+    color: $primary-light;
+    margin-right: 1.65rem;
+    &::after {
+      content: url(../img/vector-breadcrumbs.png);
+      display: inline;
+      height: auto;
+      position: absolute;
+      margin-left: 6px;
+    }
   }
 }
