@@ -27,7 +27,7 @@ if (have_rows('flex_content')) :
       get_template_part('template-parts/flex-sections/icons-section');
 
     // GALLERY SECTION
-    elseif (get_row_layout() == 'gallery_section') :
+    elseif (get_row_layout() == 'galeria_new') :
       get_template_part('template-parts/flex-sections/gallery-section');
 
     // OFFER SECTION

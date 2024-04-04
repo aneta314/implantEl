@@ -11,38 +11,39 @@
  * 
  */
 
-//array of attachment ids (returned from the gallery ACF field)
-$gallery = $args['gallery'];  ?>
+//array of attachment ids (returned from the gallery ACF field) 
+/* $gallery = $args['gallery'];  ?>
 
 <div class="gallery" data-featherlight data-featherlight-filter="a">
   <div class="row">
 
-    <?php
-    $counter = 1;
-    foreach ($gallery as $photo_id) :
-      $counter++;
-    ?>
-
-      <div class="col-md-3 col-sm-6">
-        <a class="gallery__photo" href="<?php echo wp_get_attachment_image_src($photo_id, 'hd')[0]; ?>">
-
-          <?php echo wp_get_attachment_image($photo_id, 'medium_large', false, array('class' => 'absolute-img')); ?>
-
-        </a>
-      </div>
-      <?php if ($counter > 8) : ?>
-        <div class="btn show-next-row"><?php pi_e('Rozwiń galerię', 'pi'); ?></div>
+    <?php if ($gallery) : ?>
       <?php
-      else : '';
+      $counter = 1;
+      foreach ($gallery as $photo_id) :
+        $counter++;
+      ?>
 
-      endif; ?>
+        <div class="col-md-3 col-sm-6">
+          <a class="gallery__photo" href="<?php echo wp_get_attachment_image_src($photo_id, 'hd')[0]; ?>">
+            <?php echo wp_get_attachment_image($photo_id, 'medium_large', false, array('class' => 'absolute-img')); ?>
+          </a>
+        </div>
 
-    <?php endforeach; ?>
+        <?php if ($counter > 8) : ?>
+          <div class="btn show-next-row"><?php pi_e('Rozwiń galerię', 'pi'); ?></div>
+        <?php
+        else : '';
+        endif; ?>
+
+      <?php endforeach; ?>
+    <?php endif; ?>
+
 
   </div>
 </div>
 
-<?php /*
+<?php 
 if ($gallery) :
   $items_in_row = 8;
   $posts_number = count($gallery);
@@ -78,4 +79,17 @@ if ($gallery) :
   </div>
 <?php
 endif; */
-?>
+
+
+$gallery = $args['gallery']; ?>
+<div class="gallery row" data-featherlight data-featherlight-filter="a">
+  <?php
+  foreach ($gallery as $photo_id) : ?>
+    <div class="gallery__item col-lg-3">
+      <a class="img-holder gallery__photo scale" href="<?php echo wp_get_attachment_image_src($photo_id, 'hd')[0]; ?>">
+        <?php echo wp_get_attachment_image($photo_id, 'medium_large'); ?>
+      </a>
+    </div>
+  <?php
+  endforeach; ?>
+</div>

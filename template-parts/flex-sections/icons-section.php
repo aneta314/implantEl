@@ -25,12 +25,12 @@ $intro = $group['intro'];
     <?php
     // INTRO
     if ($intro) : ?>
-      <p class="intro center"><?php echo $intro; ?></p>
+      <p class="intro"><?php echo $intro; ?></p>
     <?php
     endif;
     // TITLE
     if ($title) :
-      echo '<' . $markup . ' class="headline center">' . $title . '</' . $markup . '>';
+      echo '<' . $markup . ' class="headline">' . $title . '</' . $markup . '>';
     endif;
 
     // DESC
