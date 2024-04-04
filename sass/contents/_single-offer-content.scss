@@ -124,7 +124,7 @@
     }
   }
 
-  &__metamorphosis {
+  .preview-metamorphosis {
     position: relative;
     span#metamorphosis {
       position: absolute;
@@ -133,6 +133,24 @@
     .metamorphosis {
       margin-bottom: 15px;
       margin-top: 15px;
+    }
+    .row {
+      flex-direction: column;
+    }
+    &__images {
+      img {
+        max-width: 469px;
+        height: 232px;
+      }
+      i {
+        width: 22px;
+        height: 22px;
+        &::before {
+          padding-left: 9px;
+          font-weight: 300;
+          font-size: 22px;
+        }
+      }
     }
   }
 

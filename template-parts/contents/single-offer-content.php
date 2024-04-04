@@ -97,18 +97,14 @@ get_template_part('template-parts/modules/reading-progress-bar'); ?>
       <div class="single-offer-content__metamorphosis section-margin-bottom-sm">
         <span id="metamorphosis"></span>
         <div class="standard-format--post">
-          <h6> <?php pi_e('Przykładowe metamorfozy wykonane w naszym gabinecie', 'pi'); ?> </h6>
+          <h2> <?php pi_e('Metamorfozy', 'pi'); ?> </h2>
         </div>
 
-        <div class="row">
-          <?php foreach ($related_metamorphosis as $metamorphosis) : ?>
-            <div class="col-md-6">
-              <?php
-              // METAMORPHOSIS PREVIEW
-              get_template_part('template-parts/modules/preview-metamorphosis-sm', null, array('post_id' => get_the_ID())); ?>
-            </div>
-          <?php endforeach; ?>
-        </div>
+        <?php foreach ($related_metamorphosis as $metamorphosis_id) : ?>
+          <?php
+          // METAMORPHOSIS PREVIEW
+          get_template_part('template-parts/modules/preview-metamorphosis-sm', null, array('post_id' => $metamorphosis_id)); ?>
+        <?php endforeach; ?>
 
       </div> <?php
             endif; ?>

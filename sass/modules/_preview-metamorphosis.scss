@@ -11,6 +11,9 @@
     align-items: center;
     img {
       width: 617px;
+      max-height: 305px;
+      border-radius: 10rem;
+      object-fit: cover;
     }
     .before {
       filter: blur(8px);
