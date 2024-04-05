@@ -75,6 +75,18 @@
       flex: 0 0 66%;
       max-width: 66%;
     }
+    .col-xs-12 {
+      @include max576 {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+      @include max576 {
+        img {
+          position: relative;
+          right: -1rem;
+        }
+      }
+    }
   }
   &--left {
     position: relative;
@@ -92,6 +104,18 @@
     .col-lg-7 {
       flex: 0 0 67.333333%;
       max-width: 67.333333%;
+    }
+    .col-xs-12 {
+      @include max576 {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+      @include max576 {
+        img {
+          position: relative;
+          left: -1rem;
+        }
+      }
     }
   }
 }

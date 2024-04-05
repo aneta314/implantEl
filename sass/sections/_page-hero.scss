@@ -6,9 +6,19 @@
 
   z-index: 1;
   .container {
-    margin-left: 15rem;
+    @include min992 {
+      margin-left: 13rem;
+    }
+    @include min1360 {
+      margin-left: 15rem;
+    }
     h1.headline {
       font-size: 72px;
+    }
+    @include max576 {
+      h1.headline {
+        font-size: 50px;
+      }
     }
   }
 }

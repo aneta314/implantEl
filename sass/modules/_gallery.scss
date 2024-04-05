@@ -3,10 +3,15 @@
     display: block;
     position: relative;
     //width: 100%;
-    //width: 224px;
+    width: 224px;
     height: 224px;
     //padding-bottom: 100%;
     margin-bottom: 30px;
+    @include max576 {
+      width: 224px !important;
+      margin: 0 auto;
+      margin-bottom: 2rem;
+    }
     img {
       border-radius: 50%;
       height: 100%;

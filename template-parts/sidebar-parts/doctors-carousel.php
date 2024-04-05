@@ -35,7 +35,7 @@ if ($relation_terms) :
   $doctors = get_posts($args);
 
   if ($doctors) : ?>
-    <div class="sidebar__item">
+    <div class="sidebar__item sidebar__item--sticky d-none d-lg-block">
       <div class="doctors-carousel">
         <h5 class="headline headline--xs"><?php pi_e('Zabieg wykonuje', 'pi'); ?></h5>
 

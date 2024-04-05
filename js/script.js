@@ -278,7 +278,7 @@ jQuery(document).ready(function ($) {
       items: 3,
       loop: true,
       dots: false,
-      autoplay: false,
+      autoplay: true,
       autoplayHoverPause: true,
       smartSpeed: 500,
       autoplayTimeout: 5000,
@@ -624,9 +624,16 @@ jQuery(document).ready(function ($) {
   */
 
   function showMetamorphosisImg() {
-    var $btn = $(".preview-metamorphosis .btn");
+    var $btn = $(".preview-metamorphosis .preview-metamorphosis__btn");
+    var $btn_sm = $(".preview-metamorphosis-sm .preview-metamorphosis__btn");
 
     $btn.on("click", function (e) {
+      e.preventDefault();
+      $(this).parent().toggleClass("show");
+      $(this).hide();
+    });
+
+    $btn_sm.on("click", function (e) {
       e.preventDefault();
       $(this).parent().toggleClass("show");
       $(this).hide();

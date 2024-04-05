@@ -3,6 +3,7 @@
   background-color: $sub-footer;
   padding: 2.7rem 0;
   overflow: hidden;
+  z-index: 1;
   &::after {
     content: url(../img/after2.png);
     display: inline;
@@ -11,6 +12,7 @@
     right: 0;
     top: 0;
     overflow: hidden;
+    z-index: -1;
   }
   .row {
     .col-lg-3,
@@ -22,6 +24,16 @@
     }
     .col-lg-5 {
       max-width: 41.6%;
+    }
+    @include max576 {
+      .col-xs-3 {
+        margin: 2rem;
+        margin-bottom: 0;
+      }
+      .col-xs-5 {
+        margin: 2rem 1rem;
+        margin-bottom: 0;
+      }
     }
   }
   &__headline {
@@ -46,6 +58,10 @@
         color: $font-color-base;
       }
     }
+  }
+  &__lists {
+    //position: relative;
+    margin-top: 4rem;
   }
 }
 

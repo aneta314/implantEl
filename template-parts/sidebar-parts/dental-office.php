@@ -12,7 +12,7 @@
  */
 //$sidebar_group = $args['sidebar_group'] ?? null;
 ?>
-<div class="sidebar__item dental-office">
+<div class="sidebar__item sidebar__item--sticky d-none d-lg-block dental-office">
     <div class="sidebar__item--office">
         <h5 class="headline headline--xs"><?php pi_e('Nasz gabinet', 'pi'); ?></h5>
 

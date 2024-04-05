@@ -2,6 +2,9 @@
   background-color: $testimonials;
   padding-bottom: 12rem;
   position: relative;
+  @include max576 {
+    padding-bottom: 5rem;
+  }
   &::before {
     content: url(../img/before3.png);
     display: inline;
@@ -9,6 +12,9 @@
     width: 668px;
     position: absolute;
     top: -3rem;
+    @include max576 {
+      left: -3rem;
+    }
   }
   .headline {
     position: relative;
@@ -45,6 +51,12 @@
       text-transform: uppercase;
       letter-spacing: 2px;
       font-size: 13px;
+    }
+    @include max576 {
+      .btn:nth-of-type(2) {
+        position: relative;
+        top: 2rem;
+      }
     }
   }
 }

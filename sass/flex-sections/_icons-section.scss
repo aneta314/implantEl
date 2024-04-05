@@ -48,11 +48,12 @@
     display: flex;
     justify-content: center;
     align-items: cener;
-    //background-color: $primary-light;
     width: auto;
     height: 96px;
-    //padding: 24px;
     margin: 0 auto 32px;
+    @include max576 {
+      margin: 0 auto 10px;
+    }
     @include max992 {
       height: 80px;
     }
@@ -71,5 +72,8 @@
   }
   &__title {
     font-size: 20px;
+    @include max576 {
+      font-size: 18px;
+    }
   }
 }

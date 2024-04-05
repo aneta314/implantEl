@@ -24,9 +24,9 @@ $col_class = 'col';
 
 //layout, width, positioning etc determines the classes that will be used on the wrappers
 if ($layout == 'photo-left') {
-  $col_class = 'col-lg-7';
+  $col_class = 'col-xs-12 col-lg-7';
 } elseif ($layout == 'photo-right') {
-  $col_class = 'col-lg-7 order-lg-2';
+  $col_class = 'col-xs-12 col-lg-7 order-lg-2';
 } ?>
 
 <div class="text-section <?php echo $class; ?> section-margin-bottom">

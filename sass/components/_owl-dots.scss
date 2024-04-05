@@ -22,7 +22,8 @@
       left: -11rem;
     }
     @include max576 {
-      left: -3rem;
+      left: -1rem;
+      top: 2rem;
     }
 
     .owl-dot {
