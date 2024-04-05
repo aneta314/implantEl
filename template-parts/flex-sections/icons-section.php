@@ -54,9 +54,11 @@ $intro = $group['intro'];
               <?php
               endif; ?>
               <h6 class="infographic__title headline headline--xs center"><?php echo $infographic['title']; ?></h6>
-              <div class="infographic__desc standard-format">
-                <p class="center"><?php echo $infographic['desc']; ?></p>
-              </div>
+              <?php if ($infographic['desc']) : ?>
+                <div class="infographic__desc standard-format">
+                  <p class="center"><?php echo $infographic['desc']; ?></p>
+                </div>
+              <?php endif; ?>
             </div>
           </div>
         <?php

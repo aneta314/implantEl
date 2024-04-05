@@ -12,32 +12,34 @@
  */
 //$sidebar_group = $args['sidebar_group'] ?? null;
 ?>
-<div class="sidebar__item">
+<div class="sidebar__item dental-office">
     <div class="sidebar__item--office">
         <h5 class="headline headline--xs"><?php pi_e('Nasz gabinet', 'pi'); ?></h5>
 
         <?php
         $sidebar_group = get_field('sidebar_group', 'options');
         $gabinet = $sidebar_group['gabinet_zdjecie'];
+        $about = get_field('blog_about', 'options');
+        $permalink = get_the_permalink(1177); ?>
+        <div class="row">
+            <?php if ($gabinet) :
+            ?>
 
-        $blog_about = get_field('blog_about', 'options');
-        //var_dump($blog_about);
-        $permalink = get_the_permalink(1177);
+                <div class="sidebar__office col-lg-4">
+                    <img src="<?php echo wp_get_attachment_image_url($gabinet, 'hd'); ?>" class="sidebar_img" alt="Zdjęcie gabinetu">
+                </div>
 
-        if ($gabinet) :
-            //$gabinet = $sidebar_group['zdjecie_gabinet'];
-        ?>
-            <div class="sidebar__office">
-                <?php wp_get_attachment_image($gabinet, 'mobile', false, array('class' => 'sidebar_img')); ?>
-            </div>
+            <?php endif;
+            ?>
 
-        <?php endif; ?>
-
-        <?php if ($blog_about) : ?>
-            <p>
-                <php echo $blog_about ; ?>
-            </p>
-        <?php endif; ?>
+            <?php if ($about) :
+            ?>
+                <div class="sidebar__about col-lg-8">
+                    <div class="standard-format"> <?php echo $about; ?></div>
+                </div>
+            <?php endif;
+            ?>
+        </div>
 
         <div class="standard-format">
 

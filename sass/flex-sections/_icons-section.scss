@@ -29,11 +29,10 @@
   border: 3px solid $gray;
   padding: 2rem 14px;
   border-radius: 100px;
-  //width: 195px;
   height: 335px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   color: $primary;
   @include max1200 {
     margin-bottom: 0;

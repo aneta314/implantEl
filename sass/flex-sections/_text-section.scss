@@ -46,7 +46,7 @@
   }
   &--right {
     position: relative;
-    left: 16rem;
+    //left: 16rem;
     @include min576 {
       left: 0;
     }
@@ -58,10 +58,10 @@
     }
 
     @include max1480 {
-      left: 10rem;
+      left: 13rem;
     }
     @include min1480 {
-      left: 16rem;
+      left: 19rem;
     }
     @include max576 {
       left: 0;

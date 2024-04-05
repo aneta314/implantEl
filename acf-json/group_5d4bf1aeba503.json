@@ -862,9 +862,9 @@
                 {
                     "allow_backendsearch": false,
                     "show_column_filter": false,
-                    "allow_bulkedit": false,
-                    "allow_quickedit": false,
-                    "show_column": false,
+                    "allow_bulkedit": 0,
+                    "allow_quickedit": 0,
+                    "show_column": 0,
                     "show_column_weight": 1000,
                     "show_column_sortable": false,
                     "key": "field_660d13be8a979",
@@ -1388,5 +1388,5 @@
     "description": "",
     "show_in_rest": 0,
     "qef_simple_location_rules": 0,
-    "modified": 1712133135
+    "modified": 1712286321
 }
