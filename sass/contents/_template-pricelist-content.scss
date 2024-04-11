@@ -9,6 +9,10 @@
     margin-bottom: 72px;
     order: 99;
 
+    @include max992 {
+      margin-bottom: 20px;
+    }
+
     .contact-module {
       margin-top: 40px;
     }

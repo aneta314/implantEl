@@ -17,7 +17,7 @@ $contact_group = get_field('contact_group', 'options'); ?>
   <div class="container container--contact">
     <div class="row">
 
-      <div class="col-lg-4">
+      <div class="col-lg-4 contact-section__left-photo">
         <?php $img = $contact_group['img'];
         if ($img) : ?>
           <img src="<?php echo wp_get_attachment_image_url($img, 'hd'); ?>" class="contact__image" alt="contact photo">

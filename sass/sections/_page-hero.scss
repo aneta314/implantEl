@@ -7,11 +7,12 @@
   z-index: 1;
   .container {
     @include min992 {
-      margin-left: 13rem;
+      margin-left: 7rem;
     }
     @include min1360 {
-      margin-left: 15rem;
+      margin-left: 13rem;
     }
+
     h1.headline {
       font-size: 72px;
     }

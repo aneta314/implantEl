@@ -4,7 +4,6 @@
   z-index: 3;
   @include max992 {
     height: 52px;
-    //width: 100%;
   }
 }
 
@@ -21,7 +20,6 @@
   padding: 0 4px;
   @include max992 {
     padding: 0;
-    //width: auto;
   }
 }
 

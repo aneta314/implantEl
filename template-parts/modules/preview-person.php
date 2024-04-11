@@ -17,7 +17,7 @@ $post_id = $args['post_id']; // ids
 <div href="<?php echo get_the_permalink($post_id); ?>" class="preview-person row">
   <div class="preview-person__photo col-lg-6">
 
-    <?php echo get_the_post_thumbnail($post_id, 'medium_large', array('title' => get_the_title($post_id), 'class' => 'absolute-img')); ?>
+    <?php echo get_the_post_thumbnail($post_id, 'medium_large', array('title' => get_the_title($post_id), 'class' => 'preview-person__img')); ?>
 
   </div>
   <div class="preview-person__right-side col-lg-6">

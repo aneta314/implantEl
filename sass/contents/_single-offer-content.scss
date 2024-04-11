@@ -3,8 +3,6 @@
   position: relative;
 
   .related-offer-carousel {
-    //height: 225px;
-    //margin-bottom: 2rem;
     &::after {
       content: url(../img/single-offer-bg.png);
       display: block;
@@ -72,7 +70,7 @@
   &__faq {
     position: relative;
     border: 1px solid #bfbfbf;
-    padding: 3rem 2rem;
+    padding: 2rem;
 
     &::after {
       content: url(../img/faq-bg.png);
@@ -93,11 +91,11 @@
       font-size: 48px;
     }
     &__item {
-      @include min576 {
-        padding: 40px 32px 0;
+      @include max576 {
         margin-bottom: 2rem;
       }
-      @include max576 {
+      @include min576 {
+        padding: 20px 32px 0;
         margin-bottom: 2rem;
       }
 
@@ -137,50 +135,6 @@
     }
   }
 
-  .preview-metamorphosis {
-    position: relative;
-    span#metamorphosis {
-      position: absolute;
-      top: $anchor-offset;
-    }
-    .metamorphosis {
-      margin-bottom: 15px;
-      margin-top: 15px;
-    }
-    .row {
-      flex-direction: column;
-    }
-    &__content {
-      h5 {
-        color: #000;
-      }
-    }
-    &__images {
-      position: relative;
-      margin-bottom: 2rem;
-      img {
-        max-width: 469px;
-        height: 232px;
-      }
-      i {
-        width: 22px;
-        height: 22px;
-        &::before {
-          padding-left: 9px;
-          font-weight: 300;
-          font-size: 22px;
-        }
-      }
-      &::after {
-        bottom: -4px;
-      }
-      a {
-        top: 44%;
-        left: calc(25% - 104px);
-      }
-    }
-  }
-
   &__pricetables {
     position: relative;
     span#cennik {
@@ -208,5 +162,69 @@
   h5,
   h6 {
     color: $primary;
+  }
+}
+
+.preview-metamorphosis {
+  position: relative;
+  span#metamorphosis {
+    position: absolute;
+  }
+  .metamorphosis {
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .row {
+    flex-direction: column;
+  }
+  &__content {
+    h5 {
+      color: #000;
+    }
+  }
+  &__images {
+    position: relative;
+    margin-bottom: 2rem;
+    img {
+      max-width: 469px;
+      height: 232px;
+      @include max1360 {
+        max-width: 469px;
+        height: 232px;
+        width: 100%;
+        height: auto;
+        padding: 2rem;
+      }
+    }
+    i {
+      width: 22px;
+      height: 22px;
+      &::before {
+        padding: 0 9px;
+        font-weight: 300;
+        font-size: 22px;
+      }
+    }
+    &::after {
+      bottom: -4px;
+      @include max1200 {
+        content: none;
+      }
+    }
+    a {
+      position: relative;
+      top: 44%;
+      left: calc(25% - 104px);
+      @include max1024 {
+        top: 20%;
+        left: 36%;
+      }
+      @include max768 {
+        left: 30%;
+      }
+      @media all and (max-width: 440px) {
+        left: 25%;
+      }
+    }
   }
 }

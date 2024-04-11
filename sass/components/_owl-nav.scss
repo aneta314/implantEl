@@ -10,7 +10,6 @@
     button.owl-prev,
     button.owl-next {
       display: block;
-      //border: 1px solid $primary-light !important;
       border: none;
       color: $primary-light;
       padding: 4px 10px 8px !important;
@@ -40,19 +39,15 @@
       button.owl-prev,
       button.owl-next {
         display: block;
-        //border: 1px solid $primary-light !important;
         color: $primary-light;
         padding: 4px 10px 8px !important;
         font-size: 22px;
         transition: 0.3s all ease;
         margin: 8px;
-
-        //@include min992 {
         position: absolute;
         top: 48%;
         transform: translateY(-50%);
         margin: 0;
-        //}
 
         &:hover {
           background-color: transparent !important;
@@ -84,7 +79,7 @@
           right: -45px;
         }
         @include max576 {
-          right: 1.5rem;
+          right: 1rem;
         }
         span {
           font-size: 3rem;

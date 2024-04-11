@@ -1,6 +1,4 @@
 #contact-section {
-  //margin-top: -11rem;
-
   .container--contact {
     max-width: 1246px;
     .standard-format {
@@ -27,6 +25,13 @@
   .contact {
     &__image {
       border-radius: 155px;
+    }
+    &-section {
+      &__left-photo {
+        @include max992 {
+          text-align: center;
+        }
+      }
     }
   }
 }

@@ -1,6 +1,9 @@
 .big-icons-section {
   .infographic {
     padding: 1.5rem 14px;
+    @include max1200 {
+      padding: 1.5rem 14px 0;
+    }
     &__desc {
       p {
         color: #000;
@@ -11,8 +14,20 @@
       margin-bottom: 2rem;
     }
     &__icon-wrapper {
+      @include max1200 {
+        margin: 0 auto 10px;
+        svg {
+          max-width: 70%;
+        }
+      }
       @include max576 {
         height: 70px;
+      }
+    }
+    @include max1200 {
+      .infographic__title {
+        font-size: 1rem;
+        margin-bottom: 10px !important;
       }
     }
   }

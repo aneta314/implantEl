@@ -26,6 +26,9 @@
       margin-top: -11rem;
       position: relative;
       z-index: 1;
+      @include max768 {
+        margin-top: -9rem;
+      }
     }
   }
 }
@@ -46,7 +49,6 @@
   }
   &--right {
     position: relative;
-    //left: 16rem;
     @include min576 {
       left: 0;
     }
@@ -56,17 +58,15 @@
     @include min1360 {
       left: 6rem;
     }
-
-    @include max1480 {
-      left: 13rem;
-    }
     @include min1480 {
       left: 19rem;
     }
     @include max576 {
       left: 0;
     }
-
+    .row {
+      justify-content: flex-end;
+    }
     img {
       position: relative;
       right: -1rem;
@@ -98,12 +98,12 @@
     @include max1024 {
       left: 0;
     }
-    // img {
-    //   max-width: 95%;
-    // }
     .col-lg-7 {
       flex: 0 0 67.333333%;
       max-width: 67.333333%;
+      @include max1200 {
+        left: -1rem;
+      }
     }
     .col-xs-12 {
       @include max576 {

@@ -13,21 +13,7 @@
 
 //id of the related offer
 $post_id = $args['post_id']; ?>
-<?php /* if (is_singular('offer')) : ?>
 
-  <div class="preview-offer-sm">
-
-    <div class="preview-offer-sm__photo">
-      <?php echo get_the_post_thumbnail($post_id, 'thumbnail', array('title' => get_the_title($post_id), 'class' => 'absolute-img'));
-      ?>
-    </div>
-    <h5 class="preview-offer-sm__title"><?php echo get_the_title($post_id, array('class' => 'title'));
-                                        ?></h5>
-  </div>
-
-
-
-<?php else :  */ ?>
 <div class="preview-offer-sm">
 
   <div class="preview-offer-sm__photo">

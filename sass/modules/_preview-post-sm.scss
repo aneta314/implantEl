@@ -1,6 +1,7 @@
 .preview-post-sm {
   display: flex;
   justify-content: space-evenly;
+  gap: 1rem;
   align-items: center;
   margin-top: 24px;
   margin-bottom: 8px;
@@ -16,8 +17,6 @@
   }
 
   &__col {
-    //width: calc(40% - 8px);
-
     &:last-of-type {
       width: calc(65% - 8px);
     }

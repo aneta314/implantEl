@@ -30,6 +30,9 @@
     text-align: center;
     position: relative;
     z-index: 1;
+    @include max768 {
+      margin-bottom: 5rem;
+    }
 
     &__item {
       width: 32px;

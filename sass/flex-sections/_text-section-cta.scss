@@ -8,12 +8,6 @@
         position: absolute;
         max-width: 63%;
         left: 27rem;
-        // @include min576 {
-        //   left: 17rem;
-        // }
-        // @include min768 {
-        //   left: 19rem;
-        // }
         @include max1200 {
           left: 20rem;
         }

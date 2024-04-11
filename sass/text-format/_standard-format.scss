@@ -39,7 +39,6 @@
         content: "\f105";
         font-family: "icons-font";
         position: block;
-        //padding-right: 15px;
         font-weight: 300;
         font-size: 17px;
         position: absolute;
@@ -88,13 +87,9 @@
     }
   }
   p.sidebar__contact--phone {
-    // &__contact {
-    //   &--phone {
     a {
       color: #000;
       text-decoration: none;
     }
   }
-  //   }
-  // }
 }

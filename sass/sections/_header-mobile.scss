@@ -23,7 +23,7 @@ body:not(.single-lp) {
   }
 
   &__logo-anchore {
-    width: 96px;
+    width: 150px;
     height: auto;
   }
 
@@ -40,10 +40,6 @@ body:not(.single-lp) {
     text-align: center;
     margin-bottom: 2px;
     line-height: 1.1;
-
-    // @media all and (max-width: 340px) {
-    //   display: none;
-    // }
   }
 }
 

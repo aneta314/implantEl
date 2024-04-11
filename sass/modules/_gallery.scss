@@ -2,10 +2,8 @@
   &__photo {
     display: block;
     position: relative;
-    //width: 100%;
     width: 224px;
     height: 224px;
-    //padding-bottom: 100%;
     margin-bottom: 30px;
     @include max576 {
       width: 224px !important;
@@ -40,8 +38,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  //-webkit-box-pack: center;
-  //-ms-flex-pack: center;
   margin: 30px 0 0px;
   display: none;
 }
@@ -77,4 +73,10 @@
 .show-more-rows .row--more--1 {
   visibility: visible;
   height: auto;
+}
+
+@include max992 {
+  .link.show-next-row.btn {
+    margin: 0 auto;
+  }
 }

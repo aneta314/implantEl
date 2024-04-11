@@ -3,13 +3,10 @@
   margin-bottom: 16px;
   margin-left: auto;
   margin-right: auto;
-  //max-width: 480px;
   user-select: none;
 
   &__photo {
     width: 100%;
-    padding-bottom: 65%;
-    margin-bottom: 16px;
     position: relative;
     img {
       width: 100%;
@@ -17,14 +14,14 @@
     }
   }
 
-  &__right-side {
-    margin-top: 6rem;
-  }
   &__title {
     line-height: 1.5;
     margin-bottom: 8px;
     color: $primary;
     font-size: 36px;
+    @include max1024 {
+      font-size: 28px;
+    }
   }
 
   &__position {

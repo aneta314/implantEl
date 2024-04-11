@@ -28,7 +28,7 @@ get_template_part('template-parts/modules/reading-progress-bar'); ?>
     ?>
     <!-- <h2 class="headline"><?php the_title(); ?></h2> -->
 
-    <div class="d-flex justify-content-between">
+    <div class="d-flex justify-content-between post-data-flex">
       <?php //DATE 
       ?>
       <p class="single-post-content__date"><?php echo get_the_date('j F Y'); ?></p>

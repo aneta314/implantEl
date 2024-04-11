@@ -10,11 +10,7 @@
     left: 1px;
   }
   .row {
-    //justify-content: space-between;
     justify-content: space-evenly;
-    @include max1480 {
-      //justify-content: space-around;
-    }
     &--list {
       margin-bottom: 40px;
     }

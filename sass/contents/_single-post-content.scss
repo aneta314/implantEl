@@ -1,4 +1,10 @@
 .single-post-content {
+  .post-data-flex {
+    align-items: baseline;
+    @include max992 {
+      flex-direction: column;
+    }
+  }
   &__thumbnail {
     display: block;
     margin-bottom: 40px;
