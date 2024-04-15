@@ -10,9 +10,46 @@
     left: 1px;
   }
   .row {
-    justify-content: space-evenly;
+    justify-content: center;
+    row-gap: 2rem;
     &--list {
       margin-bottom: 40px;
     }
+  }
+}
+
+i.arrow-left {
+  &::after {
+    content: "";
+    content: "";
+    background: url(../img/arrow-left.png);
+    background-repeat: repeat;
+    display: block;
+    height: 3rem;
+    width: 2rem;
+    background-repeat: no-repeat;
+    top: 2rem;
+    position: relative;
+  }
+}
+
+i.arrow-right {
+  &::after {
+    content: "";
+    content: "";
+    background: url(../img/arrow-right.png);
+    background-repeat: repeat;
+    display: block;
+    height: 3rem;
+    width: 2rem;
+    background-repeat: no-repeat;
+    top: 2rem;
+    position: relative;
+  }
+}
+
+i {
+  &:hover {
+    opacity: 0.4;
   }
 }

@@ -318,6 +318,10 @@ function pi_table_of_contents($attr)
 			$html .= '<li> <a href="' . $permalink . '#cennik"> ' . pi__('Cennik zabiegów', 'ok') . ' </a></li>';
 		}
 
+		$html .= '<li> <a href="#testimonials"> ' . pi__('Opinie pacjentów', 'pi') . ' </a></li>';
+
+		$html .= '<li> <a href="#contact-section"> ' . pi__('Kontakt', 'pi') . ' </a></li>';
+
 		$html .= '</ul>
 			<a href="#" class="btn btn--secondary d-none js-show-table-of-contents">' . pi__('Rozwiń spis treści', 'ok') . '</a>
 			</div>';

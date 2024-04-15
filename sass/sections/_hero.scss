@@ -47,4 +47,10 @@ $hero-height: 500px;
     align-items: center;
     padding: 24px 0 48px;
   }
+  .owl-dot {
+    &:hover {
+      opacity: 0.7;
+      transition: 0.3s ease-in-out;
+    }
+  }
 }

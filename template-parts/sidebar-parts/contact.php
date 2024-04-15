@@ -21,9 +21,9 @@ $permalink = get_the_permalink(73);
             <!-- ADDRESS -->
             <p>
                 <i class="icon-location"></i>
-                <!-- <a href="<?php the_field('google_map_link', 'options') ?>" target="_blank"> -->
-                <?php echo $contact_group['street']; ?>, <?php echo $contact_group['city_code']; ?> <?php echo $contact_group['city']; ?>
-                <!-- </a> -->
+                <a href="<?php the_field('google_map_link', 'options') ?>" target="_blank" class="sidebar-contact-link">
+                    <?php echo $contact_group['street']; ?>, <?php echo $contact_group['city_code']; ?> <?php echo $contact_group['city']; ?>
+                </a>
             </p>
 
             <!-- HOURS -->

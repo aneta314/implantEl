@@ -10,6 +10,7 @@
     position: relative;
     img {
       width: 100%;
+      border-radius: 50%;
       height: auto;
     }
   }
@@ -53,6 +54,8 @@
     }
     &__right-side {
       margin-top: 0;
+      flex: 0 0 67%;
+      max-width: 67%;
     }
     &__position {
       font-size: 16px;

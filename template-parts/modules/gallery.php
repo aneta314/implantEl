@@ -17,8 +17,8 @@ $gallery = $args['gallery']; ?>
   <?php
   foreach ($gallery as $photo_id) : ?>
     <div class="gallery__item col-lg-3">
-      <a class="img-holder gallery__photo scale" href="<?php echo wp_get_attachment_image_src($photo_id, 'hd')[0]; ?>">
-        <?php echo wp_get_attachment_image($photo_id, 'medium_large'); ?>
+      <a class="img-holder gallery__photo scale" href="<?php echo wp_get_attachment_image_src($photo_id, 'thumbnail')[0]; ?>">
+        <?php echo wp_get_attachment_image($photo_id, 'thumbnail'); ?>
       </a>
     </div>
   <?php

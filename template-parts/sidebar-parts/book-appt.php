@@ -12,7 +12,7 @@
 
 /** @var array $contact_group array of contact information (phone numbers, address, opening hours etc) */
 $contact_group = get_field('contact_group', 'options'); ?>
-<div class="sidebar__item sidebar__item--sticky d-none d-lg-block">
+<div class="sidebar__item d-none d-lg-block">
   <div class="book-appt">
     <h5 class="headline headline--xs"><?php pi_e('Umów wizytę', 'pi'); ?> </h5>
 

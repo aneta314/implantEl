@@ -17,7 +17,7 @@
   .row {
     .col-lg-3,
     .col-lg-5 {
-      margin-top: 2rem;
+      margin: 1rem 0;
     }
     .col-lg-3 {
       max-width: 25%;
@@ -46,10 +46,13 @@
       font-size: 16px;
       color: $primary;
       line-height: 1.5rem;
+      a {
+        font-weight: 300 !important;
+      }
     }
   }
   &__text {
-    max-width: 75%;
+    max-width: 60%;
     margin: 2rem 0;
   }
   ul {
@@ -60,7 +63,7 @@
     }
   }
   &__lists {
-    margin-top: 4rem;
+    margin-top: 1.5rem;
   }
 }
 

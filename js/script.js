@@ -224,6 +224,7 @@ jQuery(document).ready(function ($) {
       margin: 30,
       slideSpeed: 300,
       paginationSpeed: 400,
+      navText: ['<i class="arrow-left">', '<i class="arrow-right">'],
       items: 2,
       loop: true,
       dots: false,
@@ -308,7 +309,7 @@ jQuery(document).ready(function ($) {
       items: 1,
       loop: true,
       dots: false,
-      autoplay: true,
+      //autoplay: true,
       autoplayHoverPause: true,
       smartSpeed: 500,
       autoplayTimeout: 5000,
@@ -550,7 +551,7 @@ jQuery(document).ready(function ($) {
    * @author Amelia
    */
   $(".justified-gallery").justifiedGallery({
-    rowHeight: 200,
+    rowHeight: 125,
     lastRow: "nojustify",
     margins: 24,
   });

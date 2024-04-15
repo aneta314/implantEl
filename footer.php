@@ -33,7 +33,7 @@ if (!is_singular('lp')) : ?>
 <div class="sub-footer">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-4 col-lg-4">
+			<div class="col-xs-4 col-lg-5">
 				<?php
 				//array of logo data
 				$logo = get_field('logo', 'options'); ?>
@@ -44,9 +44,12 @@ if (!is_singular('lp')) : ?>
 				</a>
 
 				<p class="sub-footer__text"><?php pi_e('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod facilisis augue, sed efficitur nulla varius vitae. Vestibulum vitae consectetur libero..', 'pi'); ?> </p>
+
+				<!-- SOCIAL MEDIA -->
+				<?php get_template_part('template-parts/modules/social-media'); ?>
 			</div>
 
-			<div class="col-lg-8 sub-footer__lists">
+			<div class="col-lg-7 sub-footer__lists">
 				<div class="row">
 					<div class="col-xs-3 col-lg-3">
 						<h4 class="sub-footer__headline"> <?php pi_e('Menu', 'pi'); ?></h4>

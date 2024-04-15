@@ -11,26 +11,35 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 32px;
-    height: 32px;
+    width: 30px;
+    height: 30px;
     color: #fff;
     font-size: 20px;
     margin: 8px 4px;
     transition: 0.2s all ease;
+  }
 
-    &:hover {
-      background-color: $primary-dark;
+  .icon-instagram {
+    font-size: 25px;
+    &:before {
+      color: $primary;
     }
-    .icon-instagram {
-      font-size: 2rem;
-      &::before {
-        color: $primary;
+    &:hover {
+      &:before {
+        color: #759645;
       }
     }
-    .icon-facebook:before {
+  }
+  .icon-facebook {
+    &:before {
       background: #95be5a;
-      padding: 4px 14px;
+      padding: 3px 12px;
       border-radius: 4px;
+    }
+    &:hover {
+      &:before {
+        background: #759645;
+      }
     }
   }
 }
@@ -115,9 +124,22 @@
 }
 
 // FOOTER MODS
-.footer {
+.sub-footer {
   .social-media {
     justify-content: center;
+    align-items: flex-start;
     margin-bottom: 32px;
+    margin-left: 12px;
+    top: 75%;
+    left: 0;
+    width: 125px;
+    height: 62px;
+    background-color: transparent;
+    transform: none;
+    gap: 0;
+    margin-top: 1.5rem;
+    .intro-line {
+      display: none;
+    }
   }
 }

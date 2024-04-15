@@ -2,6 +2,7 @@
   background-color: $testimonials;
   padding-bottom: 12rem;
   position: relative;
+  overflow: hidden;
   @include max576 {
     padding-bottom: 5rem;
   }
@@ -30,6 +31,10 @@
     text-align: center;
     position: relative;
     z-index: 1;
+
+    .btn:first-of-type {
+      margin-right: 1rem;
+    }
     @include max768 {
       margin-bottom: 5rem;
     }

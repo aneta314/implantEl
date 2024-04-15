@@ -39,10 +39,12 @@
         padding: 2rem 1.5rem 1rem;
         &__shortened {
           text-align: left;
+          font-size: 20px;
         }
         &__content {
           text-align: left;
           color: $primary-light;
+          font-weight: 300 !important;
         }
         &__author {
           text-align: right;

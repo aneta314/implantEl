@@ -21,6 +21,16 @@
         text-align: right;
       }
     }
+    .col-lg-3 {
+      .headline--sm {
+        font-size: 48px;
+      }
+    }
+    .col-lg-5 {
+      .headline--sm {
+        font-size: 48px;
+      }
+    }
   }
   .contact {
     &__image {
@@ -28,11 +38,18 @@
     }
     &-section {
       &__left-photo {
+        left: -1rem;
         @include max992 {
           text-align: center;
         }
       }
     }
+  }
+  .standard-format p {
+    margin-bottom: 16px;
+  }
+  .contact-section--description {
+    margin-bottom: 2.5rem !important;
   }
 }
 
@@ -43,6 +60,6 @@
 
 .home {
   #contact-section {
-    margin-top: -11rem;
+    margin-top: -12rem;
   }
 }

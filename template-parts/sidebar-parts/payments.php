@@ -12,7 +12,7 @@
  * @todo wrong wrapper class?
  */
 ?>
-<div class="sidebar__item sidebar__item--sticky d-none d-lg-block">
+<div class="sidebar__item d-none d-lg-block">
   <div class="sidebar__item--payments">
     <h5 class="headline headline--xs"><?php pi_e('Rodzaje płatności', 'pi'); ?></h5>
 
@@ -42,7 +42,7 @@
         endif; ?>
 
         <div class="d-flex mb-3">
-          <a href="<?php echo $permalink; ?>" class="btn smooth-scroll"> <?php pi_e('Cennik', 'pi'); ?> </a>
+          <a href="<?php echo $permalink; ?>" class="btn smooth-scroll"> <?php pi_e('Zobacz cennik', 'pi'); ?> </a>
         </div> <?php
               endif; ?>
     </div>

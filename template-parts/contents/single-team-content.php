@@ -42,8 +42,8 @@
                   <?php
                   foreach ($gallery as $image_id) : ?>
 
-                    <a href="<?php echo wp_get_attachment_image_src($image_id, 'mobile')[0]; ?>" class="gallery__photo--certificates">
-                      <?php echo wp_get_attachment_image($image_id, 'mobile', false, array('class' => 'single-certificate')); ?>
+                    <a href="<?php echo wp_get_attachment_image_src($image_id, 'hd')[0]; ?>" class="gallery__photo--certificates">
+                      <?php echo wp_get_attachment_image($image_id, 'hd', false, array('class' => 'single-certificate')); ?>
                     </a>
 
                   <?php

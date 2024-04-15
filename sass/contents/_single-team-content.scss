@@ -1,6 +1,9 @@
 .single-team-content {
   &__certificates {
-
+    h2 {
+      font-size: 36px;
+      font-weight: 300 !important;
+    }
     &__wrapper {
       margin-left: -24px;
       margin-right: -24px;
@@ -8,10 +11,18 @@
     }
 
     .gallery {
-
       &__photo {
         box-shadow: 2px 2px 7px 1px #ddd;
       }
     }
+  }
+  h3 {
+    font-size: 36px;
+    font-weight: 300 !important;
+  }
+  p.mb-4 {
+    font-size: 20px;
+    margin-top: 2rem;
+    font-weight: 350 !important;
   }
 }

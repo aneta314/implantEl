@@ -2,7 +2,8 @@
   margin-bottom: 4rem;
   &__content {
     h4 {
-      font-size: 28px;
+      font-size: 20px;
+      color: #111;
     }
   }
   &__images {
@@ -12,6 +13,9 @@
     @include max1024 {
       flex-direction: column;
       gap: 1rem;
+    }
+    @include max992 {
+      gap: 0;
     }
     img {
       width: 617px;
@@ -86,17 +90,93 @@
     img {
       max-width: 469px;
       height: 232px;
-      @include max1360 {
-        max-width: 469px;
+      @include min1480 {
+        max-width: 460px;
         height: 232px;
+      }
+      @include max1480 {
+        max-width: 425px;
+        height: 225px;
         width: 100%;
         height: auto;
         padding: 2rem;
+        // padding-bottom: 0;
+      }
+      @include max992 {
+        max-width: 500px;
+        height: 250px;
+      }
+    }
+    .before-text {
+      position: absolute;
+      bottom: -1rem;
+      left: 9.5rem;
+      @include max576 {
+        top: 15rem;
+        left: 7rem;
+      }
+      @include min576 {
+        top: 14rem;
+        left: 11.5rem;
+      }
+      @include min768 {
+        left: 17.5rem;
+      }
+      @include min992 {
+        top: 18rem;
+        left: 16.5rem;
+      }
+      @include min1024 {
+        top: 14rem;
+        left: 6.5rem;
+      }
+      @include min1200 {
+        top: 18rem;
+        left: 10rem;
+      }
+      @include min1480 {
+        top: 15rem;
+        left: 10.5rem;
+      }
+    }
+    .after-text {
+      position: absolute;
+      bottom: 0;
+      right: 8.5rem;
+      @include min576 {
+        right: 13.5rem;
+      }
+      @include min768 {
+        right: 18.5rem;
+      }
+      @include min992 {
+        right: 17.5rem;
+      }
+      @include min1024 {
+        bottom: 0;
+        right: 7.5rem;
+      }
+      @include min1200 {
+        right: 10.5rem;
+      }
+      @include min1480 {
+        bottom: -2rem;
+        right: 11.5rem;
       }
     }
     i {
       width: 22px;
       height: 22px;
+      @include min1200 {
+        position: relative;
+        left: 2.5rem;
+      }
+      @include min1360 {
+        left: 2rem;
+      }
+      @include max1024 {
+        display: none;
+      }
       &::before {
         padding: 0 9px;
         font-weight: 300;
@@ -104,9 +184,14 @@
       }
     }
     &::after {
-      bottom: -4px;
       @include max1200 {
         content: none;
+      }
+      @include min1200 {
+        bottom: 27px;
+      }
+      @include min1480 {
+        bottom: -4px;
       }
     }
     a {
@@ -135,15 +220,24 @@
     &__images {
       a {
         @include max576 {
-          top: -10rem;
+          top: -8rem;
         }
         @include min576 {
+          top: -9rem;
+        }
+        @include min992 {
           top: -11rem;
         }
         @include min1024 {
           top: 0;
           left: -3rem;
         }
+        @include min1360 {
+          left: -4rem;
+        }
+        // @include min1480 {
+        //   left: -4rem;
+        // }
       }
     }
   }

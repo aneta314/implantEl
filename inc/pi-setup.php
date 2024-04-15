@@ -88,7 +88,7 @@ add_action('after_setup_theme', 'pi_setup');
  */
 function pi_remove_default_image_sizes($sizes)
 {
-	//unset( $sizes['thumbnail']); // 150x150
+	unset($sizes['thumbnail']); // 150x150
 	//unset( $sizes['medium_large']); // 768x0
 	unset($sizes['medium']); //300x300
 	unset($sizes['large']); // 1024x1024

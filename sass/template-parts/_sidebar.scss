@@ -5,6 +5,13 @@
     border-bottom: 1px solid #ccc;
     padding-bottom: 32px;
     margin-bottom: 48px;
+    p {
+      margin-bottom: 10px;
+    }
+
+    i:hover {
+      opacity: 1;
+    }
 
     .headline {
       color: #000;
@@ -27,6 +34,22 @@
       .standard-format {
         line-height: 1.6;
       }
+    }
+  }
+}
+
+.sidebar-contact-link {
+  color: #111 !important;
+}
+
+.doctors-carousel {
+  .preview-person {
+    &__photo {
+      max-width: 102px;
+      padding: 0;
+    }
+    &__right-side {
+      padding: 0 0 0 1rem;
     }
   }
 }

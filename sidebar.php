@@ -82,6 +82,9 @@ $contact_group    = get_field('contact_group', 'options') ?? null;
     // PAYMENTS
     get_template_part('template-parts/sidebar-parts/payments');
 
+    // DENTAL OFFICE
+    get_template_part('template-parts/sidebar-parts/dental-office');
+
     // CONTACT
     get_template_part('template-parts/sidebar-parts/contact');
 
@@ -90,13 +93,13 @@ $contact_group    = get_field('contact_group', 'options') ?? null;
 
 
 
-  // pricelist template
-  if (is_page_template('templates/pricelist.php')) :
+  // // pricelist template
+  // if (is_page_template('templates/pricelist.php')) :
 
-    // GABINET 
-    get_template_part('template-parts/sidebar-parts/dental-office');
+  //   // GABINET 
+  //   get_template_part('template-parts/sidebar-parts/dental-office');
 
-  endif;
+  // endif;
 
 
 

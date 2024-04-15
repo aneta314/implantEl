@@ -41,6 +41,7 @@
     color: $primary;
     text-align: center;
     margin-bottom: 1rem;
+    font-weight: 300 !important;
   }
 }
 
@@ -57,4 +58,10 @@
 .owl-carousel.owl-offer .owl-nav,
 .owl-carousel .owl-nav {
   top: -15rem;
+}
+
+.offer-text {
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: 1;
 }

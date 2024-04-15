@@ -27,6 +27,9 @@
     @include min992 {
       right: -4rem;
     }
+    @include min1360 {
+      right: -6rem;
+    }
   }
 
   &:hover {
@@ -46,10 +49,11 @@
   &__title {
     margin-bottom: 2rem;
     color: $primary;
-    font-size: 20px;
+    font-size: 24px;
     max-width: 160px;
     position: relative;
     z-index: 1;
+    font-weight: 300 !important;
   }
 }
 

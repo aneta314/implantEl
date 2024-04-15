@@ -22,7 +22,7 @@ $testimonials = $args['testimonials'];
         <div class="testimonial standard-format">
           <?php if ($testimonial['shortened']) : ?>
             <p class="testimonial__shortened">
-              <strong>"<?php echo $testimonial['shortened']; ?>"</strong>
+              "<?php echo $testimonial['shortened']; ?>"
             </p>
           <?php endif; ?>
           <p class="testimonial__content">

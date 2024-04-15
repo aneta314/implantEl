@@ -1,4 +1,5 @@
 .text-section {
+  //overflow: hidden;
   .container {
     z-index: 1;
     position: relative;
@@ -38,9 +39,10 @@
   .container {
     max-width: 1623px;
     .col-lg-7 {
+      overflow: hidden;
       img {
         height: 100%;
-        width: 100%;
+        width: 94%;
       }
     }
     .row {
@@ -56,7 +58,8 @@
       left: 0;
     }
     @include min1360 {
-      left: 6rem;
+      //left: 6rem;
+      margin-left: 14rem;
     }
     @include min1480 {
       left: 19rem;
@@ -69,13 +72,21 @@
     }
     img {
       position: relative;
-      right: -1rem;
+      //right: -1rem;
+      @include max576 {
+        margin-top: 2rem;
+      }
+      @include min1360 {
+        right: -43px;
+      }
     }
     .col-lg-7 {
       flex: 0 0 66%;
       max-width: 66%;
+      padding-right: 0;
     }
     .col-xs-12 {
+      padding-right: 0;
       @include max576 {
         flex: 0 0 100%;
         max-width: 100%;
@@ -90,6 +101,7 @@
   }
   &--left {
     position: relative;
+    overflow: hidden;
     right: 7rem;
     @include max1480 {
       left: -5rem;

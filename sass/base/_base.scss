@@ -1,7 +1,10 @@
 html {
   font-size: 16px;
+  font-weight: 400;
 }
-
+* {
+  font-weight: 400 !important;
+}
 html,
 body {
   scroll-behavior: smooth;
@@ -17,9 +20,9 @@ body {
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
   }
-  #main {
-    overflow: hidden;
-  }
+  // #main {
+  //   overflow: hidden;
+  // }
 }
 
 img,
@@ -31,7 +34,7 @@ figure {
 }
 
 strong {
-  font-weight: bold;
+  font-weight: 600 !important;
 }
 
 em {
@@ -44,6 +47,7 @@ p {
 
 a {
   &:hover {
+    transition: all 0.3s ease-in-out;
   }
 }
 

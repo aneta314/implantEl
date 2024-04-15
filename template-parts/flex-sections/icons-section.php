@@ -20,7 +20,7 @@ $markup = array_key_exists('title_markup', $group) && $group['title_markup'] ? $
 $title = $group['title'];
 $intro = $group['intro'];
 ?>
-<div class="icons-section section-margin-bottom">
+<div class="icons-section">
   <div class="container">
     <?php
     // INTRO

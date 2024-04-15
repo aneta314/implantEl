@@ -31,7 +31,7 @@ $contact_group = get_field('contact_group', 'options'); ?>
           <!-- DESCRIPTION -->
           <?php $description = $contact_group['description'];
           if ($description) : ?>
-            <p>
+            <p class="contact-section--description">
               <?php echo $description; ?>
             </p>
           <?php endif; ?>

@@ -13,7 +13,7 @@
 
 //array of testimonal data
 $testimonilas_group = get_field('testimonials_group', 'options');  ?>
-<div class="testimonials section-padding section-margin-bottom">
+<div id="testimonials" class="testimonials section-padding section-margin-bottom">
   <div class="container">
     <h2 class="headline center"><?php echo $testimonilas_group['title']; ?></h2>
     <p class="testimonials__p"><?php pi_e('Zobacz, co o naszym gabinecie piszą Ci, którzy skorzystali z naszych usług', 'pi'); ?></p>

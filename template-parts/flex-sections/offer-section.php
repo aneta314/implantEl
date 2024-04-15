@@ -86,49 +86,6 @@ $loop = new WP_Query($args);
       endif;
       wp_reset_postdata(); ?>
 
-      <div class="col-lg-4">
-        <?php
-        // INTRO
-        if ($intro) : ?>
-          <p class="intro"><?php echo $intro; ?></p>
-        <?php
-        endif;
-        // TITLE
-        if ($title) :
-          echo '<' . $markup . ' class="headline">' . $title . '</' . $markup . '>';
-        endif;
-
-        // TEXT 
-        if ($text) : ?>
-          <p class="text"><?php echo $text; ?></p>
-        <?php
-        endif;
-
-        // BTNS
-        if ($group['btns'] == 'yes') : ?>
-          <div class="btns-wrapper">
-            <?php
-            // BTN 1 (SECONDARY)
-            $link = $group['link'];
-            if ($link) :
-              $class = (substr($link['url'], 0, 1) == '#') ? 'smooth-scroll' : '';
-              $link_target = $link['target'] ? $link['target'] : '_self'; ?>
-              <a href="<?php echo $link['url']; ?>" class="btn btn--secondary <?php echo $class; ?>" target="<?php echo esc_attr($link_target); ?>"><?php echo $link['title']; ?></a>
-            <?php
-            endif;
-
-            // BTN 2 (PRIMARY)
-            $link = $group['link_2'];
-            if ($link) :
-              $class = (substr($link['url'], 0, 1) == '#') ? 'smooth-scroll' : '';
-              $link_target = $link['target'] ? $link['target'] : '_self'; ?>
-              <a href="<?php echo $link['url']; ?>" class="btn <?php echo $class; ?>" target="<?php echo esc_attr($link_target); ?>"><?php echo $link['title']; ?></a>
-            <?php
-            endif; ?>
-          </div>
-        <?php
-        endif; ?>
-      </div>
     </div>
   </div>
 </div>
