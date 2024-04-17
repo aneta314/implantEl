@@ -23,7 +23,7 @@ $post_id = $args['post_id']; // ids
   <div class="preview-person__right-side col-lg-6">
     <h3 class="preview-person__title"><?php echo get_the_title($post_id); ?></h3>
     <p class="preview-person__position"><?php the_field('position', $post_id); ?></p>
-    <div class="preview-person__excerpt"><?php the_excerpt($post_id); ?></div>
+    <div class="preview-person__excerpt"><?php echo get_the_excerpt($post_id); ?></div>
 
     <?php if (get_the_content(null, false, $post_id) != '') :  ?>
       <div class="d-flex mt24">

@@ -10,7 +10,8 @@
   .page-numbers {
     display: inline-block;
     padding: 10px 15px;
-    background-color: $primary;
+    //background-color: $primary;
+    background-color: $primary-light;
     color: #fff;
     margin: 4px;
     transition: 0.2s all ease;
@@ -29,7 +30,7 @@
     }
 
     &.current {
-      background-color: $primary-light;
+      background-color: $primary;
       color: #fff;
     }
 

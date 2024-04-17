@@ -1,3 +1,63 @@
 .template-metamorphosis-content {
-  
+  .preview-metamorphosis {
+    &__images {
+      img {
+        max-width: 617px;
+        @include min576 {
+          height: 305px;
+        }
+        @include min1200 {
+          max-width: 575px;
+        }
+        @include min1360 {
+          max-width: 617px;
+        }
+      }
+      a {
+        @include min992 and max1024 {
+          top: -11.5rem;
+        }
+        @include min1200 {
+          left: -11%;
+        }
+        @include min1360 {
+          left: -13%;
+        }
+      }
+    }
+    .before-text {
+      @include min576 {
+        top: 18rem;
+      }
+      @include min992 {
+        left: 25rem;
+      }
+      @include min1024 {
+        left: 11rem;
+      }
+      @include min1200 {
+        left: 14rem;
+      }
+      @include min1360 {
+        left: 15rem;
+      }
+      @include min1480 {
+        top: 19.5rem;
+      }
+    }
+    .after-text {
+      @include min992 {
+        right: 26.5rem;
+      }
+      @include min1024 {
+        right: 11.5rem;
+      }
+      @include min1200 {
+        right: 15.5rem;
+      }
+      @include min1360 {
+        right: 16.5rem;
+      }
+    }
+  }
 }

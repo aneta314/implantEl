@@ -1,3 +1,22 @@
-.gallery-section {
-  
+.page-id-1177 {
+  .gallery-section {
+    .gallery {
+      &__item {
+        margin-bottom: 1rem;
+        a {
+          max-width: 100%;
+          margin: 0 auto;
+          @include min992 {
+            height: 150px;
+          }
+          @include min1200 {
+            height: 195px;
+          }
+          @include min1360 {
+            height: 224px;
+          }
+        }
+      }
+    }
+  }
 }

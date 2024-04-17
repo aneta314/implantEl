@@ -52,20 +52,20 @@
   &--right {
     position: relative;
     @include min576 {
-      left: 0;
+      margin-left: 0;
     }
     @include min1200 {
-      left: 0;
+      margin-left: 0;
     }
     @include min1360 {
       //left: 6rem;
       margin-left: 14rem;
     }
     @include min1480 {
-      left: 19rem;
+      margin-left: 19rem;
     }
     @include max576 {
-      left: 0;
+      margin-left: 0;
     }
     .row {
       justify-content: flex-end;

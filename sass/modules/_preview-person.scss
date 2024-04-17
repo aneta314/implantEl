@@ -32,6 +32,8 @@
 
   &__excerpt {
     max-width: 400px;
+    line-height: 24px;
+    margin-bottom: 2rem;
   }
 }
 
@@ -59,6 +61,15 @@
     }
     &__position {
       font-size: 16px;
+    }
+  }
+}
+
+.page-id-79 {
+  @media (min-width: 992px) {
+    .preview-person__photo.col-lg-6 {
+      flex: 0 0 38%;
+      max-width: 38%;
     }
   }
 }

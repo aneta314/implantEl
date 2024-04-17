@@ -23,7 +23,11 @@
       max-width: 25%;
     }
     .col-lg-5 {
-      max-width: 41.6%;
+      &:nth-of-type(2) {
+        //@include min992 {
+        max-width: 41.6%;
+        //}
+      }
     }
     @include max576 {
       .col-xs-3 {
@@ -63,7 +67,18 @@
     }
   }
   &__lists {
-    margin-top: 1.5rem;
+    @include max576 {
+      margin-top: -0.5rem;
+    }
+    @include min576 {
+      margin-top: 0;
+    }
+    @include min768 {
+      margin-top: -1rem;
+    }
+    @include min992 {
+      margin-top: 1rem;
+    }
   }
 }
 

@@ -51,5 +51,16 @@
     &__right-side {
       padding: 0 0 0 1rem;
     }
+    &__excerpt {
+      display: none;
+    }
+  }
+  .owl-nav {
+    top: 0 !important;
+    right: -4rem;
+    button.owl-prev:hover,
+    button.owl-next:hover {
+      background-color: transparent;
+    }
   }
 }

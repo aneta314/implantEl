@@ -13,6 +13,15 @@
     @include max1200 {
       min-height: 275px;
     }
+    @include min992 {
+      min-height: 220px;
+    }
+    @include min1200 {
+      min-height: 270px;
+    }
+    @include min1360 {
+      min-height: 320px;
+    }
     @include max576 {
       padding-bottom: 50%;
     }
@@ -29,6 +38,15 @@
       @include max1200 {
         width: 250px !important;
         height: 250px;
+      }
+      @include min992 {
+        height: 210px;
+      }
+      @include min1200 {
+        height: 270px;
+      }
+      @include min1360 {
+        height: 307px;
       }
       @include max992 {
         margin: 0 auto;

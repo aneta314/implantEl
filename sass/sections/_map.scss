@@ -33,4 +33,8 @@
   .leaflet-popup-content {
     text-align: center;
   }
+
+  .leaflet-pane.leaflet-marker-pane img {
+    width: 41px !important;
+  }
 }

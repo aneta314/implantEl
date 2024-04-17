@@ -10,7 +10,7 @@
     order: 99;
 
     @include max992 {
-      margin-bottom: 20px;
+      margin-bottom: 0;
     }
 
     .contact-module {

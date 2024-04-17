@@ -38,7 +38,9 @@
     }
     &-section {
       &__left-photo {
-        left: -1rem;
+        @include min992 {
+          left: -1rem;
+        }
         @include max992 {
           text-align: center;
         }

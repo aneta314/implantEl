@@ -406,6 +406,7 @@ function phone_hider_shortcode_callback($args = array())
 add_shortcode('hidden-number', 'phone_hider_shortcode_callback');
 
 
+
 /**
  * Get a social media icon
  * 

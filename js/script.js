@@ -302,14 +302,14 @@ jQuery(document).ready(function ($) {
     });
 
     $(".owl-doctors").owlCarousel({
-      //nav: true,
-      //navText: ["<", ">"],
+      nav: true,
+      navText: ['<a class="btn-arrow-prev">', '<a class="btn-arrow-next">'],
       slideSpeed: 300,
       paginationSpeed: 400,
       items: 1,
       loop: true,
       dots: false,
-      //autoplay: true,
+      autoplay: true,
       autoplayHoverPause: true,
       smartSpeed: 500,
       autoplayTimeout: 5000,

@@ -20,7 +20,7 @@ $contact_group = get_field('contact_group', 'options'); ?>
   <div class="container">
     <div class="row">
 
-      <div class="col-lg-2 d-flex align-items-center">
+      <div class="col-lg-3 d-flex align-items-center">
         <a class="header-desktop__logo-anchore" href="<?php echo site_url(); ?>">
           <img class="header-desktop__logo" src="<?php echo $logo['url']; ?>" alt="<?php if ($logo['alt'] != '') : echo $logo['alt'];
                                                                                     else : bloginfo('title');
@@ -28,7 +28,7 @@ $contact_group = get_field('contact_group', 'options'); ?>
         </a>
       </div>
 
-      <div class="col-lg-10">
+      <div class="col-lg-9">
         <address class="d-flex flex-wrap align-items-center justify-content-end">
 
           <!-- ADDRESS -->

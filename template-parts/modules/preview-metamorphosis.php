@@ -26,7 +26,9 @@ $group = get_field('group', $post_id); ?>
   <div class="preview-metamorphosis__images">
     <img class="before" src="<?php echo wp_get_attachment_image_url($group['before'], 'hd'); ?>" alt="<?php echo get_the_title($post_id); ?> - przed">
     <a class="preview-metamorphosis__btn" href="#"><?php pi_e('Kliknij by odkryć ', 'pi'); ?></a>
+    <p class="before-text">Przed zabiegiem</p>
     <i class="arrow-metamorphosis"></i>
     <img class="after" src="<?php echo wp_get_attachment_image_url($group['after'], 'hd'); ?>" alt="<?php echo get_the_title($post_id); ?> - po">
+    <p class="after-text">Po zabiegu</p>
   </div>
 </div>

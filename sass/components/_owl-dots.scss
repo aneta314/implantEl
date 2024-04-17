@@ -5,25 +5,28 @@
     justify-content: center;
     width: 100%;
     top: 75px;
-    left: -28rem;
-    @include max1480 {
-      left: -21rem;
-    }
-    @include max1360 {
-      left: -19rem;
-    }
-    @include max1200 {
-      left: -17rem;
-    }
-    @include max1024 {
-      left: -14rem;
-    }
+    //left: -28rem;
+    // @include max1480 {
+    //   left: -21rem;
+    // }
+    // @include max1360 {
+    //   left: -19rem;
+    // }
+    // @include max1200 {
+    //   left: -17rem;
+    // }
+    // @include max1024 {
+    //   left: -14rem;
+    // }
+    // @include max768 {
+    //   left: -11rem;
+    // }
     @include max768 {
-      left: -11rem;
-    }
-    @include max576 {
-      left: -1rem;
+      left: -6rem;
       top: 2rem;
+    }
+    @include min768 {
+      left: -11rem;
     }
 
     .owl-dot {

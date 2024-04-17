@@ -3,6 +3,10 @@
   display: -ms-flex;
   display: flex;
   flex-wrap: wrap;
+  p,
+  a {
+    font-weight: 500 !important;
+  }
 
   &__item {
     display: block;

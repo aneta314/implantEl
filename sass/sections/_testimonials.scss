@@ -64,6 +64,9 @@
       .btn:nth-of-type(2) {
         position: relative;
         top: 2rem;
+        @media all and (min-width: 519px) and (max-width: 576px) {
+          top: 0;
+        }
       }
     }
   }

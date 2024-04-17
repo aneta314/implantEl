@@ -9,6 +9,9 @@
     @include min992 {
       margin-left: 7rem;
     }
+    @include min1200 {
+      max-width: calc(1364px - 13rem);
+    }
     @include min1360 {
       margin-left: 13rem;
     }

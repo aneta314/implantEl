@@ -21,7 +21,7 @@
       'type' => 'post',
       'post_type' => 'metamorphosis',
       'order' => 'menu_order',
-      'posts_per_page' => -1, //paginate by X
+      'posts_per_page' => 4, //paginate by X
       'paged' => $paged,
     );
 

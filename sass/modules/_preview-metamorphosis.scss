@@ -34,7 +34,6 @@
       &::before {
         content: "\f105";
         font-family: "icons-font";
-        position: block;
         padding-left: 15px;
         font-weight: 300;
         font-size: 32px;
@@ -117,7 +116,7 @@
       }
       @include min576 {
         top: 14rem;
-        left: 11.5rem;
+        left: 12rem;
       }
       @include min768 {
         left: 17.5rem;
@@ -136,7 +135,7 @@
       }
       @include min1480 {
         top: 15rem;
-        left: 10.5rem;
+        left: 11rem;
       }
     }
     .after-text {
@@ -147,7 +146,7 @@
         right: 13.5rem;
       }
       @include min768 {
-        right: 18.5rem;
+        right: 19rem;
       }
       @include min992 {
         right: 17.5rem;
@@ -201,11 +200,15 @@
         top: -10rem;
       }
       @media all and (max-width: 440px) {
-        top: -8rem;
+        top: -8.5rem;
+      }
+      @include min992 {
+        top: -11rem;
       }
       @include min1024 {
         margin-left: -12rem;
         left: -8rem;
+        top: -0.5rem;
       }
       @include min1200 {
         margin-left: -18rem;

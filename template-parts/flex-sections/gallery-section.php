@@ -104,7 +104,7 @@ $id = $group['id']; ?>
             foreach ($gallery as $id) :
               if ($i == 1) : echo '<div class="row row--more row--more--' . $j . '" id="row--more--' . $j . '">';
               endif; ?>
-          <div class="gallery__item col-lg-3">
+          <div class="gallery__item col-xs-12 col-lg-3">
             <a class="img-holder gallery__photo scale" href="<?php echo wp_get_attachment_image_src($id, 'hd')[0]; ?>">
               <?php echo wp_get_attachment_image($id, 'medium_large'); ?>
             </a>
