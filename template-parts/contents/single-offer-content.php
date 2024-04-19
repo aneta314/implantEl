@@ -95,7 +95,7 @@ get_template_part('template-parts/modules/reading-progress-bar'); ?>
     $related_metamorphosis = get_related_metamorph(get_the_ID());
     if ($related_metamorphosis) : ?>
       <div class="single-offer-content__metamorphosis section-margin-bottom-sm">
-        <span id="metamorphosis"></span>
+        <!-- <span id="metamorphosis"></span> -->
         <div class="standard-format--post">
           <h2> <?php pi_e('Metamorfozy', 'pi'); ?> </h2>
         </div>

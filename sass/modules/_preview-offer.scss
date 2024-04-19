@@ -67,6 +67,31 @@
   button {
     border: 0 !important;
   }
+  .preview-offer {
+    &__photo {
+      @include max576 {
+        min-height: 250px;
+      }
+      @include min576 {
+        min-height: 250px;
+      }
+      @include min992 {
+        min-height: 260px;
+      }
+      @include min1360 {
+        min-height: 280px;
+      }
+      img {
+        @include min576 {
+          height: 240px;
+        }
+        @include min768 {
+          height: 250px;
+          width: 250px !important;
+        }
+      }
+    }
+  }
 }
 
 .owl-carousel.owl-offer .owl-nav button.owl-prev,

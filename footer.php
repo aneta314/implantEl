@@ -43,7 +43,7 @@ if (!is_singular('lp')) : ?>
 																							endif; ?>">
 				</a>
 
-				<p class="sub-footer__text"><?php pi_e('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod facilisis augue, sed efficitur nulla varius vitae. Vestibulum vitae consectetur libero..', 'pi'); ?> </p>
+				<p class="sub-footer__text"><?php pi_e('Postaw na sumę doświadczenia oraz pasji i wybierz ImplantEL! Chcesz umówić się na wizytę lub dowiedzieć się więcej na temat naszej praktyki? Zapraszamy do kontaktu oraz na nasze media społecznościowe.', 'pi'); ?> </p>
 
 				<!-- SOCIAL MEDIA -->
 				<?php get_template_part('template-parts/modules/social-media'); ?>

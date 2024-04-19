@@ -68,11 +68,51 @@ $loop = new WP_Query($args);
             </div>
           </div>
         <?php
-        endif;
-      // LIST LAYOUT 
+        endif; ?>
+        <div class="col-lg-4">
+          <div class="standard-format">
+            <?php if ($intro) : ?>
+              <div class="intro"><?php echo $intro; ?></div>
+            <?php endif; ?>
+            <?php if ($title) : ?>
+              <h2 class="headline title"><?php echo $title; ?></h2>
+            <?php endif; ?>
+            <?php if ($text) : ?>
+              <p><?php echo $text;
+                  ?></p>
+            <?php endif; ?>
+            <?php
+            // BTNS
+            if ($group['btns'] == 'yes') : ?>
+              <!-- <div class="col-lg-4"> -->
+              <!-- <div class="btns-wrapper"> -->
+              <?php
+              // BTN 1 (SECONDARY)
+              $link = $group['link'];
+              if ($link) :
+                $class = (substr($link['url'], 0, 1) == '#') ? 'smooth-scroll' : '';
+                $link_target = $link['target'] ? $link['target'] : '_self'; ?>
+                <a href="<?php echo $link['url']; ?>" class="btn btn--secondary <?php echo $class; ?>" target="<?php echo esc_attr($link_target); ?>"><?php echo $link['title']; ?></a>
+              <?php
+              endif;
+
+              // BTN 2 (PRIMARY)
+              $link = $group['link_2'];
+              if ($link) :
+                $class = (substr($link['url'], 0, 1) == '#') ? 'smooth-scroll' : '';
+                $link_target = $link['target'] ? $link['target'] : '_self'; ?>
+                <a href="<?php echo $link['url']; ?>" class="btn <?php echo $class; ?>" target="<?php echo esc_attr($link_target); ?>"><?php echo $link['title']; ?></a>
+              <?php
+              endif; ?>
+              <!-- </div> -->
+              <!-- </div> -->
+            <?php
+            endif; ?>
+          </div>
+        </div>
+        <?php // LIST LAYOUT 
       else :
         if ($loop->have_posts()) : ?>
-          <!-- <div class="row"> -->
           <?php
           while ($loop->have_posts()) : $loop->the_post(); ?>
             <div class="col-lg-3 col-md-6">
@@ -80,7 +120,6 @@ $loop = new WP_Query($args);
             </div>
           <?php
           endwhile; ?>
-          <!-- </div> -->
       <?php
         endif;
       endif;

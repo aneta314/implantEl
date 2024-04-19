@@ -1,4 +1,7 @@
 .big-icons-section {
+  .row {
+    justify-content: center;
+  }
   .infographic {
     padding: 2rem 22px 1rem;
     @include max1200 {
@@ -9,7 +12,7 @@
         color: #000;
       }
     }
-    @include max576 {
+    @include max992 {
       height: 340px;
       margin-bottom: 2rem;
     }

@@ -26,7 +26,7 @@ $col_class = 'col';
 if ($layout == 'photo-left') {
   $col_class = 'col-xs-12 col-lg-7';
 } elseif ($layout == 'photo-right') {
-  $col_class = 'col-xs-12 col-lg-7 order-lg-2';
+  $col_class = 'col-xs-12 col-lg-7 order-md-2';
 } ?>
 
 <div class="text-section <?php echo $class; ?> section-margin-bottom">

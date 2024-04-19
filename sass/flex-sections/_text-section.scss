@@ -42,7 +42,9 @@
       overflow: hidden;
       img {
         height: 100%;
-        width: 94%;
+        @include min1480 {
+          width: 94%;
+        }
       }
     }
     .row {
@@ -107,14 +109,14 @@
       left: -5rem;
       position: relative;
     }
-    @include max1024 {
+    @include max1200 {
       left: 0;
     }
     .col-lg-7 {
       flex: 0 0 67.333333%;
       max-width: 67.333333%;
       @include max1200 {
-        left: -1rem;
+        left: -2rem;
       }
     }
     .col-xs-12 {

@@ -34,6 +34,13 @@
       .standard-format {
         line-height: 1.6;
       }
+      .sidebar {
+        &__office {
+          @include max1200 {
+            padding: 0;
+          }
+        }
+      }
     }
   }
 }

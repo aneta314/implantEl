@@ -44,7 +44,7 @@ $intro = $group['intro'];
       <div class="row">
         <?php
         foreach ($group['icons'] as $infographic) : ?>
-          <div class="col-md-3 col-xl-2">
+          <div class="col-md-4 col-xl-2">
             <div class="infographic">
               <?php $photo_id = $infographic['icon'];
               if ($photo_id) : ?>

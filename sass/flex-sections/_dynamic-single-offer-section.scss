@@ -1,4 +1,7 @@
 .dynamic-single-offer-section {
+  @include max576 {
+    margin-bottom: 100px;
+  }
   .container {
     @include max992 {
       max-width: 991px;
@@ -7,12 +10,14 @@
   .row {
     position: relative;
     max-height: 520px;
+    width: 100%;
+    margin: 0 auto;
     @include max992 {
       height: auto;
     }
     .left-side {
       z-index: 1;
-      margin: 6rem 0 0 7rem;
+      //margin: 6rem 0 0 7rem;
       @include max576 {
         margin: 0;
       }

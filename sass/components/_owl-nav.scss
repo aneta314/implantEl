@@ -60,10 +60,10 @@
           left: -1rem;
         }
         @include max768 {
-          left: -45px;
+          left: -40px;
         }
         @include max576 {
-          left: 1rem;
+          left: -0.5rem;
         }
         span {
           font-size: 3rem;
@@ -71,15 +71,18 @@
       }
 
       button.owl-next {
-        right: -45px;
+        right: -55px;
         @include max992 {
-          right: -0.5rem;
+          right: -1.5rem;
         }
         @include max768 {
-          right: -45px;
+          right: -50px;
         }
         @include max576 {
-          right: 1rem;
+          right: -0.5rem;
+        }
+        @include max576 {
+          right: -1rem;
         }
         span {
           font-size: 3rem;

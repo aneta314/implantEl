@@ -28,6 +28,21 @@
     @include min768 {
       left: -11rem;
     }
+    @include min992 {
+      left: -13rem;
+    }
+    @include min1200 {
+      left: -16rem;
+    }
+    @include min1360 {
+      left: -19rem;
+    }
+    @include min1480 {
+      left: -22rem;
+    }
+    @media all and (min-width: 1920px) {
+      left: -27rem;
+    }
 
     .owl-dot {
       background-color: #9c9e9f;

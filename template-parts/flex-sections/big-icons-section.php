@@ -34,7 +34,7 @@ $markup = array_key_exists('title_markup', $group) && $group['title_markup'] ? $
             <div class="row">
                 <?php
                 foreach ($group['icons'] as $infographic) : ?>
-                    <div class="col-md-4">
+                    <div class="col-md-5 col-lg-4">
                         <div class="infographic">
                             <?php $photo_id = $infographic['icon'];
                             if ($photo_id) : ?>

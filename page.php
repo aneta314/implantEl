@@ -9,7 +9,12 @@
  * @since 1.0
  * @author Amelia
  */
-get_header(); ?>
+get_header();
+// $group = get_sub_field('group');
+// $title = $group['title'];
+// $intro = $group['intro'];
+// $text = $group['text'];
+?>
 
 <div id="primary" class="content-area">
 	<main id="main" class="site-main">
@@ -18,14 +23,21 @@ get_header(); ?>
 		// PAGE HEADER
 		get_template_part('template-parts/sections/page-hero');
 
-		if (is_page(77)) : ?>
+		/*if (is_page(77)) : ?>
 			<div class="offer-text container">
-				<p class="intro">Czym się zajmujemy?</p>
 				<div class="standard-format">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis malesuada rhoncus. Curabitur elementum et sapien in pretium. Quisque placerat pulvinar enim nec scelerisque. In ac lectus non dui egestas bibendum. Cras tempus nulla id est pulvinar ornare. </p>
+					<?php if ($intro) : ?>
+						<div class="intro"><?php echo $intro; ?></div>
+					<?php endif; ?>
+					<?php if ($title) : ?>
+						<h2 class="headline title"><?php echo $title; ?></h2>
+					<?php endif; ?>
+					<?php if ($text) : ?>
+						<p><?php echo $text;
+							?></p>
+					<?php endif; ?>
 				</div>
-			</div>
-		<?php endif; ?>
+			<?php endif; */ ?>
 
 		<?php // FLEX CONTENT
 		get_template_part('template-parts/contents/flex-content'); ?>

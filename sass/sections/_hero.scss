@@ -3,6 +3,9 @@ $hero-height: 500px;
 .hero {
   height: $hero-height;
   background-color: $primary-lightest;
+  @include max576 {
+    margin-bottom: 100px;
+  }
 
   &__slide {
     position: relative;
@@ -12,24 +15,26 @@ $hero-height: 500px;
     z-index: 2;
     max-width: 560px;
     position: relative;
-    // left: -22rem;
-    // @include max1480 {
-    //   left: -15rem;
-    // }
-    // @include max1360 {
-    //   left: -13rem;
-    // }
-    // @include max1200 {
-    //   left: -11rem;
-    // }
-    // @include max1024 {
-    //   left: -8rem;
-    // }
     @include min768 {
       left: -5rem;
     }
+    @include min992 {
+      left: -8rem;
+    }
     @include max576 {
       left: 0;
+    }
+    @include min1200 {
+      left: -11rem;
+    }
+    @include min1360 {
+      left: -14rem;
+    }
+    @include min1480 {
+      left: -16rem;
+    }
+    @media all and (min-width: 1920px) {
+      left: -21rem;
     }
     .standard-format {
       margin-bottom: 2rem;

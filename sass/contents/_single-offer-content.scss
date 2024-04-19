@@ -67,10 +67,17 @@
         @include max576 {
           display: none;
         }
+        @include max768 {
+          right: -4rem;
+        }
       }
       h6 {
         font-size: 46px;
         color: #58585a;
+        z-index: 11;
+      }
+      ul {
+        z-index: 11;
       }
     }
   }

@@ -37,5 +37,8 @@
 
   &--mb-xl {
     margin-bottom: 40px;
+    @include max768 {
+      margin-bottom: 25px;
+    }
   }
 }

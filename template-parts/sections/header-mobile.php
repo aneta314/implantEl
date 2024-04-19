@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Mobile header section
  * 
@@ -21,7 +22,9 @@ $logo = get_field('logo', 'options'); ?>
         <!-- LOGO -->
         <div class="header-mobile__logo-anchore">
           <a href="<?php echo site_url(); ?>">
-            <img src="<?php echo $logo['url']; ?>" alt="<?php if($logo['alt'] != ''): echo $logo['alt']; else: bloginfo('title'); endif; ?>">
+            <img src="<?php echo $logo['url']; ?>" alt="<?php if ($logo['alt'] != '') : echo $logo['alt'];
+                                                        else : bloginfo('title');
+                                                        endif; ?>">
           </a>
         </div>
 
@@ -29,16 +32,16 @@ $logo = get_field('logo', 'options'); ?>
         <div class="d-flex align-items-center">
 
           <!-- BUTTON -->
-          <a href="#" class="header-mobile__btn" show-popup="#booking-popup">
+          <a href="#" class="header-mobile__btn btn" show-popup="#booking-popup">
             <?php pi_e('Umów wizytę', 'pi'); ?>
           </a>
 
           <!-- HAMBURGER -->
           <div class="header-mobile__hamburger hamburger hamburger--spring">
-      			<div class="hamburger-box">
-      				<div class="hamburger-inner"></div>
-      			</div>
-      		</div>
+            <div class="hamburger-box">
+              <div class="hamburger-inner"></div>
+            </div>
+          </div>
 
         </div>
       </div>
@@ -49,12 +52,12 @@ $logo = get_field('logo', 'options'); ?>
     <nav class="nav-mobile">
       <div class="container">
         <?php
-        wp_nav_menu( array(
+        wp_nav_menu(array(
           'theme_location' => 'menu-1',
-        ) );
+        ));
         ?>
 
-        <?php get_template_part( 'template-parts/modules/social-media' ); ?>
+        <?php get_template_part('template-parts/modules/social-media'); ?>
       </div>
     </nav>
 

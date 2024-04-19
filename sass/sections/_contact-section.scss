@@ -30,6 +30,14 @@
       .headline--sm {
         font-size: 48px;
       }
+      @include max1200 {
+        flex: 0 0 47.667%;
+        max-width: 46.667%;
+      }
+      @include max992 {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
     }
   }
   .contact {
@@ -38,9 +46,17 @@
     }
     &-section {
       &__left-photo {
-        @include min992 {
-          left: -1rem;
+        @include max1200 {
+          flex: 0 0 26.333333%;
+          max-width: 26.333333%;
         }
+        @include max992 {
+          max-width: 100%;
+          flex: 0 0 100%;
+        }
+        // @include min1200 {
+        //   left: -1rem;
+        // }
         @include max992 {
           text-align: center;
         }
@@ -63,5 +79,11 @@
 .home {
   #contact-section {
     margin-top: -12rem;
+    @include max576 {
+      margin-top: -23rem;
+      .contact-section__left-photo {
+        margin-top: 5rem;
+      }
+    }
   }
 }

@@ -63,8 +63,9 @@ body:not(.single-lp) {
 
     > li {
       text-align: center;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-
+      &:not(:last-child) {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      }
       &.menu-item-has-children {
         > a {
           position: relative;
@@ -80,17 +81,18 @@ body:not(.single-lp) {
             font-size: 18px;
             line-height: 1;
             padding-bottom: 3px;
-            padding-left: 1px;
+            //padding-left: 1px;
             border-radius: 50%;
             transition: 0.3s all ease;
             transform: rotate(0);
-            background-color: $primary-darker;
+            background-color: $primary;
+            border: 1px solid #fff;
             color: #fff;
           }
 
           &.active {
             &:after {
-              background-color: $red;
+              background-color: $primary-darker;
               transform: rotate(45deg);
             }
           }

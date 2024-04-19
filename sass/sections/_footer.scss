@@ -4,6 +4,12 @@
   padding: 2.7rem 0;
   overflow: hidden;
   z-index: 1;
+  @include max1480 {
+    padding: 2.7rem 2rem;
+  }
+  @include max992 {
+    padding: 1.5rem 1rem;
+  }
   &::after {
     content: url(../img/after2.png);
     display: inline;
@@ -13,6 +19,9 @@
     top: 0;
     overflow: hidden;
     z-index: -1;
+    @include max992 {
+      content: "";
+    }
   }
   .row {
     .col-lg-3,
@@ -24,9 +33,7 @@
     }
     .col-lg-5 {
       &:nth-of-type(2) {
-        //@include min992 {
         max-width: 41.6%;
-        //}
       }
     }
     @include max576 {
@@ -43,6 +50,7 @@
   &__headline {
     font-size: 24px;
     margin-bottom: 40px;
+    color: #000 !important;
   }
   ul {
     li {
@@ -56,8 +64,13 @@
     }
   }
   &__text {
-    max-width: 60%;
     margin: 2rem 0;
+    @include max768 {
+      margin: 1rem 0;
+    }
+    @include min992 {
+      max-width: 60%;
+    }
   }
   ul {
     li {
@@ -96,5 +109,15 @@
   }
   .footer-flex {
     justify-content: space-between;
+    @include max992 {
+      padding: 0 1rem;
+    }
+    @include min992 {
+      padding: 0 2rem;
+    }
+
+    @include min1480 {
+      padding: 0;
+    }
   }
 }

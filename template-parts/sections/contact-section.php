@@ -68,7 +68,7 @@ $contact_group = get_field('contact_group', 'options'); ?>
         <div class="intro"><?php pi_e('Umów wizytę', 'pi'); ?></div>
         <p class="headline headline--sm"><?php pi_e('Napisz do nas', 'pi'); ?> </p>
         <div class="standard-format mb-4">
-          <p><?php pi_e('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam risus turpis, feugiat pretium tincidunt sit amet, tincidunt non justo.', 'pi'); ?> </p>
+          <p><?php pi_e('Wypełnij formularz, aby w szybki i prosty sposób umówić się na wizytę lub otrzymać odpowiedź na nurtujące Cię pytania dotyczące naszej praktyki.', 'pi'); ?> </p>
         </div>
 
         <div class="float-labels-container">

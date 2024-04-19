@@ -1,10 +1,13 @@
 .testimonials {
   background-color: $testimonials;
-  padding-bottom: 12rem;
   position: relative;
   overflow: hidden;
   @include max576 {
-    padding-bottom: 5rem;
+    //padding-bottom: 5rem;
+    padding-top: 40px;
+    .section-padding {
+      padding-bottom: 0;
+    }
   }
   &::before {
     content: url(../img/before3.png);
@@ -33,10 +36,12 @@
     z-index: 1;
 
     .btn:first-of-type {
-      margin-right: 1rem;
+      @include min768 {
+        margin-right: 1rem;
+      }
     }
     @include max768 {
-      margin-bottom: 5rem;
+      margin-bottom: 8rem;
     }
 
     &__item {
@@ -69,5 +74,22 @@
         }
       }
     }
+  }
+}
+
+.home {
+  .testimonials {
+    @include max768 {
+      padding-bottom: 10rem;
+    }
+    @include min768 {
+      padding-bottom: 12rem;
+    }
+  }
+}
+
+@include max576 {
+  .section-padding {
+    padding-bottom: 0;
   }
 }
