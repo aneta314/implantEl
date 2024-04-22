@@ -25,7 +25,13 @@
         //margin: 40% 0 0;
       }
       @include min768 {
-        margin: 2rem 10rem 0 3rem;
+        margin: 1.5rem 10rem 0 4rem;
+        .headline {
+          font-size: 36px;
+        }
+      }
+      @include min992 {
+        margin: 2.5rem 10rem 0 4rem;
       }
       @include min1200 {
         margin: 6rem 0 6rem 5rem;

@@ -51,6 +51,20 @@ $loop = new WP_Query($args);
 ?>
 <div class="offer-section <?php echo $class; ?> section-margin-bottom">
   <div class="container">
+    <div class="col-lg-12">
+      <div class="standard-format">
+        <?php if ($intro) : ?>
+          <div class="intro"><?php echo $intro; ?></div>
+        <?php endif; ?>
+        <?php if ($title) : ?>
+          <h2 class="headline title"><?php echo $title; ?></h2>
+        <?php endif; ?>
+        <?php if ($text) : ?>
+          <p><?php echo $text;
+              ?></p>
+        <?php endif; ?>
+      </div>
+    </div>
     <div class="row">
       <?php
       // CAROUSEL LAYOUT
@@ -84,8 +98,6 @@ $loop = new WP_Query($args);
             <?php
             // BTNS
             if ($group['btns'] == 'yes') : ?>
-              <!-- <div class="col-lg-4"> -->
-              <!-- <div class="btns-wrapper"> -->
               <?php
               // BTN 1 (SECONDARY)
               $link = $group['link'];
@@ -110,9 +122,9 @@ $loop = new WP_Query($args);
             endif; ?>
           </div>
         </div>
-        <?php // LIST LAYOUT 
-      else :
-        if ($loop->have_posts()) : ?>
+      <?php // LIST LAYOUT 
+      else : ?>
+        <?php if ($loop->have_posts()) : ?>
           <?php
           while ($loop->have_posts()) : $loop->the_post(); ?>
             <div class="col-lg-3 col-md-6">

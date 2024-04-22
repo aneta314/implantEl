@@ -20,6 +20,13 @@
       left: -3rem;
     }
   }
+  .btn--secondary {
+    display: inline-flex;
+    padding: 8px 18px;
+    &::after {
+      padding-left: 10px;
+    }
+  }
   .headline {
     position: relative;
     z-index: 1;

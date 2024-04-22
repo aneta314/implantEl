@@ -320,7 +320,7 @@ jQuery(document).ready(function ($) {
       navText: ["<", ">"],
       slideSpeed: 300,
       paginationSpeed: 400,
-      items: 2,
+      items: 1,
       loop: true,
       dots: false,
       autoplay: true,

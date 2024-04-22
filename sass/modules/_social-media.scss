@@ -89,7 +89,7 @@
   .social-media {
     display: none;
 
-    @include min576 {
+    @include min1200 {
       display: -webkit-flex;
       display: -ms-flex;
       display: flex;

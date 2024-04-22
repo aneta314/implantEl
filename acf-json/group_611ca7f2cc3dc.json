@@ -1904,33 +1904,6 @@
                                         "id": ""
                                     },
                                     "return_format": "array"
-                                },
-                                {
-                                    "allow_backendsearch": 0,
-                                    "show_column_filter": false,
-                                    "allow_bulkedit": 0,
-                                    "allow_quickedit": 0,
-                                    "show_column": 0,
-                                    "show_column_weight": 1000,
-                                    "show_column_sortable": false,
-                                    "key": "field_65e815678f45d",
-                                    "label": "Tekst",
-                                    "name": "text",
-                                    "aria-label": "",
-                                    "type": "text",
-                                    "instructions": "",
-                                    "required": 0,
-                                    "conditional_logic": 0,
-                                    "wrapper": {
-                                        "width": "",
-                                        "class": "",
-                                        "id": ""
-                                    },
-                                    "default_value": "",
-                                    "maxlength": "",
-                                    "placeholder": "",
-                                    "prepend": "",
-                                    "append": ""
                                 }
                             ]
                         }
@@ -3898,5 +3871,5 @@
     "description": "",
     "show_in_rest": 0,
     "qef_simple_location_rules": 0,
-    "modified": 1712211234
+    "modified": 1713513173
 }

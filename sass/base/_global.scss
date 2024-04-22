@@ -5,7 +5,9 @@
   background-color: #fff;
   box-shadow: 0px 0px 48px 0px rgba(0, 0, 0, 0.1);
   position: relative;
-  //overflow: hidden;
+  @include max1200 {
+    overflow: hidden;
+  }
 }
 
 .nowrap {
